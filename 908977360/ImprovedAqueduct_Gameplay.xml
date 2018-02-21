@@ -71,7 +71,7 @@
 		<Row Type="BUILDING_WATER_FILTRATION_PLANT" Kind="KIND_BUILDING" />
 	</Types>
 	<Buildings>
-		<Row BuildingType="BUILDING_PUBLIC_BATHS" Name="LOC_BUILDING_PUBLIC_BATHS_NAME" PrereqTech="TECH_ENGINEERING" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="115" AdvisorType="ADVISOR_GENERIC" Maintenance="8" Housing="1" Entertainment="3" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_PUBLIC_BATHS" Name="LOC_BUILDING_PUBLIC_BATHS_NAME" PrereqTech="TECH_ENGINEERING" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Housing="1" Entertainment="2" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_WATER_FILTRATION_PLANT" Name="LOC_BUILDING_WATER_FILTRATION_PLANT_NAME" Description="LOC_BUILDING_WATER_FILTRATION_PLANT_DESCRIPTION" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_AQUEDUCT" PurchaseYield="YIELD_GOLD" Cost="500" AdvisorType="ADVISOR_GENERIC" Maintenance="6" Housing="3" CitizenSlots="1"/>
 	<!--Sewer Changes-->
 		<Update>
