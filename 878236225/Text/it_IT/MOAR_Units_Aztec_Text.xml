@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="it_IT">
+			<Text>Guerriero giaguaro</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="it_IT">
+			<Text>Unità esclusiva azteca che sostituisce lo Spadaccino. +7 alla [ICON_Strength] Forza di combattimento quando attacca e -7 alla [ICON_Strength] Forza di combattimento quando difende. Ha la possibilità di catturare le unità militari delle altre civiltà e trasformarle in Costruttori. Ignora il costo di movimento nelle caselle di Bosco e Foresta pluviale.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="it_IT">
+			<Text>Sacerdote guerriero</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="it_IT">
+			<Text>Unità di supporto esclusiva azteca disponibile con il progresso civico Misticismo. Può essere acquistata con la Fede. Le unità da mischia, a distanza e anti-cavalleria adiacenti combattono a piena forza quando sono danneggiate e ottengono punti Grande Generale dalle uccisioni.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1f57f27a-7b94-49dd-a16f-5888251cba50" version="1">
+  <Properties>
+    <Name>No AI Start Advantage</Name>
+    <Description>AI players get no extra starting units, and no free tech/civic-boosts.</Description>
+    <Teaser>AI players get no extra starting units, and no free tech/civic-boosts.</Teaser>
+    <Authors>Zebrah</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData1.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>GameData1.xml</File>
+  </Files>
+</Mod>

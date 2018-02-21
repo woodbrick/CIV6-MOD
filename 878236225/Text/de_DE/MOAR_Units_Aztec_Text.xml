@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="de_DE">
+			<Text>Jaguarkrieger</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="de_DE">
+			<Text>Aztekische Nahkampfeinheit, die den Schwertkämpfer ersetzt. +7 [ICON_Strength] Kampfstärke bei Angriff und -7 [ICON_Strength] Kampfstärke bei Verteidigung. Kann aus besiegten Einheiten, Handwerker erzeugen. Ignoriert Bewegungskosten von Dschungel- und Waldfeldern.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="de_DE">
+			<Text>Kriegspriester</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="de_DE">
+			<Text>Aztekische Unterstützungseinheit, die mit der Mystik verfügbar wird. Kann mit [ICON_Faith] Glauben gekauft werden. Angrenzende Nahkampf-, Anti-Kavallerie-, und Fernkampfeinheiten können mit voller Stärke kämpfen, wenn sie beschädigt sind. Zusätzlich erhalten sie Großer-General-Punkte, wenn eine Einheit besiegt wird.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

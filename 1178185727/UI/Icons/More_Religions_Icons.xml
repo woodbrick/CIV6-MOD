@@ -1,0 +1,120 @@
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_SIMULT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SIMULT-32.dds"/>
+		<Row Name="ICON_ATLAS_SIMULT" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SIMULT-38.dds"/>
+		<Row Name="ICON_ATLAS_SIMULT" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SIMULT-50.dds"/>
+		<Row Name="ICON_ATLAS_SIMULT" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SIMULT-80.dds"/>
+		<Row Name="ICON_ATLAS_SIMULT" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SIMULT-128.dds"/>
+		<Row Name="ICON_ATLAS_SIMULT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SIMULT-256.dds"/>
+		<Row Name="ICON_ATLAS_BASILICA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_BASILICA-32.dds"/>
+		<Row Name="ICON_ATLAS_BASILICA" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_BASILICA-38.dds"/>
+		<Row Name="ICON_ATLAS_BASILICA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_BASILICA-50.dds"/>
+		<Row Name="ICON_ATLAS_BASILICA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_BASILICA-80.dds"/>
+		<Row Name="ICON_ATLAS_BASILICA" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_BASILICA-128.dds"/>
+		<Row Name="ICON_ATLAS_BASILICA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_BASILICA-256.dds"/>
+		<Row Name="ICON_ATLAS_SERAPEUM" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SERAPEUM-32.dds"/>
+		<Row Name="ICON_ATLAS_SERAPEUM" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SERAPEUM-38.dds"/>
+		<Row Name="ICON_ATLAS_SERAPEUM" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SERAPEUM-50.dds"/>
+		<Row Name="ICON_ATLAS_SERAPEUM" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SERAPEUM-80.dds"/>
+		<Row Name="ICON_ATLAS_SERAPEUM" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SERAPEUM-128.dds"/>
+		<Row Name="ICON_ATLAS_SERAPEUM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SERAPEUM-256.dds"/>
+		<Row Name="ICON_ATLAS_MITHRAEUM" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRAEUM-32.dds"/>
+		<Row Name="ICON_ATLAS_MITHRAEUM" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRAEUM-38.dds"/>
+		<Row Name="ICON_ATLAS_MITHRAEUM" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRAEUM-50.dds"/>
+		<Row Name="ICON_ATLAS_MITHRAEUM" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRAEUM-80.dds"/>
+		<Row Name="ICON_ATLAS_MITHRAEUM" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRAEUM-128.dds"/>
+		<Row Name="ICON_ATLAS_MITHRAEUM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRAEUM-256.dds"/>
+		<Row Name="ICON_ATLAS_SURAI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SURAI-32.dds"/>
+		<Row Name="ICON_ATLAS_SURAI" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SURAI-38.dds"/>
+		<Row Name="ICON_ATLAS_SURAI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SURAI-50.dds"/>
+		<Row Name="ICON_ATLAS_SURAI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SURAI-80.dds"/>
+		<Row Name="ICON_ATLAS_SURAI" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SURAI-128.dds"/>
+		<Row Name="ICON_ATLAS_SURAI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_SURAI-256.dds"/>
+		<Row Name="ICON_ATLAS_FIRE_TEMPLE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_FIRE_TEMPLE-32.dds"/>
+		<Row Name="ICON_ATLAS_FIRE_TEMPLE" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_FIRE_TEMPLE-38.dds"/>
+		<Row Name="ICON_ATLAS_FIRE_TEMPLE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_FIRE_TEMPLE-50.dds"/>
+		<Row Name="ICON_ATLAS_FIRE_TEMPLE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_FIRE_TEMPLE-80.dds"/>
+		<Row Name="ICON_ATLAS_FIRE_TEMPLE" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_FIRE_TEMPLE-128.dds"/>
+		<Row Name="ICON_ATLAS_FIRE_TEMPLE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_FIRE_TEMPLE-256.dds"/>
+		<Row Name="ICON_ATLAS_TYCHAEON" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_TYCHAEON-32.dds"/>
+		<Row Name="ICON_ATLAS_TYCHAEON" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_TYCHAEON-38.dds"/>
+		<Row Name="ICON_ATLAS_TYCHAEON" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_TYCHAEON-50.dds"/>
+		<Row Name="ICON_ATLAS_TYCHAEON" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_TYCHAEON-80.dds"/>
+		<Row Name="ICON_ATLAS_TYCHAEON" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_TYCHAEON-128.dds"/>
+		<Row Name="ICON_ATLAS_TYCHAEON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_TYCHAEON-256.dds"/>
+		<Row Name="ICON_ATLAS_MITHRADATA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRADATA-32.dds"/>
+		<Row Name="ICON_ATLAS_MITHRADATA" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRADATA-38.dds"/>
+		<Row Name="ICON_ATLAS_MITHRADATA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRADATA-50.dds"/>
+		<Row Name="ICON_ATLAS_MITHRADATA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRADATA-80.dds"/>
+		<Row Name="ICON_ATLAS_MITHRADATA" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRADATA-128.dds"/>
+		<Row Name="ICON_ATLAS_MITHRADATA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="P_ICON_MITHRADATA-256.dds"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<Row Name="ICON_P_BUILDING_SIMULTANEUM"					Atlas="ICON_ATLAS_SIMULT" Index="0"/>
+		<Row Name="ICON_P_BUILDING_BASILICA"					Atlas="ICON_ATLAS_BASILICA" Index="0"/>
+		<Row Name="ICON_P_BUILDING_SERAPEUM"					Atlas="ICON_ATLAS_SERAPEUM" Index="0"/>
+		<Row Name="ICON_P_BUILDING_MITHRAEUM"					Atlas="ICON_ATLAS_TYCHAEON" Index="0"/>
+		<Row Name="ICON_P_BUILDING_SURAU"						Atlas="ICON_ATLAS_SURAI" Index="0"/>
+		<Row Name="ICON_P_BUILDING_FIRE_TEMPLE"					Atlas="ICON_ATLAS_FIRE_TEMPLE" Index="0"/>
+		<Row Name="ICON_P_BUILDING_TYCHAEON"					Atlas="ICON_ATLAS_MITHRAEUM" Index="0"/>
+		<Row Name="ICON_P_BUILDING_MITHRADATA"					Atlas="ICON_ATLAS_MITHRADATA" Index="0"/>	
+
+		<Row Name="ICON_P_BELIEF_CULT_HERMES"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="5"/>
+		<Row Name="ICON_P_GOD_OF_ARTISANS"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="11"/>
+		<Row Name="ICON_P_GOD_OF_METALLURGY"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="15"/>
+		<Row Name="ICON_P_GOD_OF_DIPLOMACY"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="16"/>
+		<Row Name="ICON_P_GOD_OF_CREATION"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="12"/>
+		<Row Name="ICON_P_SOLAR_DEITY"							Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="8"/>
+		<Row Name="ICON_P_SACRED_BEASTS"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="14"/>
+		<Row Name="ICON_P_GOD_OF_WATERY_ABYSS"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="7"/>
+		<Row Name="ICON_P_SPIRITS_OF_THE_RAINFOREST"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="2"/>
+		<Row Name="ICON_P_SPIRITS_OF_THE_TUNDRA"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="0"/>
+		<Row Name="ICON_P_SPIRITS_OF_THE_DESERT"			    Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="1"/>
+		<Row Name="ICON_P_SPIRITS_OF_THE_FOREST"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="21"/>
+		<Row Name="ICON_P_CVS_AUGURY"							Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="26"/>
+
+
+		<Row Name="ICON_P_BELIEF_GOSPEL_OF_SUCCESS"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_AEGIS_OF_POSEIDON"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_ALMS"							Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_FIDES_ET_SCIENTIA"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_DEISM"							Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_SYMBOLS_OF_THE_GODS"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_WORKS_RIGHTEOUSNESS"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_P_BELIEF_FAITH_BUY_SETTLERS"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_PLUTOLATRY"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+
+		<Row Name="ICON_P_BELIEF_RELIGIOUS_DIASPORA"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_CALIPHATE"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_NEPTUNALIA"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>	
+		<Row Name="ICON_P_BELIEF_WAQF"							Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_EUDAIMONIA"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_DIVINE_REVELATION3"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_DIVINE_REVELATION"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_DIVINE_REVELATION2"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_P_BELIEF_MONASTERY_BREWERY"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+
+		<Row Name="ICON_P_BELIEF_NOBODY_EXPECTS"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_DIVINE_MESSENGERS"				Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+
+		<Row Name="ICON_P_BELIEF_EPISTLES"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_VISIONS"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_WITCH_TRIALS"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_VICARIATES"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_RELIGIOUS_ESPIONAGE"			Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<Row Name="ICON_P_BELIEF_BY_THE_SWORD"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+
+		<Row Name="ICON_P_BELIEF_FIRE_TEMPLE"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_MITHRADATA"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_SERAPEUM"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_TYCHAEON"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_MITHRAEUM"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_SURAU"							Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_BASILICA"						Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_P_BELIEF_SIMULTANEUM"					Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+	</IconDefinitions>
+	
+</GameData>
+<?xml version="1.0" encoding="utf-8"?>
+

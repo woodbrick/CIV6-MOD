@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOTORISED_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>摩托化步兵大大增加了步兵部队的战略流动性，否则这些步兵将依靠步行或铁路。机动步兵可以跟随坦克营，并掩护他们的侧翼对付野战步兵。机动化的缺点是需要许多车辆和燃料供应才能形成。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COMPOSITE_BOWMAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>广泛认为是所有弓的设计中最复杂的，复合弓与其他传统弓不同之处在于，它们由骨、角或其他材料分层条材混合制成，构成非常强而有力的弓。复合弓被认为是源于公元前一千年或二千年的某个亚洲部落游牧民族。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CULVERIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>蛇炮是一个相对简单的火枪祖先，原是一种中世纪手铳，由法国人在十五世纪的使用。后来改编为英国人在十六世纪末的海军使用。蛇炮用来远距离轰炸目标。武器的炮管比较长，结构轻巧。蛇炮以较高的腔口速度射出圆球形炮弹，产生相对较长距离和平直轨迹。圆球形炮弹是指经典的实芯球形炮弹。总体而言，蛇炮是一个有历史意义的进步。由于它发射了一个依靠火药推动的铁球，重球意味着一个相对稳定的飞行、而火药推进则意味着更快速和更长的攻击距离。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_GUN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>野战炮是一种大炮。最初是指可能伴随野战军队行军的小型枪炮，当战斗时可以根据战场中不断变化的情况而行动（野战炮兵），围攻 那些安装在堡垒（要塞炮兵/海岸炮兵）的枪炮，或不能迅速移动的巨炮或迫击炮。通过在战斗中点对点地移动火炮，无论敌方阵型多么密集都可能被步兵组织突破，大大提高了步兵的整体效能。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASSAULT_GUN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>突击炮是安装在机动车辆或装甲底盘上的枪炮或榴弹炮，设计作用于在进击其他步兵或设防阵地时，成为支持步兵的直射火力。突击炮 是德语单词 Sturmgeschütz 的直译。在1940年，纳粹德国发展了第一款特制的突击炮，StuG III， 建立了这一类装甲车。历史上，定制全装甲的突击炮通常将枪炮或榴弹炮安装在坦克底盘上全封闭式隐蔽炮台中。使用隐蔽炮台而不是炮塔限制了发射角度，但相对地允许底盘安装较大的枪炮，在同样的重量下有更厚的装甲，并提供了更便宜的生产结构。在大多数情况下，这些无转塔车辆作为敌人的目标时也能呈现出较低的车身轮廓。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_GUN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>自行榴弹炮(SPG)是火炮安装在电动轮式或履带式底盘上。使用车辆底盘自备动力，在战场上无需其他车辆牵引移动。自走炮是作战支持武器，属于后方支持的炮兵武器，考虑情况或会附属于主要作战部队(步兵和装甲部队)。自走炮是最好的间接火力，但在需要时可以直接射击。它可能加设装甲，在这种情况下，它可以被认为是装甲战车（AFV）。通常来说，自走炮的装甲更轻便，可能没有炮塔，其目的不同于坦克。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HEAVY_INFANTRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>重型步兵指的是重装备和重装甲的步兵，训练有素，能够登上前线突击或成为锚定战线的防御中心。相对于那些更好机动性和更轻型装甲的散兵部队，重型步兵不适合用于审查，侦察之类的。在20世纪先进的战场战术下，重型步兵的概念已经不合时而，轻装备和身体护甲技术的进步，为步兵带来了更加巩固的作用。因此，「重型步兵」一词大多数是指火药时代前的部队。在古希腊，甲兵是重型步兵的常见形式。希罗多德撰写过一个拥有万名士兵的精锐步兵部队，他称之为「长生军」，在阿契美尼斯帝国军队。亚历山大军的军队是被称为「方阵步兵」的步兵，装备有一个小盾牌和长矛，他们被称为马其顿方阵。前马里亚罗马共和国的重步兵包括青年兵（Hastati，单数：Hastatus），壮年兵（壮年兵，单数：Princeps）和后备兵（后备兵，单数：Triarius）。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TANK_DESTROYER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>坦克歼击车或坦克猎人，简称TD，是一种装甲战车，装有直射火炮或导弹发射器，操作能力有限，专门设计用于敌方装甲车。 坦克通常是为前线作战而设计的装甲战车，结合作战流动性和战术进攻能力和防御能力，在战场上执行装甲部队的所有主要任务; 另一方面，坦克歼击车专门设计对付敌方的坦克的装甲。主要都是采用履带坦克底盘，而另一些则是轮式的。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANCER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>枪骑兵是文艺复兴时期和工业时代的骑兵。 在趋向依靠大炮及在火药基制武器速度和机动性胜过装甲时，重骑兵对抗现代射弹武器越来越无力。 因此，枪骑兵摒弃了重型装甲，只保留了金属胸甲。这样，即使面对改革后的武器装备，骑枪在训练有素的骑兵手中仍然是一个可怕而有效的武器。 就拿破仑战争而言，法国人认为，骑枪是比剑更优越的骑兵武器。 理所当然，在十九世纪后，全部都将被步枪取代。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>军用装甲车 或 装甲车 是一种轻型的轮式装甲战车，历史上用于侦察、内部保安、武装护送等次要战场任务。 随着逐渐减少使用的装甲骑兵，为执行以前分配给骑兵的日常事务而开发出装甲车。 在发明坦克之后，由于维修比较简单，而且生产成本低，装甲车仍然很受欢迎。 此外，作为在发展中国家地区使用的较便宜的武器，受到多数殖民地军队所欢迎。 第二次世界大战期间，大多数装甲车被设计用于侦察和被动观察，而另一些则专门用于通信任务。 配备较重装备的部队甚至可以在有利条件下替代履带式战车，例如北非运动期间的追击或侧翼演习。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>尽管许多军队在第二次世界大战结束后仍然维持马骑兵编制，但美国装甲骑兵师早已经在第一次世界大战后，开始以装甲骑兵取代马骑兵，作为大多数军队的侦察手段。 装甲骑兵（英语：Armored Cavalry）顾名思义，是产生自装甲与骑兵混合的概念。装甲骑兵并不是新颖的军事观念。在近代军事发展中，传统骑兵无法抵挡现代轻兵器的速射效率，军事运用价值滑落。在一战时，骑兵向着装备机枪的壕沟防线冲锋已经毫无胜算，有些骑兵部队开始装甲化，甚至放弃骑乘军用马。与装甲骑兵一词类似的是机械化骑兵或重武装骑兵。参加二战的一些知名骑兵部队在作战时已经不骑乘军用马，为了区别，便加注机械化或重武装。现在，通常装甲骑兵是轻装甲的部队，配备有各种装甲战斗车辆。（虽然叫做轻装甲，但是除了常见悍马车、装甲运兵车之外，还有配备主力战车的情形。）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_HORSEMAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>甲胄骑兵(希腊语：κριβαναριος）是装甲化的重骑兵类型，运用在西欧亚大陆与欧亚草原的许多民族之中。铁甲骑兵一词源于希腊语 κατάφρακτος（或作 κατάφρακτοι），字面上的意思是「完全覆盖装甲」。历史上铁甲骑兵是种全装甲骑兵，骑马者与坐骑皆从头到脚穿挂鳞甲，一般装备骑枪或骑矛（kontos）作为武器。铁甲骑兵为许多帝国与民族当成精锐骑兵或突袭战力，最初用于突破步兵数组的冲锋。他们据信出现在上古到中古许多西方历史学家的编年著作中，通常与欧洲封建时期的骑士与圣骑士相提并论，此乃与东罗马帝国接触的结果。
+			甲胄骑兵几乎普遍穿着某些类型的麟甲（希腊语：φαλιδωτός，略等同于罗马的罗马麟甲），这些铠甲具有给骑士和马活动的伸缩性，但也坚固到足以抵抗雷霆万钧冲入步兵数组攻击时产生的剧烈冲击影响。麟甲是由铜或铁板（厚度由4至6公厘不等）迭合围绕而成，板上每边会钻留两个或四个孔穿绑铜线，然后内侧缝上羽毛或动物毛皮好让马匹穿戴。全套铁甲骑兵装甲由近1300片「鳞片」组成，重量可达惊人的40公斤或88磅（不含骑马者的身体重量）。较少见板链甲（plated mail）或片甲。战术与部署他们多为精锐的骑手。东罗马帝国的铁甲圣骑兵是最好的例子。在对战时, 都会冲锋撩乱敌军的阵营。藉此,把左右翼冲乱,后以和步兵强轰中锋。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REITER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>黑骑兵（德文：Reiter，为「Schwarze Reiter」的简称，此全称字面上的意义为「黑骑士」，这个称呼来自他们的盔甲颜色。）是出现于16世纪西欧的一种骑兵，它取代了旧时代装备骑士枪的骑士。同一时期，胸甲骑兵与龙骑兵也正从传统的骑兵单位中独立出来。与欧洲早期的配备肉搏武器的重装骑兵不同，黑骑兵除了随身携带一柄长剑之外，主要的武器是两把或两把以上的手枪；防具则有头盔及胸甲，通常也还有手臂和脚部的护具；有时候也配备火绳枪或卡宾枪，但后来，配备这两种武器的骑兵又被独立为另一个类别。总之，黑骑兵能用枪械和剑来作战。
+			16世纪至1620年左右，黑骑兵一直被用在半回旋战法，或趁敌方步兵未能冲到肉搏范围内之前，先对其开枪扰乱。法国的亨利大帝、瑞典的北方雄狮古斯塔夫二世等君王更加重用黑骑兵与其他重装骑兵：他们让黑骑兵迫近敌阵，近距离开枪（尤其是对付重装部队）或干脆拔刀肉搏。尽管19、20世纪的史学家对半回旋战法批评不断，黑骑兵若使用得当，仍将拥有极强的战力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSHIP_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>早期坦克(陆地战舰)主要是为了克服第一次世界大战期间，西线战场上僵持不下的壕沟战局面。但是初期坦克的表现差劣，可靠性差、底盘没有独立悬吊系统，十分不舒适，操控环境非人性化，造成官兵晕眩呕吐、军人抱怨连连，而在第一次世界大战结束前，德国也开发出他们自己的坦克A7V步兵战车加入战场。只是在战争结束前并未发生多数坦克在战场上对决的场面。在两次大战期间，坦克的运用与编组方式在各国兴起广泛的研究，主要的研究方向大致上分为两派，一派的意见是认为坦克应该是支持步兵的一个系统，因此需要搭配步兵部队的编制与作战型态，平均分配给步兵单位指挥调度。另外一派的意见认为坦克应该要集中起来使用，利用坦克的火力、防护与机动力的三项特性作为战场上突破与攻坚的主力角色。前一派的意见在当时占了大多数，后一派则以德国代表。德国在第二次世界大战初期的战果让各国领悟到坦克的运用应该加以集中，以充分发挥他们的优点。而集中坦克使用之后，相对应的火炮支持，补给后勤和运输系统都需要跟着改变，这些在战争中学习到的经验彻底改变日后的战场型态。在这个阶段之后坦克的编组与运用又有两种不同的方向，一派认为坦克需要步兵的协助，因此步兵需要增加机动力，这也就是机械化或者是摩托化步兵单位的兴起。另一派认为如果步兵赶不上，那么只要坦克就可以独揽大局。后一派的意见在1973年第四次中东战争当中失败，所以坦克还是需要和步兵相互配合才能够发挥最大的作用</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_BOMBER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在第一次世界大战中,飞机正式进入了军事领域,战争的需要对航空技术的发展起到了很大的推动作用。但当大战结束之后,胜败双方均感到精疲力倦,在大多数领域都出现了较长时期的停滞不前,航空工业也不例外。因此二十年代的前半期,除了民用飞机有技术上的进步外,军用飞机基本停留在一战时期的水平上,技术进步缓慢,双翼飞机仍占据重要地位。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_BOMBER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>隐身战略轰炸机最主要的特点就是低可侦测性，即俗称的隐身能力。能够使它安全的穿过严密的防空系统进行攻击。B-2的隐身并非仅局限于雷达侦测层面，也包括降低红外线、可见光与噪音等不同讯号，使被侦测与锁定的可能降到最低。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>隐形战斗机是通过机身涂上一层高效吸收电波的物质，造成雷达无法追踪的效果，而还有一种要比涂上一层高效吸收电波的物质还要好的隐形办法，等离子（还在研制），但是只靠涂吸收电波的物质也是达不到很好的效果的，还要在飞机的气动布局上做修改，要使飞机的平面反射面积尽量的小，同时还要对发动机的红外辐射做简化处理，隐形飞机要从很多方面下手才能达到隐形的效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_GROUND_ATTACK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>作为第一次世界大战时使用的进攻型战机，主要在战场上支援地面部队。它们只有在低空飞行下才能得以精确打击目标。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GROUND_ATTACK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>早期的歼击轰炸机，主要是由歼击机改装而成，携带的武器一般为炸弹，如早在第二次世界大战期间，美国于1941年生产的P-40D驱逐机，即装有炸弹挂架，可挂炸弹约230kg，用以轰炸地面目标。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>由于歼击轰炸机的发展，轻型轰炸机已逐步被淘汰。随着机载电子设备的不断改进和现代格斗导弹的广泛使用，歼击轰炸机的空战能力有了很大提高。同时，歼击轰炸机作为综合性能较强的多用途战机，也是各国追求经济性和实效性的重点研制对象，目前比较先进的歼击轰炸机有美国的FB-22、俄罗斯的苏-34等。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>歼击轰炸机能携带普通炸弹、制导航空炸弹（激光或电视制导）、反坦克子母弹和战术空地导弹，有的能携带核弹，并装有火控系统，具有较强的攻击地面、水面目标的能力。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>F-4G“野鼬鼠”是美国空军的电子战飞机，专门用于发现、识别敌方地面防空雷达和地空导弹阵地，并用反辐射导弹进行攻击。F-4G由F-4E 型机改装而成。1970年左右开始研制，1975年12月6日首次试飞，随即装备部队使用，至1978年完全取代了F-105G型机。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_COUNTERMEASURES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>诱饵弹是飞机或直升机用来对抗红外寻的（“寻热”）的地空导弹或空对空导弹。它通常由镁或另一种热燃烧金属组成的烟火剂组成，燃烧温度等于或高于发动机排气温度。其目的是使红外制导导弹从诱饵中寻找热信号，而不是飞机的发动机。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SORTIES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>架次（来自法语词境）是一种部署或一个军事单位的调度，是一架飞机，船，或部队，从一个支点。涉足，是否由一个或一个以上的飞机或船只，通常有一个特定的任务。架次率是一个给定的单元可以在一个给定的时间保障架次数量。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GUIDED_BOMBS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>精确制导弹药的设计实现一个较小的圆概率误差（CEP）。由于爆炸性武器的破坏效应随距离的减小而降低，根据幂律，即使是轻微的精度提高（从而减少脱靶量），也能使目标以较小或更小的炸弹有效攻击。因此，有了制导武器，减少了机组人员的风险，减少了弹药消耗，减少了附带损失。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CARPET_BOMBING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text> 地毯式轰炸，也称饱和轰炸，是一种大规模的空中轰炸，以渐进的方式对选定区域的每一部分造成损害。这个短语唤起了完全覆盖一个区域的爆炸的形象，就像地毯覆盖地板一样。地毯式轰炸通常是由许多非制导炸弹轰炸。 </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_STRATEGIC_BOMBING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text> 战略轰炸是在全面战争中使用的一种军事战略，其目标是摧毁敌人的士气或其生产和运输物资到战区的经济能力，或两者皆有。这是一次有组织的和执行的空中攻击，可以利用战略轰炸机、长射程导弹或中程武装导弹轰炸机攻击对敌人作战能力至关重要的目标。 </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SUPERIORITY_FIGHTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text> 空优战斗机，是一种专为进入和夺取敌人领空控制而设计的战斗机，是一种完全控制敌人空军（制空权）的手段。空中优势战斗机的设计主要是为了有效地与敌方战斗机作战，比其他类型的飞机更为有效，尽管有些飞机可能有空中打击的次要作用。 </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CORVETTE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>海防舰是小型舰艇，它是传统上最小的一类被认为是正确的（或“额定”的）战舰，作用主要是沿海巡逻，支援小型战争，支援大型船队，或参与展示旗帜的任务。。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_DESTROYER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>导弹驱逐舰是用来发射制导导弹的驱逐舰。许多还具备进行反潜、防空和反水面作战的能力。除了枪炮外，导弹驱逐舰通常配备两个大型导弹发射平台，通常在垂直发射舱内。一些导弹驱逐舰载有强大的雷达系统，如美国的宙斯盾作战系统，可用于反导或弹道导弹防御作用。对于不再使用巡洋舰的海军来说，情况尤其如此，因为必须采用其他船只来填补这一缺口。 </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPERCARRIER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>超级航母对当今最大航母的一个非官方的描述性术语，通常是指那些取代超过70000吨（64000公吨）的航母。它是迄今为止建造的最大军舰，大于任何国家的最大的战列舰。美国海军拥有最多和最活跃的航母，而英国也将有两个的伊丽莎白女王级航母伊丽莎白女王和目前正在建造的威尔士王子二型，并预计在2018进入服务。俄罗斯的库兹涅佐夫，这是一艘巡洋舰（重型飞机携带导弹巡洋舰（TAVKR）俄罗斯分类）担任俄罗斯海军的旗舰。 </Text>
+		</Replace>		
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEASS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text> 三桅帆战舰是一艘在16世纪受欢迎的海军军舰，当时根据传统的单层甲板大帆船设计的设计被修改为包括更重的武器。一个典型的高卢人开始了一种商船由桨驱动的生活，然后升级为船帆的桅杆。有两种形式的推进，三桅帆装军舰的设计允许这艘船维持传统的galley的著名速度，同时也携带重机枪来抵御潜在的攻击者。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>装甲巡洋舰是19世纪末和20世纪初的一种军舰。它的设计与其他类型的巡洋舰一样，可以作为一艘远程独立的战舰，能够击败任何一艘战舰，而且速度快到足以超过它所遇到的任何战舰。它与其他类型的巡洋舰区别于其他类型的巡洋舰，它的带装甲-厚铁(或后来的钢)在大部分船体上镀上，以保护船只免受像战舰上那样的炮火。到19世纪90年代，巡洋舰已经放弃航行，开始了现代的外观。几十年来，海军的技术还不足以让设计师们制造出一种巡航器，这种巡洋舰将装甲带和长距离和高速的速度结合在一起，完成任务。使用这种类型的船，通常可以建造更快速、更全面的巡洋舰，它依靠一个较轻的装甲甲板来保护船只的重要部分;然而，到19世纪80年代末，快速火炮和高爆炮弹的发展使侧装甲重新引入了必要性。在19世纪90年代中期，表面硬化装甲的发明提供了有效的保护，比以前更轻。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BATTLECRUISER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>战斗巡洋舰，是在20世纪上半叶建造的一艘战舰。它们在大小、成本和武器装备上都与战舰相似，但它们通常携带的盔甲更少，以获得更快的速度。第一艘巡洋舰是在本世纪头十年在英国设计的，作为一种装甲巡洋舰的发展，同时作为无畏战舰的无畏战舰。设计的目的是要超越任何有类似武器装备的船只，并追捕任何装备较轻的船只;他们的目的是追捕较慢的旧装甲巡洋舰，用猛烈的炮火摧毁他们，同时避免与威力更大但速度较慢的战舰作战。然而，随着越来越多的巡洋舰被建造，它们越来越多地与受保护的战舰一起使用。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>大帆战舰是一艘大型的多甲板帆船，主要由欧洲国家在16世纪至18世纪期间作为武装货船使用，在16世纪中期的英荷战争之前，它一直是舰队的主要舰只。高卢人通常带着三个或更多的桅杆，在后面的桅杆上有一个纵向的、纵向的帆索，是由一个突出的方尾板建造的，并在他们的前桅和主桅上使用方帆的帆计划。这样的船是海上贸易的支柱到19世纪早期,和经常被用作辅助海军战争vessels-indeed入伍,是竞争的主要舰队通过的150岁的勘探之前,这家英荷战争生专用ship-rigged海上军舰,此后主导战争在大航海时代的其余部分。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIP_OF_THE_LINE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>一艘主力舰是一个类型的构造从17到19世纪中叶参加海军战术称为战斗,反对两列的军舰将策略带来的最大重量较宽的火力。由于这些交战几乎都是由携带最强大的大炮的最重的船只赢得的，所以自然的进展是建造最大、最强大的帆船。从19世纪40年代末开始，蒸汽动力的引入，减少了对风的依赖，导致了螺杆驱动、木船、船的建造。许多纯船驱动的船被转换成这种推进机制。然而，大约在1859年，铁甲护卫舰的引入，迅速导致了蒸汽船的下降。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PRE_DREADNOUGHT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>早在19世纪80年代末到1905年，在HMS无畏战舰发射之前，战舰的战舰是海战战舰。前无畏战舰取代了19世纪70年代和19世纪80年代的铁甲战舰。在钢的基础上，并由坚固的钢甲保护，无畏战舰在一个或多枚轻型武器的辅助电池的支持下，携带着一种主要的重型枪炮(打开或装甲炮房)。它们是由燃煤的三胀式蒸汽机驱动的。与之前几十年的铁甲战舰的混乱发展形成鲜明对比的是，19世纪90年代的海军在世界范围内开始建造战舰，以一种共同的设计，几十艘船基本上遵循了英国宏伟的课程设计。在19世纪90年代，随着建造的船只数量的增加，战舰外观上的相似性被突显出来。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

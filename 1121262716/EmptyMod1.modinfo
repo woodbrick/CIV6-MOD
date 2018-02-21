@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="49d242df-4142-45a1-9bdd-596ef0a262fc" version="1">
+  <Properties>
+    <Name>Theater's Natural Wonders bonus</Name>
+    <Description>Standard Culture bonus for adjacent Natural Wonders on Theater and Acropolis District</Description>
+    <Teaser>Bonus on adjacent Natural Wonders for Theater</Teaser>
+    <Authors>Isukaci</Authors>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="GameData">
+      <File>GameData1.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>GameData1.sql</File>
+  </Files>
+</Mod>

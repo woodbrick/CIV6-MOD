@@ -1,0 +1,3 @@
+UPDATE LocalizedText SET Text="每建成一个奇观时 +1 [ICON_ENVOY] 使者  ，包括阿帕达纳宫。每回合获得 +3 影响力点数来获得 [ICON_Envoy] 使者. [NEWLINE][NEWLINE]必须与 [ICON_CAPITAL] 首都相邻。" WHERE Tag='LOC_BUILDING_APADANA_DESCRIPTION' AND Language="zh_Hans_CN" ;
+UPDATE LocalizedText SET Text="建成时获得一个免费的 [ICON_GREATADMIRAL] 海军统帅。 海军单位的每次战斗击杀获得 +3 [ICON_GreatAdmiral] 海军统帅点数。[NEWLINE][NEWLINE]所有 [ICON_GREATADMIRAL] 海军统帅和 [ICON_GREATENGINEER] 大工程师 可多使用一次隐退技能。必须与港口区域相邻。" WHERE Tag='LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION' AND Language="zh_Hans_CN" ;
+UPDATE LocalizedText SET Text="奖励 2 [ICON_RESOURCE_IRON] 铁. 为六个单元格内的所有城市提供 +4 [ICON_Faith] 信仰。 在该城市完成一个非平民单位时获得与单位生产花费25%等值的 [ICON_Faith] 信仰。[NEWLINE][NEWLINE]必须建造在沙漠丘陵上。" WHERE Tag='LOC_BUILDING_JEBEL_BARKAL_DESCRIPTION' AND Language="zh_Hans_CN" ;

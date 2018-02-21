@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="P_ICON_SIMULT-256"/>
+			<m_ObjectName text="P_ICON_SIMULT-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SIMULT-128"/>
+			<m_ObjectName text="P_ICON_SIMULT-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SIMULT-80"/>
+			<m_ObjectName text="P_ICON_SIMULT-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SIMULT-50"/>
+			<m_ObjectName text="P_ICON_SIMULT-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SIMULT-38"/>
+			<m_ObjectName text="P_ICON_SIMULT-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SIMULT-32"/>
+			<m_ObjectName text="P_ICON_SIMULT-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_BASILICA-256"/>
+			<m_ObjectName text="P_ICON_BASILICA-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_BASILICA-128"/>
+			<m_ObjectName text="P_ICON_BASILICA-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_BASILICA-80"/>
+			<m_ObjectName text="P_ICON_BASILICA-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_BASILICA-50"/>
+			<m_ObjectName text="P_ICON_BASILICA-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_BASILICA-38"/>
+			<m_ObjectName text="P_ICON_BASILICA-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_BASILICA-32"/>
+			<m_ObjectName text="P_ICON_BASILICA-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SERAPEUM-256"/>
+			<m_ObjectName text="P_ICON_SERAPEUM-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SERAPEUM-128"/>
+			<m_ObjectName text="P_ICON_SERAPEUM-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SERAPEUM-80"/>
+			<m_ObjectName text="P_ICON_SERAPEUM-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SERAPEUM-50"/>
+			<m_ObjectName text="P_ICON_SERAPEUM-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SERAPEUM-38"/>
+			<m_ObjectName text="P_ICON_SERAPEUM-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SERAPEUM-32"/>
+			<m_ObjectName text="P_ICON_SERAPEUM-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRAEUM-256"/>
+			<m_ObjectName text="P_ICON_MITHRAEUM-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRAEUM-128"/>
+			<m_ObjectName text="P_ICON_MITHRAEUM-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRAEUM-80"/>
+			<m_ObjectName text="P_ICON_MITHRAEUM-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRAEUM-50"/>
+			<m_ObjectName text="P_ICON_MITHRAEUM-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRAEUM-38"/>
+			<m_ObjectName text="P_ICON_MITHRAEUM-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRAEUM-32"/>
+			<m_ObjectName text="P_ICON_MITHRAEUM-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SURAI-256"/>
+			<m_ObjectName text="P_ICON_SURAI-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SURAI-128"/>
+			<m_ObjectName text="P_ICON_SURAI-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SURAI-80"/>
+			<m_ObjectName text="P_ICON_SURAI-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SURAI-50"/>
+			<m_ObjectName text="P_ICON_SURAI-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SURAI-38"/>
+			<m_ObjectName text="P_ICON_SURAI-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_SURAI-32"/>
+			<m_ObjectName text="P_ICON_SURAI-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_FIRE_TEMPLE-256"/>
+			<m_ObjectName text="P_ICON_FIRE_TEMPLE-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_FIRE_TEMPLE-128"/>
+			<m_ObjectName text="P_ICON_FIRE_TEMPLE-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_FIRE_TEMPLE-80"/>
+			<m_ObjectName text="P_ICON_FIRE_TEMPLE-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_FIRE_TEMPLE-50"/>
+			<m_ObjectName text="P_ICON_FIRE_TEMPLE-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_FIRE_TEMPLE-38"/>
+			<m_ObjectName text="P_ICON_FIRE_TEMPLE-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_FIRE_TEMPLE-32"/>
+			<m_ObjectName text="P_ICON_FIRE_TEMPLE-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_TYCHAEON-256"/>
+			<m_ObjectName text="P_ICON_TYCHAEON-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_TYCHAEON-128"/>
+			<m_ObjectName text="P_ICON_TYCHAEON-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_TYCHAEON-80"/>
+			<m_ObjectName text="P_ICON_TYCHAEON-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_TYCHAEON-50"/>
+			<m_ObjectName text="P_ICON_TYCHAEON-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_TYCHAEON-38"/>
+			<m_ObjectName text="P_ICON_TYCHAEON-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_TYCHAEON-32"/>
+			<m_ObjectName text="P_ICON_TYCHAEON-32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRADATA-256"/>
+			<m_ObjectName text="P_ICON_MITHRADATA-256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRADATA-128"/>
+			<m_ObjectName text="P_ICON_MITHRADATA-128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRADATA-80"/>
+			<m_ObjectName text="P_ICON_MITHRADATA-80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRADATA-50"/>
+			<m_ObjectName text="P_ICON_MITHRADATA-50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRADATA-38"/>
+			<m_ObjectName text="P_ICON_MITHRADATA-38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="P_ICON_MITHRADATA-32"/>
+			<m_ObjectName text="P_ICON_MITHRADATA-32"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

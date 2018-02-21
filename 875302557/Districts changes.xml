@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Larkspur -->
+<!-- DateCreated: 3/2/2017 7:07:41 PM -->
+<GameData>
+	<District_CitizenYieldChanges>
+		<Delete DistrictType="DISTRICT_HOLY_SITE" />
+		<Delete DistrictType="DISTRICT_CAMPUS" />
+		<Delete DistrictType="DISTRICT_ENCAMPMENT" />
+		<Delete DistrictType="DISTRICT_HARBOR" />
+		<Delete DistrictType="DISTRICT_COMMERCIAL_HUB" />
+		<Delete DistrictType="DISTRICT_THEATER" />
+		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" />
+		<Delete DistrictType="DISTRICT_ACROPOLIS" />
+		<Delete DistrictType="DISTRICT_HANSA" />
+		<Delete DistrictType="DISTRICT_LAVRA" />
+		<Delete DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" />
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD" YieldChange="8"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD" YieldChange="12"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_FOOD" YieldChange="-2"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION" YieldChange="8"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_FOOD" YieldChange="-2"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_PRODUCTION" YieldChange="8"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_GOLD" YieldChange="10"/>
+	</District_CitizenYieldChanges>
+</GameData>

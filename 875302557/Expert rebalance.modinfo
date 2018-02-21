@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="340fc67b-e689-4042-a8b4-41da1cacf0e7" version="1">
+  <Properties>
+    <Name>Expert rebalance</Name>
+    <Description>专家系统目前并不给力，本修改略微增加了专家的收益，并且使之成为平衡人口的砝码，让大城市和小城市都有自己的价值。expert system is not so good now. in this mod, experts will produce a little more. and it is designed to be a weight to balance population. thus, big cities and little cities are all valuble.</Description>
+    <Authors>Larkspur</Authors>
+  </Properties>
+  <Components>
+    <UpdateDatabase id="NewAction">
+      <File>Districts changes.xml</File>
+    </UpdateDatabase>
+  </Components>
+  <Files>
+    <File>Districts changes.xml</File>
+  </Files>
+</Mod>

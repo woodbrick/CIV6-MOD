@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+	<AlphaAnim   ID="CivToolTipAlpha" AlphaBegin="0" AlphaEnd="1" Speed="4" Function="OutQuad" Cycle="Once" Size="parent,parent" Stopped="1">
+		<Grid ID="Suk_TechTooltip" Texture="Controls_Tooltip" SliceCorner="10,10" SliceTextureSize="33,32" Color="White,240" Size="240,240" AutoSize="Vertical" SizePadding="25,25" InnerOffset="0,25" Anchor="L,T" Offset="306,141">
+			<Stack Offset="0,40" ID="TechTooltipStack" StackGrowth="Down" Padding="3" Hidden="0" Anchor="C,T">
+				
+				<Label ID="TechName" 		Anchor="C,T" Style="FontFlair16" Color="5,29,51,255" String="Religion" SmallCaps="20" SmallCapsType="EveryWord" SmallCapsType="EveryWord" String="RELIGION"/>
+				<Label ID="ProgressString" 	Anchor="C,T" Style="FontNormal14" Color="5,29,51,255" String="RELIGION"/>
+
+				<Grid ID="TechInfoContainer" Style="TTGrid" Size="220" AutoSize="Vertical" SizePadding="15,15" InnerOffset="0,12" Color="White,50">
+					<Stack Anchor="C,T" StackGrowth="Down" Padding="10" ID="TechInfoStack">
+						<Label			ID="BoostLabel"				Anchor="C,C" Style="FontNormal14" Color="5,29,51,255" WrapWidth="160" Offset="12,0">
+							<Image			ID="CanBeBoostedContainer"	Anchor="L,C"	Texture="CircleBacking22.dds" StretchMode="Fill" Size="22,22" Offset="-25,0" Color="29,45,66,240">
+								<Image		ID="IconCanBeBoosted"		Anchor="C,C"	Texture="ResearchPanel_BoostIconAvailable.dds" Offset="2,0"/>	
+								<Image		ID="IconHasBeenBoosted"		Anchor="C,C"	Texture="ResearchPanel_BoostIconBoosted.dds" Offset="2,0"/>	
+							</Image>
+						</Label>
+						<Label			ID="DescriptionLabel"		Anchor="C,T" Style="FontNormal14" Color="5,29,51,255" WrapWidth="200"/>
+					</Stack>
+				</Grid>
+
+				<Label Anchor="L,T" Style="FontNormal14" Color="5,29,51,255" String="Unlocks:"/>
+				<Stack ID="UnlockColumn" Anchor="C,T" StackGrowth="Down" Padding="5"/>
+			</Stack>
+
+			<Container			ID="Suk_TechTree_Meter"		Anchor="C,T" Offset="0,-20" Size="0,0">
+				<Image	Anchor="C,C"	Texture="Religion_MeterPressureBG"/>
+				<Image			ID="MeterPressure"		Anchor="C,C" Offset="0,1" Texture="Religion_MeterPressureCenter" Color="255,255,255,255">
+					<Container		ID="Meters"						Anchor="C,C" Size="110,110">
+						<Meter ID="BoostMeter" Size="110,110" Texture="Religion_MeterPressureNone" Alpha="0.5"/>
+						<Meter ID="ProgressMeter" Size="110,110" Texture="Religion_MeterPressureNone"/>
+					</Container>					
+					<Stack ID="LabelContainer" AutoSize="1"	Anchor="C,C"	StackGrowth="Bottom" Padding="0" >
+						<Image ID="Suk_TechTree_Icon"	Anchor="C,T"	Texture="Tech70" Size="70,70"/>
+					</Stack>			
+				</Image>				
+			</Container>				
+		</Grid>
+	</AlphaAnim>	
+
+	<!-- Instances -->
+	<Instance Name="UnlockRowInstance">
+		<Container ID="Top" Size="220,38" Anchor="L,C">
+			<Stack ID="UnlockRow" Anchor="L,C" StackGrowth="Right" Padding="5"/>
+		</Container>
+	</Instance>
+
+	<Instance Name="UnlockInstance">
+		<Container ID="Top" Size="38,38" Anchor="L,T">
+				<Button ID="UnlockIcon" Style="UnlockFrames" NoStateChange="1" Anchor="C,C">
+					<Image ID="Icon" Size="38,38" Texture="Controls_Blank" Anchor="C,C"/>
+					<Label ID="Info" Offset="0  ,0" Anchor="R,B" Style="TreeTurnText" Color="255,255,255,170"/>
+				</Button>
+		</Container>
+	</Instance>
+	
+</Context>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_AT_CREW_NAME" Language="zh_Hans_CN">
+			<Text>反坦克炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MODERN_AT_NAME" Language="zh_Hans_CN">
+			<Text>坦克终结者</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_AT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>机械化武器连队，有时被称为机动支持连队，是一种连队规模的军事单位，隶属于步兵营，用于支持同营中的步枪连。它通常拥有机枪，自动榴弹发射器，迫击炮，反装甲导弹，防空导弹，侦察部队（通常包括狙击手）和特击轻工兵（特攻训练的步兵）的组合。传统上，这些步兵是步行兵，但是从二战以后，开始配搭上 APCs（装甲运兵车）或 AFV （装甲车）形成机械化步兵营。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELICOPTER_NAME" Language="zh_Hans_CN">
+			<Text>武装直升机</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELICOPTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>快速移动信息时代空中骑兵单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY" Language="zh_Hans_CN">
+			<Text>你透过建设工程，大规模提升了远程部队队伍的性能。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>印度独有的古典时期单位，取代铁甲骑兵。敌对单位-5 [ICON_STRENGTH] 近战攻击力</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>升级自巨翼轰炸机。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BIPLANE_NAME" Language="zh_Hans_CN">
+			<Text>早期战斗机</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIGHTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>升级自突袭机。</Text>
+		</Replace>	
+		<Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪快速探索海军近战单位.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>现代海军近战单位. 视野内可侦测潜艇.</Text>
+		</Replace>	
+		<Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>现代重装海军远程单位。1格范围内提供空中和海上核打击防御保护。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

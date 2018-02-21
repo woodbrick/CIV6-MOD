@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="70c9b163-18cb-46bf-a326-e8369666d722" version="11">
+  <Properties>
+    <Name>AI+</Name>
+    <Description>
+	Now updated for Rise and Fall
+	
+	AI+ improves the AI without changing anything about the game itself nor the bonuses the AI gets. There are improvements in many behavior areas such as settling, building/district choices, tile improvement and warfare. Ocassionally, an AI will be able to take out another civ completely and may pose a serious threat if you're not careful. 
+	
+	On top of power level improvements, civs have been given more distinct personality styles that match their flavor/abilities such as warlike civs building more units.
+	
+	See https://forums.civfanatics.com/threads/ai.603494/  for more info and discussion.</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>Improves the AI</Teaser>
+    <Authors>SiestaGuru</Authors>
+	
+  </Properties>
+  <Components>
+    <UpdateDatabase id="Gameplay">
+	
+	 <Properties>
+		<LoadOrder>350</LoadOrder>
+	  </Properties>
+      <File>addleaders.sql</File>
+      <File>behaviortrees.xml</File>
+      <File>core.xml</File>
+      <File>diplomacy.xml</File>
+      <File>individualization.xml</File>
+      <File>military.xml</File>
+      <File>military_zerg.xml</File>
+      <File>minor.xml</File>
+    </UpdateDatabase>
+  </Components>
+  <Files>
+    <File>addleaders.sql</File>
+    <File>behaviortrees.xml</File>
+    <File>core.xml</File>
+    <File>diplomacy.xml</File>
+    <File>individualization.xml</File>
+    <File>military.xml</File>
+    <File>military_zerg.xml</File>
+    <File>minor.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2390785625" Language="SFX">
+			<ShortName>Suk_Ingolfur_Speech_Bank</ShortName>
+			<Path>Suk_Ingolfur_Speech_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1965630969" Name="Suk_Ingolfur_Attacked"/>
+				<Event Id="4059565351" Name="Suk_Ingolfur_Declare_War"/>
+				<Event Id="2515495934" Name="Suk_Ingolfur_First_Meet"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="52358094" Language="SFX">
+					<ShortName>Suk_Ingolfur_Intro.wav</ShortName>
+					<Path>SFX\Suk_Ingolfur_Intro_E843A46D.wem</Path>
+				</File>
+				<File Id="382229694" Language="SFX">
+					<ShortName>Suk_Ingolfur_Declare_War.wav</ShortName>
+					<Path>SFX\Suk_Ingolfur_Declare_War_E843A46D.wem</Path>
+				</File>
+				<File Id="507701054" Language="SFX">
+					<ShortName>Suk_Ingolfur_Attacked.wav</ShortName>
+					<Path>SFX\Suk_Ingolfur_Attacked_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="805cc499-c534-4e0a-bdce-32fb3c53ba38" version="1">
+  <Properties>
+    <Name>Sukritact's Simple UI Adjustments</Name>
+    <Description>Makes simple QoL changes to the UI</Description>
+    <Teaser>Makes simple QoL changes to the UI</Teaser>
+    <Authors>Sukritact</Authors>
+    <SpecialThanks>Divine Yuri</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="Expansion1">
+      <GameCoreInUse>Expansion1</GameCoreInUse>
+    </Criteria>
+    <Criteria id="BaseGame">
+      <NeverMet>
+        <Criteria>Expansion1</Criteria>
+      </NeverMet>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateText id="UpdateText">
+      <File>Localisation.sql</File>
+    </UpdateText>
+    <UpdateArt id="UpdateArt">
+      <File>Sukritact's Simple UI Adjustments.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="UpdateIcons">
+      <File>Art/Suk_IconDefinitions.sql</File>
+    </UpdateIcons>
+    <ImportFiles id="ImportFiles_Common">
+      <File>UI/Common/AdjacencyBonusSupport.lua</File>
+      <File>UI/Common/StatusMessagePanel.lua</File>
+      <File>UI/Common/TechAndCivicSupport.lua</File>
+      <File>UI/Common/CityPanel.lua</File>
+      <File>UI/Common/CityPanel.xml</File>
+    </ImportFiles>
+    <AddUserInterfaces id="AddUserInterfaces_Common">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Common/Additions/Suk_ReligionTT.xml</File>
+      <File>UI/Common/Additions/Suk_ScreenshotMode.xml</File>
+      <File>UI/Common/Additions/Suk_TechTree_Tooltip.xml</File>
+      <File>UI/Common/Additions/PlotInfo_Citizens.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="ImportFiles_Expansion_1">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <Criteria>Expansion1</Criteria>
+      <Required mod_id="1B28771A-C749-434B-9053-D1380C553DE9" action_id="Expansion1Files" />
+      <File>UI/Expansion_1/CityBannerManager.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/UserInterface.artdef</File>
+    <File>Art/Minimap_Suk_Screenshot.dds</File>
+    <File>Art/Suk_IconDefinitions.sql</File>
+    <File>Art/Suk_UnlockFrame.dds</File>
+    <File>Localisation.sql</File>
+    <File>Platforms/MacOS/BLPs/UITextures.blp</File>
+    <File>Platforms/Windows/BLPs/UITextures.blp</File>
+    <File>Sukritact's Simple UI Adjustments.dep</File>
+    <File>UI/Base/CityBannerManager.lua</File>
+    <File>UI/Base/CityBannerManager.xml</File>
+    <File>UI/Base/CityPanelOverview.lua</File>
+    <File>UI/Base/CityPanelOverview.xml</File>
+    <File>UI/Common/Additions/PlotInfo_Citizens.lua</File>
+    <File>UI/Common/Additions/PlotInfo_Citizens.xml</File>
+    <File>UI/Common/Additions/Suk_ReligionTT.lua</File>
+    <File>UI/Common/Additions/Suk_ReligionTT.xml</File>
+    <File>UI/Common/Additions/Suk_ScreenshotMode.lua</File>
+    <File>UI/Common/Additions/Suk_ScreenshotMode.xml</File>
+    <File>UI/Common/Additions/Suk_TechTree_Tooltip.lua</File>
+    <File>UI/Common/Additions/Suk_TechTree_Tooltip.xml</File>
+    <File>UI/Common/AdjacencyBonusSupport.lua</File>
+    <File>UI/Common/CityPanel.lua</File>
+    <File>UI/Common/CityPanel.xml</File>
+    <File>UI/Common/StatusMessagePanel.lua</File>
+    <File>UI/Common/TechAndCivicSupport.lua</File>
+    <File>UI/Expansion_1/CityBannerManager.lua</File>
+  </Files>
+</Mod>

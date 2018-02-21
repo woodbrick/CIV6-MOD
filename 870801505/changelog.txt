@@ -1,0 +1,95 @@
+[b]Changelog 2.0.0[/b][LIST]
+[*] Removed dependency on Aztec DLC.
+[*] Hanging Gardens no longer provides +15% Growth. 
+[*] Reduced Huey Teocalli's lake food bonus to +1 (down from +3). Culture bonus reduced to +1 as well.
+[*] Removed district lake adjacencies from Huey Teocalli. Replaced with the following effect: your Holy Site, Campus, Theater Squares, and Industrial Zones get a minor adjacency bonus from coast and lake tiles, and your Commercial Hubs get a standard adjacency bonus from coast and lake tiles.
+[*] Reduced Estadio do Maracana bonus to district projects to 20%, and removed happiness requirement.
+[*] Oracle Faith purchase discount to 25% (down from 50%, back to base game value).
+[*] Ruhr Valley bonus to Industrial Zones adjacent to rivers reduced to 2.
+[*] Again had to temporarily disable Chinese translation until it is updated.
+[*] Potala Palace Holy Site faith bonus changed to simply +2 Faith for each building in the district, to be more consistent with the other wonders that do similar things. Overall faith output is the same.
+[*] Shrine of the Saint tooltip updated to proper effect.
+[*] Angkor Wat no longer provides +3 Amenities from Entertainment. Instead, it causes your luxury resources provide an Amenity to one additional city. 
+[*] Updated mutually exclusive building tooltip to more accurately represent how National Wonders work.
+[*] Grand Temple no longer requires you to have founded a religion.
+[*] Apostolic Palace no longer requires a worship building as a prerequisite. It requires the Grand Temple as a prerequisite and you must have founded a religion to build it.
+[*] Eiffel Tower no longer provides +50 points towards all current and future Great People. Instead, it adds +5 Tourism to all of your World Wonders.
+[*] (Rise and Fall) Great Library changed so that it no longer provides +1 Great Writer point, a free Great Writer, or +2 Science from Great Works of Writing. Instead, provides its old bonus of +1 Great Writer point per turn in each city with a Library, and also provides a random Eureka when you earn a Great Writer, in addition to when another player earns a Great Scientist.
+[*] (Rise and Fall) Statue of Liberty bonuses changed. No longer provides stable loyalty to nearby cities or free settlers. Instead, provides +3 Loyalty per turn and +15% Growth for all cities on your home continent, as well as +10% Production and +25% Gold for all cities on your home continent that have 2 or more specialty districts. Changed Harbor adjacency requirement to City Center.
+[*] (Rise and Fall) Forbidden City's culture reverted to 5 and no longer has a regional range. Instead, it now causes each of your cities within 6 tiles to always have the maximum amount of loyalty. 
+[*] (Rise and Fall) St. Basil's Cathedral now must be built on Tundra or Tundra Hills tiles adjacent to the City Center. Its Religious Tourism bonus applies to all of your cities, not just the city in which it is built.
+[*] (Rise and Fall) Taj Mahal grants the city that builds it +20% Production and Growth during a Golden Age, as well as +15% Gold, Science, Culture, and Faith during a Golden Age.
+[*] (Rise and Fall) Kotoku-in no longer grants +20% Faith. Instead, it grants you a Warrior Monk whenever you construct a Holy Site district, and your Warrior Monks get +6 Combat Strength and +50% Combat Experience. You still must have founded a religion or have a majority religion in the city that builds the Holy Site to receive Warrior Monks.
+[*] (Rise and Fall) Instead of providing +2 Production for Industrial Zones adjacent to rivers, Ruhr Valley grants 20% Production to all cities within 6 tiles.
+[*] (Rise and Fall) Instead of providing 1 Science per specialty district in your cities, Oxford University grants 20% Science to all cities within 6 tiles.
+[*] (Rise and Fall) Instead of providing +10% Faith in all cities, Hagia Sophia provides +20% Faith to all cities within 6 tiles.
+[*] (Rise and Fall) Instead of providing +10% Culture in all cities, Hermitage provides +20% Culture to all cities within 6 tiles.
+[/LIST]
+
+[b]Changelog 1.9.4[/b][LIST]
+[*] Fixed a localization problem.
+[/LIST]
+
+[b]Changelog 1.9.3[/b][LIST]
+[*] Re-enabled Chinese translation.
+[/LIST]
+
+[b]Changelog 1.9.2[/b][LIST]
+[*] Jebel Barkal no longer allows you to purchase units with faith. Instead, it has the following benefit: Gain Faith equal to 25% of the unit's cost when producing a non civilian unit in any city in your empire.
+[*] I liked the previous modifier but it was incompatible with the Theocracy government. This one should encourage the same kind of gameplay, however.
+[*] Fixed Heroic Epic text: Gain Culture equal to 25% of the unit's cost when producing a non civilian unit in the city.
+[/LIST]
+
+[b]Changelog 1.9.1[/b][LIST]
+[*] Fixed Terracotta Army and Venetian Arsenal providing three units rather than two when producing certain units. Hopefully, anyway.
+[*] Changed the Shrine of the Saint, Mahabodhi Temple, Hagia Sophia, Mont St. Michel, and Potala Palace to affect Holy Site district yields, rather than building yields. They increase the yields of your Holy Sites for each building in those districts.
+[*] Instead of providing +1 Faith to Monuments, now Stonehenge provides +1 Faith to your City Center districts that contain a Monument.
+[*] The above was done to hopefully resolve issues where building yields did not update properly when capturing cities founded prior to constructing the appropriate wonder. Districts seem to update properly, while buildings do not.
+[*] The Indonesian Prasat should be properly recognized as a Temple by the above wonders.
+[*] Temporarily disabled foreign translations as they are no longer accurate (if those who did them get in touch with me, we can update them!).[/LIST]
+
+[b]Changelog 1.9.0[/b][LIST]
+[*] Updated the Shrine of the Saint and Potala Palace to properly affect the Dar-E-Mehr and Stupa.
+[*] Apadana: Removed previous bonuses. Now provides 1 Envoy upon completion, as well as 1 additional Envoy whenever you complete a Wonder in any of your cities. Also provides +3 Influence points per turn towards earning envoys.
+[*] Mausoleum at Halicarnassus: +3 Great Admiral points per combat kill using naval units. +1 Great Admiral and +1 Great Engineer points per turn.
+[*] Venetian Arsenal: Moved Great Admiral points per kill to Mausoleum at Halicarnassus. Instead now gives empire-wide +1 Production to coast tiles.
+[*] Angkor Wat gives +3 amenities from Entertainment.
+[*] Terracotta Army effects changed to match World Wonders-only version. Now provides one promotion level for all current units upon completion, and whenever you build a military unit in the city, you receive a second copy of that unit.
+[*] Oracle's original bonuses restored, except Faith patronage discount still at 50%.
+[*] Heroic Epic effects changed. No longer provides experience and combat strength bonus. Instead provides a free promotion for units trained in the city. When you produce a unit in the city, you gain 25% of the unit's combat strength as culture.
+[*] National Academy effects changed. No longer provides a free promotion for all current units. Instead provides +100% Experience and +4 Combat Strength for land units trained in the city.
+[*] Apostolic Palace can now be built with the Stupa or Dar-E-Mehr as a prerequisite. [/LIST]
+
+Changelog 1.8.6
+[*] Added Chinese Translation
+[*] Colossus no longer provides a free Trader for constructed harbor districts, nor does it provide extra trade routes for each Harbor. It has been reverted to simply grant a free trader and increased trade route capacity by 1. It still boosts the gold income of trade routes and additionally intercontinential yields as normal.
+[*] Alhambra and the Venetian Arsenal now provide 3 Great Person Points per kill instead of 5.
+
+Changelog 1.8.2
+
+[*] Removed ExclusiveBuildings for the National Heritage Site and all National Wonders in the Holy Site district. They can now be built in the same city.
+[*] Added a very small amount of Outer Defense Health to National Wonders. This will cause them to be destroyed upon capture.
+[*] National Wonder cost rebalanced for later eras.
+[*] Slightly reduced the Culture yield of some National Wonders.
+
+Changelog 1.8
+
+[*] Added dependency for Aztec DLC Pack.
+[*] Added reference for TCS Omnibus (so it will always load after the Omnibus, fixing some potential compatibility issues).
+[*] Huey Teocalli: Local lake-based amenities preserved, but other bonuses changed to +3 Food and +2 Culture for each lake tile in your empire. Campus, Commercial Hubs, Theater Squares, Holy Sites, and Industrial Zone districts in your empire receive increased yields when adjacent to a lake.
+
+Changelog 1.7
+
+[*] Apostolic Palace: All Great Person points removed.
+[*] National Treasury: Great Merchant points from 5 to 2.
+[*] International Airport: Added 3 Great Merchant points per turn.
+[*] National Research Institute: Great Scientist and Engineer points from 6 to 3 each.
+[*] National Industrial Complex: Great Engineer points from 4 to 2.
+[*] Ironworks: Great Engineer points from 2 to 1.
+[*] Grand Bazaar: Great Merchant points from 2 to 1.
+[*] National Academy: Great General points from 5 to 3.
+[*] Writers Guild, Artists Guild, Musicians Guild: Removed base Great Person points (modifier that provides Great Person points from districts unchanged).
+[*] Heroic Epic: No longer provides Great General points for districts. Instead, units trained in this city get +4 Combat Strength.
+[*] National Epic: Amount of Great Person points provided to districts reduced from 2 to 1. Great Writer point bonus removed from Theater district (still provides an additional Great Artist and Great Musician point). Base Great Artist point replaced with 1 Great Writer point.
+[*] National Epic: Now allows the city that builds it to construct one additional district.
+[*] Broadway: Great Merchant/Writer/Artist/Musician % increase from 50 to 30. 

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UITextures"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_SUK_INGOLFUR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SUK_INGOLFUR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_128"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_200"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_22"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_256"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_30"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_32"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_36"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_38"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_44"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_45"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_48"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_50"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_55"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_64"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_70"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_80"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Suk_Iceland_Atlas_95"/>
+			<m_ObjectName text="Suk_Iceland_Atlas_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_INGOLFUR_1"/>
+			<m_ObjectName text="SUK_INGOLFUR_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_INGOLFUR_2"/>
+			<m_ObjectName text="SUK_INGOLFUR_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_INGOLFUR_3"/>
+			<m_ObjectName text="SUK_INGOLFUR_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SUK_INGOLFUR_4"/>
+			<m_ObjectName text="SUK_INGOLFUR_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_Suk_Iceland"/>
+			<m_ObjectName text="Moment_UniqueUnit_Suk_Iceland"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SUK_INGOLFUR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SUK_INGOLFUR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_Suk_Iceland"/>
+			<m_ObjectName text="Moment_Infrastructure_Suk_Iceland"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

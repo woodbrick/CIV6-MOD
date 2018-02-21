@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+		<!--World Wonder Descriptions-->
+		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="ru_RU">
+			<Text>+1  военная политическая ячейка. [NEWLINE][NEWLINE]Обеспечивает те же защитные бонусы, что и Форт. Вы получаете +3 [ICON_GreatGeneral] очков Великого полководца за каждую победу ваших наземных юнитов. Можно построить только на холмах, по соседству с военным лагерем.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOLSHOI_THEATRE_DESCRIPTION" Language="ru_RU">
+			<Text> Дает 2 случайные социальные политики после постройки. Увеличивает на 3 [ICON_Amenities] довольство во всех городах в пределах 6 клеток. Можно построить только на равнине рядом с театральной площадью.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="ru_RU">
+			<Text>Вы получаете +30% к вырабатываемым очкам [ICON_GreatMerchant] Великого торговца, [ICON_GreatWriter] Великого писателя, [ICON_GreatArtist] Великого художника, и [ICON_GreatMusician] Великого композитора. Можно построить только на равнине рядом с театральной площадью.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +2 к [ICON_Culture] культуре и +1 к [ICON_Production] производству на всех клетках тропических лесов в этом городе. После завершения дает одноразовый прирост очков [ICON_Faith] веры, равный десятикратному числу ваших очков [ICON_Culture] культуры, получаемых в ход. Можно построить только в тропическом лесу.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +1 [ICON_TradeRoute] торговый путь для каждого города, где построена гавань и центр коммерции. Каждый раз, после постройки гавани, вы получаете бесплатного торговца. [NEWLINE][NEWLINE]Все ваши обычные [ICON_TradeRoute] торговые пути получают +2 [ICON_Gold] золота, или +4 [ICON_Gold] золота если являются межконтинентальными. Можно построить только на побережье, рядом с гаванью.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="ru_RU">
+			<Text>Все ваши священные места вырабатывают 10 [ICON_Tourism] очков туризма. Удваивает [ICON_Tourism] туризм от всех прибрежных курортов в вашей цивилизации. Можно построить только на холмах.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="ru_RU">
+			<Text>Все клетки в вашей империи получают +2 к привлекательности. Предоставляет 50 очков всем текущим и будущим [ICON_GreatPerson] Великим людям. Должна быть построена на ровной земле, рядом с центром города.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +6 [ICON_Culture] к культуре и +3 [ICON_Amenities] к довольству населения в каждом городе. Если у вас высокий уровень довольства, то все ваши города получают +50% [ICON_Production] к производству новых зданий в городских районах. Можно построить только на ровной местности, рядом с развлекательным комплексом, в котором уже должен быть стадион.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="ru_RU">
+			<Text>+1 универсальная политическая ячейка[NEWLINE][NEWLINE] Повышает очки [ICON_Culture] культуры в каждом центральном районе в пределах 6 клеток. Можно построить только на ровной местности рядом с центром города.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатного [ICON_GreatWriter] Великого писателя. Дает +2 [ICON_Science] науки от всех [ICON_GreatWork_Writing] литературных шедевров. Все библиотеки вырабатывают +1 очко [ICON_GreatWriter] Великого писателя. Можно построить только на равнине, рядом с кампусом, в котором уже должна быть построена обычная библиотека.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +1 [ICON_Movement] к перемещению и +1 к радиусу обзора для всех морских юнитов[NEWLINE][NEWLINE]Все юниты получают возможность выходить в океан. Ваши города получают +30% к [ICON_Production] общему производству в гавани. Можно построить только на побережье, рядом с гаванью, в которой уже должен быть обычный маяк.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +1 дополнительный [ICON_TradeRoute] торговый путь[NEWLINE][NEWLINE]Ваши [ICON_TradeRoute] торговые маршруты получают +1 к [ICON_Gold] золоту если проходят через торговые посты. Можно построить только на равнине, рядом с центром коммерции, в котором уже должен быть рынок.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="ru_RU">
+			<Text>Миссионеры и апостолы могуть распространить религию на один раз больше. Дает +10% к очкам [ICON_Faith] веры во всех ваших городах. Также все святилища и храмы дают +2 очка [ICON_Science] науки. Можно построить только на ровной местности рядом со священным местом. Вы так же должны быть основателем религии.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="ru_RU">
+			<Text>Увеличивают рост населения на 15% во всех городах. Все города получают максимум [ICON_Housing] жилья от пресноводных источников, даже если расположены далеко от них. Можно построить только вдоль реки.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="ru_RU">
+			<Text>+10% к [ICON_Culture] культуре во всех городах. Дает +3 [ICON_Culture] культуры от всех [ICON_GreatWork_Landscape] художественных шедевров. Можно построить только вдоль рек.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет двух бесплатных апостолов. Лесные клетки, обрабатываемые городом, приносят +2 очка [ICON_Faith] веры и +1 очко [ICON_Food] пищи. Священные места, святилища и храмы дают +2 очка [ICON_Production] продукции. Можно построить только в лесу рядом со священным местом. Вы так же должны быть основателем религии.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION" Language="ru_RU">
+			<Text>Все созданные вами Апостолы получают способность Мученика в дополнение ко второй способности, которую вы обычно выбираете. Ваши религиозные подразделения получают +5 [ICON_Religion] к религиозной силе в теологической баталии. [ICON_GreatWork_Relic] Реликвии, святилища и храмы обеспечивают +1 очко [ICON_Culture] культуры. Можно построить только на поймах или болотах.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="ru_RU">
+			<Text>Религиозный патронаж в отношении Великих людей стоит на 50% меньше [ICON_Faith] веры. Может быть построен только на холмах.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="ru_RU">
+			<Text>Дает 2 случайные технологии после постройки. Ваши города получают +1 очко [ICON_Science] науки за каждый специализированный район. Можно построить только на лугу или на равнине рядом с кампусом, в котором уже должен быть Университет.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POTALA_PALACE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 дополнительная дипломатическая ячейка[NEWLINE][NEWLINE]Дает +1 очко [ICON_Faith] веры за святилища, +2 очка [ICON_Faith] веры за храмы, и +3 очка [ICON_Faith] веры за выбранную культовую постройку. Можно построить только на холме рядом с горой.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +2 единицы [ICON_Food] пищи, +2 единицы [ICON_Gold] золота, и +1 единицу [ICON_Production] производства на всех пустынных клетках этого города (кроме пойменных долин). Все археологи получают возможность перемещаться по иностранным землям без заключения договора об открытых границах. Можно построить только в пустыне или в пойме реки, где нет холмов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляют два бесплатных строителя. Все строители могут построить 1 дополнительное улучшение. Можно построить только на клетках пустыни (включая пойменные равнины) без холмов.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +1 очко [ICON_Production] производства за каждую шахту, каменоломню и лесопилку на вашей территории, когда эти улучшения построены вдоль рек. Также +3 очка [ICON_Production] продукции от каждой промышленной зоны построенной вдоль реки. Может быть построена только вдоль реки, прилегающей к промышленной зоне с фабрикой.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатный монумент в каждом из ваших городов. Монументы в ваших городах обеспечивают +1 очко [ICON_Faith] веры. [NEWLINE][NEWLINE]Предоставляет бесплатного [ICON_GreatProphet] Великого пророка. [ICON_GreatProphet] Великие пророки могут основать религию в Стоунхендже вместо священного места. Вы также можете нанимать миссионеров из Стоунхенджа, используя очки [ICON_Faith] веры. Должен быть расположен на равнине рядом с [ICON_RESOURCE_STONE] камнем.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="ru_RU">
+			<Text>Дает +8 единиц [ICON_Gold] золота за каждый [ICON_GreatWork_Music] музыкальный шедевр. Увеличивает на +50% давление [ICON_Tourism] туризмом от всех ваших городов. Можно построить только на побережье, рядом с гаванью.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="ru_RU">
+			<Text>После постройки, вы получите военный юнит с анти-кавалерийским повышением в каждом из ваших городов. Также вы получаете новый юнит с аналогичным повышением каждый раз когда захватываете вражеский город. Можно построить на лугу или равнине рядом с военным лагерем, в котором уже должны быть казармы или конюшня.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="ru_RU">
+			<Text>Получите второе военно-морское подразделение каждый раз, когда вы тренируете военно-морскую часть в этом городе. Дает +20% к [ICON_Production] производству во всех прибрежных городах. Вы получаете +3 очков [ICON_GreatAdmiral] Великого флотоводца всякий раз, когда уничтожаете вражеский юнит в морской баталии. Можно построить только на побережье рядом с промышленной зоной.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="ru_RU">
+			<Text>Город получает +1 единицу [ICON_Amenities] довольства за каждую клетку озера в пределах одной клетки от Темпло Майор. Также дает +3 единицы [ICON_Food] пищи и +2 очка [ICON_Culture] культуры за каждую клетку озера на вашей территории.[NEWLINE][NEWLINE]Кампусы, центры коммерции, театральные площади, промышленные зоны и священные места также получают дополнительные бонусы, когда расположены рядом с озерами (+4 к [ICON_Gold] золоту для центров коммерции, +2 к стандартным очкам в других районах). Можно построить только на озере рядом с берегом.</Text>
+		</Replace>
+		<!--New Theming Bonuses-->
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING" Language="ru_RU">
+			<Text>Тематический бонус +50% при смешанной [ICON_GreatWork_Writing] литературной экспозиции.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_MUSIC" Language="ru_RU">
+			<Text>Тематический бонус +50% при смешанной [ICON_GreatWork_Music] музыкальной экспозиции.</Text>
+		</Replace>
+		<!--Ability Text (Not sure where this comes up, other than the combat preview text?) -->
+		<Row Tag="LOC_MAGIL_ABILITY_GGPOINTSONKILL_NAME" Language="ru_RU">
+			<Text>Бонус к очкам Великого полководца от Альгамбры</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GGPOINTSONKILL_DESCRIPTION" Language="ru_RU">
+			<Text>Дает 3 очков [ICON_GreatGeneral] Великого полководца за каждую победу ваших наземных юнитов.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GAPOINTSONKILL_NAME" Language="ru_RU">
+			<Text>Бонус к очкам Великого флотоводца от Венецианского арсенала.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GAPOINTSONKILL_DESCRIPTION" Language="ru_RU">
+			<Text>Дает 3 очков [ICON_GreatAdmiral] Великого флотоводца за каждую победу в морской баталии.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_PREVIEWTEXT" Language="ru_RU">
+			<Text>+5 [ICON_Strength] к боевой мощи от Мон-Сен-Мишель</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_NAME" Language="ru_RU">
+			<Text>Бонус в теологической баталии от Мон-Сен-Мишель</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_NAME" Language="ru_RU">
+			<Text>Увеличенная зона обзора от Великого маяка</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_DESCRIPTION" Language="ru_RU">
+			<Text>+1 к радиусу обзора</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

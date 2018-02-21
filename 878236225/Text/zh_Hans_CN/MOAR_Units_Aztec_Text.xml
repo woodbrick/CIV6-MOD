@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="zh_Hans_CN">
+			<Text>美洲虎勇士</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>取代剑客的阿兹特克中世纪特色近战单位,当进攻时+7战斗力[ICON_Strength],防御时-7战斗力[ICON_Strength],有机会把其他文明的军事单位转化为建造者并俘获。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="zh_Hans_CN">
+			<Text>战斗祭司</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿兹特克远古时代特色支援单位,研究市政树的“神秘主义”解锁,当自身受伤或死亡时即获得大将军点数,为近战、骑兵、反骑兵、远程单位提供初始战斗力。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

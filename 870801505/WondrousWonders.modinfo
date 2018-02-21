@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ffc32d00-b546-4b1c-8be8-6c5d51ef1544" version="1">
+    <!-- Basic Mod info -->
+    <Properties>
+        <Name>Wondrous Wonders (R&F)</Name>
+        <Stability>Beta</Stability>
+        <Version>2.0.0</Version>
+        <Teaser>LOC_WONDROUSWONDERS_TEASER</Teaser>
+        <Description>LOC_WONDROUSWONDERS_DESCRIPTION</Description>
+        <Authors>LOC_WONDROUSWONDERS_AUTHORS</Authors>
+		<SpecialThanks>LOC_WONDROUSWONDERS_THANKS</SpecialThanks>
+    </Properties>
+	
+	
+	<LocalizedText>
+		<Text id="LOC_WONDROUSWONDERS_NAME">
+			<en_US>Wondrous Wonders</en_US>
+		</Text>
+		<Text id="LOC_WONDROUSWONDERS_AUTHORS">
+			<en_US>Magil</en_US>
+		</Text>
+		<Text id="LOC_WONDROUSWONDERS_THANKS">
+			<en_US>Special thanks to the Civfanatics modding community, and everyone there and on Steam who has provided feedback. Thanks to Steam user 咸鱼//6-inch-howitzer kon is to thank for the Chinese translation and Civfanatics user Tolerant for the Russian translation (temporarily disabled).</en_US>
+		</Text>
+		<Text id="LOC_WONDROUSWONDERS_TEASER">
+			<en_US>Adds National Wonders, a type of building that can only be built once per Civilization. Improves World Wonders.</en_US>		
+		</Text>
+		<Text id="LOC_WONDROUSWONDERS_DESCRIPTION">
+			<en_US>National Wonders, as implemented in this mod, are buildings that have very powerful effects and can only be built once per civilization. Many either specialize a single city or your entire empire. Once a city constructs a National Wonder, it cannot build any other National Wonders apart from those that are construced in the same district (with some special exceptions). World Wonders are more powerful and often have game-changing effects.</en_US>		
+		</Text>
+	</LocalizedText>
+
+	<!--Referenced mods.  This mod will load after referenced mods if both are enabled-->
+	<References>
+		<Mod id="ee599f02-20dc-4800-b660-0e0f83e17829" title="TCS Omnibus" />
+		<Mod id="03B8BDDE-DEAD-BEEF-9540-26E685E3156E" title="CQUI" />
+		<Mod id="2027E5A2-A48D-E606-031F-141E1196975A" title="Production Queue" />
+		<Mod id="c9d28cde-61ee-459c-93f5-c734cd392553" title="NQ EUI" />
+	</References>
+
+    <!-- Different parts of the mod -->
+    <Components>
+		<Icons id="WondrousWondersIcons">
+			<Items>
+				<File>NationalWonders/NationalWondersIcons.xml</File>
+			</Items>
+		</Icons>
+        <UpdateDatabase id="WW_WorldWonders">
+            <Properties>
+                <Name>WW_WORLD_WONDERS</Name>
+				<LoadOrder>120</LoadOrder>
+            </Properties>
+            <Items>
+				<File>WorldWonders/WorldWonders.xml</File>
+				<File>WorldWonders/ThemingBonus.xml</File>
+				<File>WorldWonders/DLCWorldWonders.sql</File>
+            </Items>
+        </UpdateDatabase>
+		<UpdateDatabase id="WW_NationalWonders">
+            <Properties>
+                <Name>WW_NATIONAL_WONDERS</Name>
+				<LoadOrder>121</LoadOrder>
+            </Properties>
+            <Items>
+				<File>NationalWonders/NationalWonders.xml</File>
+				<File>NationalWonders/NationalWondersBonus.xml</File>
+				<File>NationalWonders/NationalWondersDLC.sql</File>				
+            </Items>
+        </UpdateDatabase>
+		<UpdateDatabase id="WW_RiseAndFall">
+            <Properties>
+                <Name>WW_RISE_AND_FALL</Name>
+				<LoadOrder>122</LoadOrder>
+               	<RuleSet>RULESET_EXPANSION_1</RuleSet>				
+            </Properties>
+            <Items>
+				<File>WorldWonders/RnFWorldWonders.sql</File>		
+            </Items>
+        </UpdateDatabase>
+		<UpdateDatabase id="WW_Combined">
+            <Properties>
+                <Name>WW_COMBINED</Name>
+				<LoadOrder>123</LoadOrder>
+            </Properties>
+            <Items>
+				<File>BuildingRangeAdjustment.sql</File>
+				<File>CombinedWondrousWonders.sql</File>				
+            </Items>
+        </UpdateDatabase>
+		<LocalizedText id="WondrousWondersLocale">
+            <Properties>
+                <Name>WONDROUS_WONDERS_LOCALE</Name>
+				<LoadOrder>124</LoadOrder>				
+            </Properties>
+            <Items>
+				<File>NationalWonders/NationalWondersText.xml</File>
+				<File>NationalWonders/NationalWondersInGameTextChange.sql</File>
+				<File>WorldWonders/WorldWondersText.xml</File>
+				<File>WorldWonders/DLCWorldWondersText.sql</File>
+				<File>NationalWonders/NationalWondersText_zh_Hans_CN.xml</File>
+				<File>WorldWonders/WorldWondersText_zh_Hans_CN.xml</File>			
+				<File>WorldWonders/DLCWorldWondersText_zh_Hans_CN.sql</File>	
+				<!-- <File>NationalWonders/NationalWondersText_ru_RU.xml</File>
+				<File>WorldWonders/WorldWondersText_ru_RU.xml</File>				 -->
+            </Items>
+        </LocalizedText>
+				<LocalizedText id="WW_Rise_and_Fall_Locale">
+            <Properties>
+                <Name>WW_COMBINED_LOCALE</Name>
+				<LoadOrder>125</LoadOrder>				
+            </Properties>
+            <Items>
+				<File>CombinedWondrousWondersText.sql</File>
+            </Items>
+        </LocalizedText>
+		<LocalizedText id="WW_Rise_and_Fall_Locale">
+            <Properties>
+                <Name>WW_RISE_ANDFALL_LOCALE</Name>
+				<RuleSet>RULESET_EXPANSION_1</RuleSet>
+				<LoadOrder>126</LoadOrder>				
+            </Properties>
+            <Items>
+				<File>WorldWonders/RnFWorldWondersText.sql</File>
+            </Items>
+        </LocalizedText>
+    </Components>
+	
+	<!-- Files included -->
+    <Files>
+		<File>NationalWonders/NationalWonders.xml</File>
+		<File>NationalWonders/NationalWondersBonus.xml</File>
+		<File>NationalWonders/NationalWondersIcons.xml</File>
+		<File>NationalWonders/NationalWondersText.xml</File>
+		<File>NationalWonders/NationalWondersDLC.sql</File>
+		<File>NationalWonders/NationalWondersInGameTextChange.sql</File>
+		<File>WorldWonders/WorldWonders.xml</File>
+		<File>WorldWonders/ThemingBonus.xml</File>
+		<File>WorldWonders/WorldWondersText.xml</File>
+		<File>BuildingRangeAdjustment.sql</File>
+		<File>CombinedWondrousWonders.sql</File>
+		<File>CombinedWondrousWondersText.sql</File>		
+		<File>WorldWonders/DLCWorldWonders.sql</File>
+		<File>WorldWonders/DLCWorldWondersText.sql</File>	
+		<File>WorldWonders/RnFWorldWonders.sql</File>	
+		<File>WorldWonders/RnFWorldWondersText.sql</File>
+		<File>NationalWonders/NationalWondersText_zh_Hans_CN.xml</File>
+		<File>WorldWonders/WorldWondersText_zh_Hans_CN.xml</File>	
+		<File>WorldWonders/DLCWorldWondersText_zh_Hans_CN.sql</File>	
+		<File>WorldWonders/RnFWorldWondersText_zh_Hans_CN.sql</File>		
+		<!-- <File>NationalWonders/NationalWondersText_ru_RU.xml</File>
+		<File>WorldWonders/WorldWondersText_ru_RU.xml</File>			 -->
+    </Files>
+
+</Mod>

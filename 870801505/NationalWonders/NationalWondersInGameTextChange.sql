@@ -1,0 +1,1 @@
+UPDATE LocalizedText SET Text="Cannot be built in the same city as {1_BuildingName}" WHERE Tag='LOC_TOOLTIP_BUILDING_MUTUALLY_EXCLUSIVE_WITH' AND Language='en_US';

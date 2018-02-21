@@ -1,0 +1,1 @@
+UPDATE Buildings SET RegionalRange = (SELECT Value FROM GlobalParameters WHERE Name = 'CITY_MIN_RANGE') + 3 WHERE RegionalRange = '6';

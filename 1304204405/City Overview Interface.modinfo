@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fffb68d2-22bf-484d-9047-eea25b951726" version="1">
+  <Properties>
+    <Name>HellBlazers City Overview Interface</Name>
+    <Description>Improved City View.[NEWLINE][NEWLINE]All in one city view with production queue, manage citizens, plot purchase and city overview.[NEWLINE][NEWLINE]Watch me play and Mod Civ VI live, https://www.twitch.tv/hellblazer_tv[NEWLINE][NEWLINE]If you feel the mods have improved your game experience and would like to support my work on these mods then donations of any size are always greatly appreciated https://www.paypal.me/HellBlazerTV</Description>
+    <Teaser>HellBlazers City Overview Interface</Teaser>
+    <Authors>HellBlazer</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <References>
+    <Mod id="e13e1ef5-5592-4627-80fd-da629fa19268" title="World Info Interface" />
+  </References>
+  <FrontEndActions />
+  <InGameActions>
+    <ImportFiles id="HB_COI_IMPORT">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>UI/CityBanners/CityBannerManager.lua</File>
+      <File>UI/Panels/CityPanel.lua</File>
+      <File>UI/Panels/CityPanelOverview.lua</File>
+      <File>UI/Panels/ProductionPanel.lua</File>
+      <File>UI/Panels/CityPanel.xml</File>
+      <File>UI/WorldInput.lua</File>
+      <File>UI/ProductionPanel.xml</File>
+      <File>UI/WorldView/PlotInfo.lua</File>
+      <File>UI/StrategicView_MapPlacement.lua</File>
+      <File>UI/Panels/CityPanelOverview.xml</File>
+      <File>UI/Screens/CivicsTree.lua</File>
+      <File>UI/Screens/CivicsTree.xml</File>
+      <File>UI/Screens/TechTree.lua</File>
+      <File>UI/Screens/TechTree.xml</File>
+      <File>UI/SupportFunctions.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>UI/CityBanners/CityBannerManager.lua</File>
+    <File>UI/Panels/CityPanel.lua</File>
+    <File>UI/Panels/CityPanel.xml</File>
+    <File>UI/Panels/CityPanelOverview.lua</File>
+    <File>UI/Panels/CityPanelOverview.xml</File>
+    <File>UI/Panels/ProductionPanel.lua</File>
+    <File>UI/ProductionPanel.xml</File>
+    <File>UI/Screens/CivicsTree.lua</File>
+    <File>UI/Screens/CivicsTree.xml</File>
+    <File>UI/Screens/TechTree.lua</File>
+    <File>UI/Screens/TechTree.xml</File>
+    <File>UI/StrategicView_MapPlacement.lua</File>
+    <File>UI/SupportFunctions.lua</File>
+    <File>UI/WorldInput.lua</File>
+    <File>UI/WorldView/PlotInfo.lua</File>
+  </Files>
+</Mod>

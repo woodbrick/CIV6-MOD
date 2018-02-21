@@ -1,0 +1,149 @@
+<GameData>
+	<LocalizedText>
+		<!--National Wonder Names-->
+		<Row Tag="LOC_MAGIL_NATIONAL_LIBRARY_NAME" Language="ru_RU">
+			<Text>Библиотека национальной истории</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_COLLEGE_NAME" Language="ru_RU">
+			<Text>Национальный колледж</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_LAB_NAME" Language="ru_RU">
+			<Text>Национальный исследовательский центр</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_SHRINE_NAME" Language="ru_RU">
+			<Text>Храм святого</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_TEMPLE_NAME" Language="ru_RU">
+			<Text>Большой храм</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_APOSTOLIC_PALACE_NAME" Language="ru_RU">
+			<Text>Апостольский дворец</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_HEROIC_EPIC_NAME" Language="ru_RU">
+			<Text>Героический эпос</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARMORY_NAME" Language="ru_RU">
+			<Text>Оружейная палата</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ACADEMY_NAME" Language="ru_RU">
+			<Text>Национальная академия</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MARKET_NAME" Language="ru_RU">
+			<Text>Большой базар</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_BANK_NAME" Language="ru_RU">
+			<Text>Национальное казначейство</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_EPIC_NAME" Language="ru_RU">
+			<Text>Национальный эпос</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_WRITERS_GUILD_NAME" Language="ru_RU">
+			<Text>Гильдия писателей</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ARTISTS_GUILD_NAME" Language="ru_RU">
+			<Text>Гильдия художников</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_MUSICIANS_GUILD_NAME" Language="ru_RU">
+			<Text>Гильдия музыкантов</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MUSEUM_NAME" Language="ru_RU">
+			<Text>Национальное наследие</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_AIRPORT_NAME" Language="ru_RU">
+			<Text>Международный аэропорт</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_WORKSHOP_NAME" Language="ru_RU">
+			<Text>Металлургический завод</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_FACTORY_NAME" Language="ru_RU">
+			<Text>Национальный промышленный комплекс</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARENA_NAME" Language="ru_RU">
+			<Text>Цирк Максимус</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ZOO_NAME" Language="ru_RU">
+			<Text>Большой зверинец</Text>
+		</Row>
+		<!--National Wonder Descriptions-->
+		<Row Tag="LOC_MAGIL_NATIONAL_LIBRARY_DESCRIPTION" Language="ru_RU">
+			<Text>+15% [ICON_Science] к науке в этом городе. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_COLLEGE_DESCRIPTION" Language="ru_RU">
+			<Text>+15% [ICON_Science] к науке в этом городе. После завершения, предоставляет единовременный прирост [ICON_Science] науки равный пятикратному количеству вашего текущего прироста [ICON_Culture] культуры. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_LAB_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к производству проектов Космической гонки в каждом городе. После завершения, вызывает [ICON_TechBoosted] озарение для технологий "Спутники" и "Ядерный синтез". [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_HEROIC_EPIC_DESCRIPTION" Language="ru_RU">
+			<Text>Наземные юниты, подготовленные в этом городе, получают +50% к опыту и +4 [ICON_Strength] к боевой мощи. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARMORY_DESCRIPTION" Language="ru_RU">
+			<Text>+50% [ICON_Production] к скорости создания военных юнитов в этом городе. Снижает стоимость содержания всех юнитов на 1 [ICON_Gold] золотой в ход. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ACADEMY_DESCRIPTION" Language="ru_RU">
+			<Text>Наземные юниты, подготовленные в этом городе, получают +50% к опыту. Все ваши воинские части получают 1 уровень продвижения. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_SHRINE_DESCRIPTION" Language="ru_RU">
+			<Text>Святилища, храмы и религиозные сооружения дают +2 к [ICON_Gold] золоту. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_TEMPLE_DESCRIPTION" Language="ru_RU">
+			<Text>+1 очко [ICON_GreatWriter] Великого писателя от Священных мест, +1 очко [ICON_GreatArtist] Великого художника от святилищ, и +1 очко [ICON_GreatMusician] Великого музыканта от храмов. [ICON_GreatWork_Religious] Религиозные произведения искусства дают +4 к [ICON_Faith] вере, а все остальные произведения искусства, созданные [ICON_GreatArtist] Великими художниками доют +2 к [ICON_Faith] вере. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_APOSTOLIC_PALACE_DESCRIPTION" Language="ru_RU">
+			<Text>Туризм от [ICON_GreatWork_Relic] реликвий и Священных городов не уменьшается в других цивилизациях после открытия Просвещения. Ваши апостолы могут выбирать абсолютно любое религиозное повышение. +30% [ICON_Faith] веры в этом городе. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MARKET_DESCRIPTION" Language="ru_RU">
+			<Text>Предоставляет бесплатного торговца, и повышает максимальное количество [ICON_TradeRoute] торговых маршрутов на 1. Иностранные [ICON_TradeRoute] торговые маршруты в этот город обеспечивают +6 к [ICON_Gold] золоту обеим сторонам торговли. +2 к [ICON_Gold] золоту, с обрабатываемых клеток Бонусных и Редких ресурсов в этом городе. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_BANK_DESCRIPTION" Language="ru_RU">
+			<Text>+30% [ICON_Gold] к золоту в этом городе. После завершения, предоставляет единовременный прирост [ICON_Gold] золота равный пятикратному количеству вашего текущего дохода (без вычета расходов). [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_EPIC_DESCRIPTION" Language="ru_RU">
+			<Text>Районы в этом городе предоставляют +1 очко [ICON_GreatPerson] Великого человека в зависимости от их специализации (+1 очко [ICON_GreatArtist] Великого художника и +1 очко [ICON_GreatMusician] Великого музыканта от Театральной площади). дает возможность городу построить на один район больше чем позволяет лимит населения. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARENA_DESCRIPTION" Language="ru_RU">
+			<Text>Увеличиает [ICON_Amenities] довольство в каждом городе, центр которого располагается в пределах 6 клеток от Цирка Максимус. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ZOO_DESCRIPTION" Language="ru_RU">
+			<Text>+1 к [ICON_Amenities] довольству в каждом городе вашей цивилизации. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_WORKSHOP_DESCRIPTION" Language="ru_RU">
+			<Text>Производство Металлургического завода [ICON_Production] распространяется на каждый центр города в пределах 6 клеток. +1 к [ICON_Production] производству от каждого Стратегического ресурса, обрабатываемого в этом городе. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_FACTORY_DESCRIPTION" Language="ru_RU">
+			<Text>+30% к [ICON_Production] производству в этом городе. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MUSEUM_DESCRIPTION" Language="ru_RU">
+			<Text>+30% к [ICON_Culture] культуре в этом городе. Обеспечивает автоматический тематический бонус, когда заполняются все [ICON_GreatWork_Sculpture] выставочные слоты. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_AIRPORT_DESCRIPTION" Language="ru_RU">
+			<Text>Культура Международного аэропорта [ICON_Culture] и производство [ICON_Production] распространяются на каждый центр города в пределах 6 клеток. +100% к [ICON_Tourism] давлению туризмом от этого города на другие цивилизации в современную эпоху или позже. +25 очков [ICON_Tourism] туризма от городского Аэродрома. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_WRITERS_GUILD_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый специализированный район в этом городе вырабатывает 1 очко [ICON_GreatWriter] Великого писателя. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ARTISTS_GUILD_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый специализированный район в этом городе вырабатывает 1 очко [ICON_GreatArtist] Великого художника. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_MUSICIANS_GUILD_DESCRIPTION" Language="ru_RU">
+			<Text>Каждый специализированный район в этом городе вырабатывает 1 очко [ICON_GreatMusician] Великого музыканта. [NEWLINE][NEWLINE]Национальное чудо. В вашей цивилизации может быть построено только одно такое здание.</Text>
+		</Row>
+		<!--New Theming Bonuses-->
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING" Language="ru_RU">
+			<Text>Тематический бонус увеличивается на 50% при демонстрации [ICON_GreatWork_Writing] литературных произведений разных авторов.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAGIL_NATIONAL_TEMPLE_THEMINGBONUS" Language="ru_RU">
+			<Text>тематический бонус удваивается при демонастрации работ разных художников.</Text>
+		</Replace>
+		<!--Ability Localization Text-->
+		<Row Tag="LOC_MAGIL_ABILITY_HEROIC_EPIC_COMBAT_BONUS_NAME" Language="ru_RU">
+			<Text>Боевой бонус от Героического эпоса</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_HEROIC_EPIC_COMBAT_BONUS_DESCRIPTION" Language="ru_RU">
+			<Text>+4 к [ICON_Strength] боевой мощи от Героического эпоса.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_HEROIC_EPIC_COMBAT_BONUS_PREVIEWTEXT" Language="ru_RU">
+			<Text>+4 к [ICON_Strength] боевой мощи от Героического эпоса.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

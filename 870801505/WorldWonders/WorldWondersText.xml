@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+		<!--World Wonder Descriptions-->
+		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="en_US">
+			<Text>+1 Military policy slot[NEWLINE][NEWLINE]Provides the same defensive bonuses as the Fort improvement. You gain +3 [ICON_GreatGeneral] Great General points from combat kills using land units. Must be built on Hills adjacent to an Encampment district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOLSHOI_THEATRE_DESCRIPTION" Language="en_US">
+			<Text>Awards 2 randomly-chosen free civics when completed. Provides 3 [ICON_Amenities] amenities to city centers within 6 tiles. Must be built on flat land adjacent to a Theater Square district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="en_US">
+			<Text>You gain +30% [ICON_GreatMerchant] Great Merchant, [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, and [ICON_GreatMusician] Great Musician points. Must be built on flat land adjacent to a Theater Square district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture to all Rainforest tiles for this city. +1 [ICON_Production] Production to all Rainforest tiles for this city. Upon completion, grants a one-time [ICON_Faith] Faith boost equal to ten times your current [ICON_Culture] Culture per turn. Must be built on Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity, and a free Trader unit appears in this city. [NEWLINE][NEWLINE]Your [ICON_TradeRoute] Trade Routes get +2 [ICON_Gold] Gold, or +4 [ICON_Gold] Gold for Intercontinental [ICON_TradeRoute] Trade Routes. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="en_US">
+			<Text>[ICON_Tourism] Tourism output from [ICON_GreatWork_Relic] Relics and Holy Cities is not diminished by other civilizations who have researched The Enlightenment civic. All of your Holy Site districts generate 10 [ICON_Tourism] Tourism. Doubles [ICON_Tourism] Tourism output of Seaside Resorts across your civilization. Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="en_US">
+			<Text>All tiles in your civilization gain +2 Appeal. Your World Wonders generate +5 [ICON_Tourism] Tourism. Must be built on flat land adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Culture] Culture and +3 [ICON_Amenities] Amenities in each city in your civilization. +20% [ICON_Production] Production towards district projects in your cities. Must be built on flat land adjacent to an Entertainment Complex district with a Stadium.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="en_US">
+			<Text>+1 Wildcard policy slot[NEWLINE][NEWLINE]The Forbidden City's [ICON_Culture] Culture is extended to each city center within 6 tiles. Must be built on flat land adjacent to the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="en_US">
+			<Text>Grants a free [ICON_GreatWriter] Great Writer. +2 [ICON_Science] Science from [ICON_GreatWork_Writing] Great Works of Writing. Libraries provide +1 [ICON_GreatWriter] Great Writer point. Must be built on flat land adjacent to a Campus district with a Library.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement and +1 sight range for all naval units[NEWLINE][NEWLINE]Your units gain the ability to enter Ocean tiles. Your cities get +30% [ICON_Production] Production toward Harbor districts and buildings for that district. Must be built on the Coast, adjacent to land and a Harbor district with a Lighthouse.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity[NEWLINE][NEWLINE]Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Gold] Gold for passing through your Trading Posts in both your own cities and foreign cities. Must be built adjacent to a Commercial Hub district with a Market.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="en_US">
+			<Text>Missionaries and Apostles can spread Religion 1 extra time. +10% [ICON_Faith] Faith in your cities. +2 [ICON_Science] Science to Holy Site districts for each building in the district. Must be built on flat land adjacent to a Holy Site district, and you must have founded a Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="en_US">
+			<Text>Your cities have full [ICON_Housing] housing from water, as if they were founded adjacent to a fresh water source. Must be built next to a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="en_US">
+			<Text>+10% [ICON_Culture] Culture all of your cities. +3 [ICON_Culture] Culture from [ICON_GreatWork_Landscape] Great Works of Art. Must be built along a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION" Language="en_US">
+			<Text>Grants 2 Apostles. Woods tiles worked by this city provide +2 [ICON_Faith] Faith and +1 [ICON_Food] Food. Holy Sites provide +2 [ICON_Production] Production for each building in the district. Must be built on Woods adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION" Language="en_US">
+			<Text>All Apostles you create gain the Martyr ability in addition to a second ability you chose normally. Your religious units gain +5 [ICON_Religion] Religious Strength in Theological Combat. [ICON_GreatWork_Relic] Relics provide +1 [ICON_Culture] Culture. Holy Sites get +1 [ICON_Culture] Culture for each building in the district. Must be built on Floodplains or Marsh.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="en_US">
+			<Text>Patronage of Great People costs 25% less [ICON_Faith] Faith. Districts in this city provide +2 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district). Must be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="en_US">
+			<Text>Awards 2 randomly-chosen free technologies when completed. Your cities get +1 [ICON_Science] Science for each specialty district it constructs. Must be built on Grassland or Plains adjacent to a Campus district with a University.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POTALA_PALACE_DESCRIPTION" Language="en_US">
+			<Text>+1 Diplomatic policy slot[NEWLINE][NEWLINE]Holy Site districts get +2 [ICON_Faith] Faith for each building in the district. Must be built on a Hill adjacent to a Mountain.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Food] Food, +2 [ICON_Gold] Gold, and +1 [ICON_Production] Production on all Desert tiles for this city (non-Floodplains). All Archaeologists from the owner may enter foreign lands without Open Borders. Must be built on Desert or Floodplains without Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="en_US">
+			<Text>Grants two free Builders. All Builders can build 1 extra improvement. Must be built on Desert (including Floodplains) without Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production for each Mine, Quarry, and Lumbermill in your territory when the improvement is adjacent to a river. +2 [ICON_Production] Production to Industrial Zones placed adjacent to rivers. Must be built along a River adjacent to an Industrial Zone district with a Factory.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="en_US">
+			<Text>Grants a free Monument in each of your cities. Your City Center districts with Monuments provide +1 [ICON_Faith] Faith. [NEWLINE][NEWLINE]Grants a free [ICON_GreatProphet] Great Prophet. [ICON_GreatProphet] Great Prophets may found a Religion on Stonehenge instead of a Holy Site, and you can purchase Missionaries from Stonehenge using [ICON_Faith] Faith. Must be adjacent to [ICON_RESOURCE_STONE] Stone and on flat land.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>+8 [ICON_Gold] Gold to [ICON_GreatWork_Music] Great Works of Music. +50% [ICON_Tourism] Tourism pressure from all of your cities. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="en_US">
+			<Text>All current units gain a promotion level. Receive a second military land unit each time you train a military land unit in this city.  Must be built on Grassland or Plains adjacent to an Encampment district with a Barracks or Stable.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="en_US">
+			<Text>Receive a second naval unit each time you train a naval unit in this city. +20% [ICON_Production] Production in each of your cities founded on the coast. [NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production on Coast tiles. Must be built on a Coast tile that is adjacent to an Industrial Zone district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="en_US">
+			<Text>This city gains +1 [ICON_Amenities] Amenity from entertainment for each Lake tile within one tile of Huey Teocalli. +1 [ICON_Food] Food and +1 [ICON_Culture] Culture for each Lake tile in your empire. [NEWLINE][NEWLINE]Your Campus, Holy Site, Industrial Zone, and Theater Square districts gain a minor adjacency bonus from coast and lake tiles, and your Commercial Hub districts gain a standard adjacency bonus from coast and lake tiles. Must be built on a Lake tile adjacent to land.</Text>
+		</Replace>
+		<!--New Theming Bonuses-->
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING" Language="en_US">
+			<Text>Theming bonus increasing output by 50% when displaying [ICON_GreatWork_Writing] writings from different writers.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_MUSIC" Language="en_US">
+			<Text>Theming bonus increasing output by 50% when displaying [ICON_GreatWork_Music] music from different musicians.</Text>
+		</Replace>
+		<!--Ability Text (Not sure where this comes up, other than the combat preview text?) -->
+		<Row Tag="LOC_MAGIL_ABILITY_GGPOINTSONKILL_NAME" Language="en_US">
+			<Text>Great General Points On Kill</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GGPOINTSONKILL_DESCRIPTION" Language="en_US">
+			<Text>Grants 3 [ICON_GreatGeneral] Great General points on combat kills.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GAPOINTSONKILL_NAME" Language="en_US">
+			<Text>Great Admiral Points On Kill</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GAPOINTSONKILL_DESCRIPTION" Language="en_US">
+			<Text>Grants 3 [ICON_GreatAdmiral] Great Admiral points on combat kills.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_PREVIEWTEXT" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from Mont St. Michel.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_NAME" Language="en_US">
+			<Text>Mont St. Michel Theological Combat Bonus</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_NAME" Language="en_US">
+			<Text>Great Lighthouse Extra Vision</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_DESCRIPTION" Language="en_US">
+			<Text>+1 Sight Range</Text>
+		</Row>
+		<!-- New Adjacency Bonuses-->
+		<Replace Tag="LOC_DISTRICT_MAGILHUEY_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Coast tile(s).</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAGILHUEY_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Coast tile(s).</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAGILHUEY_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Coast tile(s).</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAGILHUEY_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Coast tile(s).</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_MAGILHUEY_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Coast tile(s).</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

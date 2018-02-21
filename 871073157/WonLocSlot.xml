@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--##### Created by Chris 'ADLER' Fulford.  Please do not replicate graphics or art work without express permission.  I may be contacted via Steam http://steamcommunity.com/profiles/76561197970522546  or  https://forums.civfanatics.com/members/reichadler.295994/  Please feel free to utilise any aspect of the code contained herein for your own mod.  28 March 2017 #####-->
+<GameInfo>
+	<Building_ValidFeatures>
+		<Row BuildingType="BUILDING_RUHR_VALLEY" FeatureType="FEATURE_FLOODPLAINS"/>
+	</Building_ValidFeatures>
+	<Building_RequiredFeatures>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" FeatureType="FEATURE_FOREST"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" FeatureType="FEATURE_MARSH"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" FeatureType="FEATURE_JUNGLE"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" FeatureType="FEATURE_MARSH"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" FeatureType="FEATURE_JUNGLE"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" FeatureType="FEATURE_FOREST"/>
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_PETRA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+	<!-- Entries affect by Wonderous Wonders BEGIN-->
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="3"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+	<!-- Entries affect by Wonderous Wonders END-->	
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="3"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_ORACLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="5"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_PETRA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="5"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="5"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_MADRASA" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_SHRINE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_STONEHENGE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="5"/>
+	</Building_GreatWorks>
+</GameInfo>

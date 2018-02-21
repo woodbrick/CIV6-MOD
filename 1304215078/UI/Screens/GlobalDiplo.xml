@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\..\CivTech\Libs\ForgeUI\ForgeUI_Assets\Controls.xsd">
+
+	<Container Style="FullScreenVignetteConsumer" ConsumeAllMouse="0" ConsumeMouseButton="1" ConsumeMouseWheel="1" ConsumeMouseOver="1"/>
+
+	<Box ID="Main" Anchor="C,C" Size="1280,720" Color="11,27,40,255">
+		<Container Anchor="C,C" Size="parent,parent" >
+			<Image ID="ModalBG" Size="parent,parent" ConsumeMouseButton="1" ConsumeMouseWheel="1"/>
+			<Image Size="parent,40"	Texture="Controls_SubHeader2"   />
+
+			<Label ID="ModalScreenTitle" Anchor="C,T" Offset="0,5" Font="MyriadPro-Regular.otf" FontSize="28" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" />
+
+			<Box ID="GlobalDiploHeader" Size="parent,40" Offset="0,40" Color="32,52,117,200">
+				<Label ID="CivHeader" Anchor="L,C" Offset="15,0" Font="MyriadPro-Regular.otf" FontSize="24" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GD_CIVHEADER"/>
+				<Label ID="CivHeader" Anchor="L,C" Offset="350,0" Font="MyriadPro-Regular.otf" FontSize="24" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GD_GOVERNMENT"/>
+				<Label ID="CivHeader" Anchor="L,C" Offset="520,0" Font="MyriadPro-Regular.otf" FontSize="24" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GD_WONDERS"/>
+				<Label ID="CivHeader" Anchor="L,C" Offset="800,0" Font="MyriadPro-Regular.otf" FontSize="24" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GD_DIPLOMACY"/>
+			</Box>
+
+			<ScrollPanel	ID="GlobalDiploScrollPanel"	Offset="0,80" Size="parent,parent-80" FullClip="1" Vertical="1" AutoScrollBar="1">
+				<Stack ID="CivStack" StackGrowth="Down" Offset="0,0" StackPadding="20" />
+				<ScrollBar	ID="GlobalDiploScrollbar"	Anchor="R,C"	Offset="8,0"	  Size="12,parent"  Style="ScrollVerticalBar" Color="57,48,42,200">
+					<Thumb			ID="GlobalDiploTHumb" Style="ScrollThumb"	Size="10,0" Color="180,180,255,120"/>
+				</ScrollBar>
+			</ScrollPanel>
+
+			<Grid Offset="-5,-5" Size="parent+10,parent+10"	Style="WindowFrameAlpha"/>
+			<Button ID="ModalScreenClose" Anchor="R,T" Style="CloseButtonSmall" Offset="0,0" />
+
+
+
+		</Container>
+	</Box>
+
+	<!-- ==================================================================	-->
+	<!--	Instances														-->
+	<!-- ==================================================================	-->
+
+	<!-- Civ instance -->
+	<Instance Name="CivInstance">
+		<Container ID="Content" Anchor="L,T" Size="parent,150" >
+
+			<!-- portrait and icon -->
+			<Image ID="Portrait"	Anchor="L,T" Offset="0,5" Size="128,128" Texture="HBLeaders128.dds" />
+			<Image ID="CivIcon" Texture="CivDefaults45" Size="45,45" Anchor="L,T" Offset="90,90"/>
+
+			<!-- leader name, civ name, civics era and tech era -->
+			<Label ID="CivLeaderName" Anchor="L,T" Offset="150,20" Font="MyriadPro-Regular.otf" FontSize="18" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_CIVILIZATION_AMERICA"/>
+			<Label ID="CivName" Anchor="L,T" Offset="150,42" Font="MyriadPro-Regular.otf" FontSize="18" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_CIVILIZATION_AMERICA"/>
+			<Label ID="CivCivicEra" Anchor="L,T" Offset="150,74" Font="MyriadPro-Regular.otf" FontSize="16" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GD_CIVIC_ERA"/>
+			<Label ID="CivTechEra" Anchor="L,T" Offset="150,96" Font="MyriadPro-Regular.otf" FontSize="16" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GD_TECH_ERA"/>
+			<Label ID="EraAgeType" Anchor="L,T" Offset="150,126" Font="MyriadPro-Regular.otf" FontSize="16" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="Normal Age"/>
+
+			<!-- government -->
+			<Label ID="CivGovernment" Anchor="L,T" Offset="350,20" Font="MyriadPro-Regular.otf" FontSize="16" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String="LOC_GOVERNMENT_CHIEFDOM_NAME"/>
+
+			<!-- wonders -->
+			<Stack ID="WondersStack" StackGrowth="Down" Offset="520,20" StackPadding="-8" />
+
+			<!-- diplo states -->
+			<Stack ID="DiploStack" StackGrowth="Down" Offset="800,20" StackPadding="-8" />
+
+			<Grid Style="DividerGrid" Anchor="L,B" Offset="5,0" Size="parent-30,8" Color="47,63,76,255" />
+		</Container>
+	</Instance>
+
+	<!-- Wonders instance -->
+	<Instance Name="WonderInstance">
+		<Container ID="Content" Size="200,30" >
+			<Label ID="WonderName" Anchor="L,T" Offset="0,0" Font="MyriadPro-Regular.otf" FontSize="16" FontStyle="glow" Color="206,218,225,255" EffectColor="74,108,37,191" String=""/>
+		</Container>
+	</Instance>
+
+	<!-- Diplo instance -->
+	<Instance Name="DiploInstance">
+		<Container ID="Content" Size="200,30" >
+			<Label ID="DiploStateRed" Anchor="L,T" Offset="0,0" Font="MyriadPro-Regular.otf" FontSize="16" Color="255,0,0,255" String="" Hidden="1"/>
+			<Label ID="DiploStateGreen" Anchor="L,T" Offset="0,0" Font="MyriadPro-Regular.otf" FontSize="16" Color="0,255,0,255" String="" Hidden="1"/>
+			<Label ID="DiploStateCyan" Anchor="L,T" Offset="0,0" Font="MyriadPro-Regular.otf" FontSize="16" Color="0,255,255,255" String="" Hidden="1"/>
+			<Label ID="DiploStateYellow" Anchor="L,T" Offset="0,0" Font="MyriadPro-Regular.otf" FontSize="16" Color="255,255,0,255" String="" Hidden="1"/>
+		</Container>
+	</Instance>
+</Context>

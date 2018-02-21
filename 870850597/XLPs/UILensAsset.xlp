@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UILensAsset"/>
+	<m_PackageName text="UILensAsset"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Amatongo_Box"/>
+			<m_ObjectName text="Religion_Overlay_Amatongo_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Amatongo_Box"/>
+			<m_ObjectName text="Religion_Pressure_Amatongo_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Midewiwin_Box"/>
+			<m_ObjectName text="Religion_Overlay_Midewiwin_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Midewiwin_Box"/>
+			<m_ObjectName text="Religion_Pressure_Midewiwin_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Chaldaenism_Box"/>
+			<m_ObjectName text="Religion_Overlay_Chaldaenism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Chaldaenism_Box"/>
+			<m_ObjectName text="Religion_Pressure_Chaldaenism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_E0_Pesedjet_Box"/>
+			<m_ObjectName text="Religion_Overlay_E0_Pesedjet_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_E0_Pesedjet_Box"/>
+			<m_ObjectName text="Religion_Pressure_E0_Pesedjet_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Hellenism_Box"/>
+			<m_ObjectName text="Religion_Overlay_Hellenism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Hellenism_Box"/>
+			<m_ObjectName text="Religion_Pressure_Hellenism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Pesedjet_Box"/>
+			<m_ObjectName text="Religion_Overlay_Pesedjet_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Pesedjet_Box"/>
+			<m_ObjectName text="Religion_Pressure_Pesedjet_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Sairimaism_Box"/>
+			<m_ObjectName text="Religion_Overlay_Sairimaism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Sairimaism_Box"/>
+			<m_ObjectName text="Religion_Pressure_Sairimaism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Tengriism_Box"/>
+			<m_ObjectName text="Religion_Overlay_Tengriism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Tengriism_Box"/>
+			<m_ObjectName text="Religion_Pressure_Tengriism_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Tlateomatiliztli_Box"/>
+			<m_ObjectName text="Religion_Overlay_Tlateomatiliztli_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Tlateomatiliztli_Box"/>
+			<m_ObjectName text="Religion_Pressure_Tlateomatiliztli_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Wakan_Tanka_Box"/>
+			<m_ObjectName text="Religion_Overlay_Wakan_Tanka_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Wakan_Tanka_Box"/>
+			<m_ObjectName text="Religion_Pressure_Wakan_Tanka_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_Witran_Mapu_Box"/>
+			<m_ObjectName text="Religion_Overlay_Witran_Mapu_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Pressure_Witran_Mapu_Box"/>
+			<m_ObjectName text="Religion_Pressure_Witran_Mapu_Box"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

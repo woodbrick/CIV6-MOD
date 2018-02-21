@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JAGUAR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Krieg galt in der aztekischen Kultur eher als religiöser Ritus, denn als politisches Instrument. Junge Krieger haben Feinde besiegen oder versklaven müssen, um gesellschaftliches Ansehen zu erhalten. Eine immense Anzahl an Gefangenen wurde nur dazu gebraucht, als Opfergaben der aztekischen Rituale zu dienen. Die Jaguarkrieger galten als die Elitesoldaten der aztekeischen Armee. Überzogen mit Jaguartätowierungen und mit tödlichen "Macuahitl" (hölzerne Schwerter mit scharfen Obsidianfragmenten) ausgerüstet, waren sie die gefährlichsten leichten Infanteristen, in zentral- und nordamerikanischem Gebiet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WARRIOR_PRIEST_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Die mächtigen aztkischen Kriegspriester waren nicht nur wichtige gesellschaftliche Persönlichkeiten, sondern auch gefürchtete Krieger, die gut ausgebildet waren, ein "Macuahitl" mit tödlicher Absicht zu schwingen. Aztekische Prister waren für viele Aufgaben zuständig und oft mit hohen gesellschaftlichen Positionen betraut. Sie waren das Herz der aztekischen Religion, haben aber auch Regierungsgeschäfte geleitet, Kalender kreiert und als Archivare fungiert. Außerdem unterrichteten sie in Schulen und Arenen, wie dem Calmecac und Telpochocalli. Auf dem Schlachtfeld war ihre Rolle eine andere. Hier kämpften sie Seite an Seite mit den aztekischen Kriegern, gerüstet mit Waffen die tiefe Wunden zufügen, geschützt durch Rüstung und Schild.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Improvement_ValidAdjacentTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TerrainType>TERRAIN_GRASS_HILLS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS_HILLS</TerrainType>
+		</Row>
+	</Improvement_ValidAdjacentTerrains>
+</GameData>

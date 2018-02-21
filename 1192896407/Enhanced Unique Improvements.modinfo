@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="09703612-99ec-4e2c-92f2-aac1ea58a5c6" version="2">
+  <Properties>
+    <Name>Enhanced Unique Improvements</Name>
+    <Description>This mod buffs the unique improvements in the game. For balance and to improve AI play by reducing their ability to senselessly spam, I removed the ability to build two of the same improvement next to one another for many of these.
+
+--Alcazars: Add +0.5 housing, increase to +3 culture, double tourism when Flight is researched (like other cultural improvements). Cannot build next to one another.
+
+--Chateaux: Add +0.5 housing, remove river requirement, and increase gold to +2 if next to luxury. +2 food with Scientific Theory.
+
+--Colossal Heads: Add flat +1 culture. Cannot build next to one another.
+
+--Great Wall: Add 0.25 housing. Can build outside your territory and on forest, marsh, and floodplains.
+
+--Kurgans: Name change to Tumulus. Increase gold yield to +2. Add +1 culture from Natural History and double tourism when Flight is researched (like other cultural improvements). Can no longer build two next to one another.
+
+--Mission: Add +0.5 housing and +2 gold with Colonialism. Cannot build next to one another.
+
+--Monastery: Yield improved to +3 faith. Add 0.5 housing. Cannot build next to one another.
+
+--Sphinx: Add +1 production if built on desert, +2 gold with natural history.
+
+--Stepwell: Add base +1 faith. Cannot build next to one another.
+
+--Ziggurats: Add +0.5 housing, +1 gold. +1 Faith on flat desert tile. Remove river adjacency in favor of a flat +1 culture to free up river tiles for better uses. Cannot build next to one another.</Description>
+    <Teaser>This mod buffs the unique improvements in the game. Requires Australia DLC.</Teaser>
+    <Authors>p0kiehl</Authors>
+  </Properties>
+  <References>
+    <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" />
+    <Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+    <Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+  </References>
+  <FrontEndActions>
+    <UpdateText id="ImprovementText">
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <File>EnhancedImprovementsText.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UniqueImprovements">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>UniqueImprovements.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="TextChanges">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>EnhancedImprovementsText.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>EnhancedImprovementsText.xml</File>
+    <File>UniqueImprovements.sql</File>
+  </Files>
+</Mod>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7b53d19a-6370-4303-bda0-7e9abb0bc4a1">
+	<Properties>
+		<Name>LOC_TUNDRA_FARM_NAME</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>LOC_TUNDRA_FARM_TEASER</Teaser>
+		<Description>LOC_TUNDRA_FARM_DESCRIPTION</Description>
+		<Authors>LOC_TUNDRA_FARM_AUTHORS</Authors>
+		<SpecialThanks>LOC_TUNDRA_FARM_SPECIAL_THANKS</SpecialThanks>
+	</Properties>
+	<Files>
+		<File>TUNDRA_FARM_Data.xml</File>
+	</Files>
+  <Components>
+		<UpdateDatabase id="TUNDRA_FARM_Component">
+			<Properties>
+				<Ruleset>RULESET_STANDARD</Ruleset>
+			</Properties>
+			<Items>
+				<File>TUNDRA_FARM_Data.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	<LocalizedText>
+		<Text id="LOC_TUNDRA_FARM_AUTHORS">
+			<en_US>Gametempest</en_US>
+		</Text>
+		<Text id="LOC_TUNDRA_FARM_SPECIAL_THANKS">
+			<en_US>No SDK, Notepad Only, Final Destination</en_US>
+		</Text>
+		<Text id="LOC_TUNDRA_FARM_DESCRIPTION">
+			<en_US>Allows Farms to be built on Tundra</en_US>
+		</Text>
+		<Text id="LOC_TUNDRA_FARM_TEASER">
+			<en_US>Allows the Farm improvement to be built on tundra. Allows farms to be built on Tundra Hills with the Civil Engineering civic.</en_US>
+		</Text>
+		<Text id="LOC_TUNDRA_FARM_NAME">
+			<en_US>Tundra Farms</en_US>
+		</Text>
+	</LocalizedText>
+</Mod>

@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOTORISED_INFANTRY_CHAPTER_HISTORY_PARA_1">
+			<Text>Motorising infantry greatly increases the strategic mobility of infantry units, which would otherwise rely on marches or railroads. Motorized infantry can follow tank battalions and cover their flanks against ennemy infantry. The disadvantage of motorisation is that the formation required many vehicles and supplies of fuel.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOTORISED_INFANTRY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOTORISED_INFANTRY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOTORISED_INFANTRY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOTORISED_INFANTRY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COMPOSITE_BOWMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>Widely considered the most sophisticated of all bow designs, the composite bow differs from other traditional models in that they are constructed of layered strips of bone, horn, or other materials glued together to form an extremely strong and powerful bow. The composite bow is thought to have originated with the tribal nomads of Asia sometime in the first or second millennium BC.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COMPOSITE_BOWMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COMPOSITE_BOWMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COMPOSITE_BOWMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_COMPOSITE_BOWMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CULVERIN_CHAPTER_HISTORY_PARA_1">
+			<Text>A culverin was a relatively simple ancestor of the musket, and later a medieval cannon, adapted for use by the French in the 15th century, and later adapted for naval use by the English in the late 16th century. The culverin was used to bombard targets from a distance. The weapon had a relatively long barrel and a light construction. The culverin fired solid round shot projectiles with a high muzzle velocity, producing a relatively long range and flat trajectory. Round shot refers to the classic solid spherical cannonball. Overall, the culverin was a significant advance. Since it fired a ball of iron and relied on gunpowder for propulsion, the heavy ball meant a relatively stable flight and the gunpowder propulsion meant a fast and long-range.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CULVERIN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CULVERIN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CULVERIN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CULVERIN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_GUN_CHAPTER_HISTORY_PARA_1">
+			<Text>A field gun is an artillery piece. Originally the term referred to smaller guns that could accompany a field army on the march and when in combat could be moved about the battlefield in response to changing circumstances (field artillery), as opposed to guns installed in a fort (garrison artillery/coastal artillery), or to siege cannon or mortars which were too large to be moved quickly, and would be used only in a prolonged siege. By moving the guns from point to point during the battle, enemy formations could be broken up to be handled by the infantry wherever they were massing, dramatically increasing the overall effectiveness of the infantry.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_GUN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_GUN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_GUN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_GUN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASSAULT_GUN_CHAPTER_HISTORY_PARA_1">
+			<Text>An assault gun is a gun or howitzer mounted on a motor vehicle or armoured chassis, designed for use in the direct fire role in support of infantry when attacking other infantry or fortified positions. The term is a literal translation of the German word Sturmgeschütz. Nazi Germany introduced the first purpose-built assault gun, the StuG III, in 1940, thus establishing this category of armoured vehicles. Historically, the custom-built fully armoured assault guns usually mounted the gun or howitzer in a fully enclosed casemate on a tank chassis. The use of a casemate instead of a turret limited these weapons' field of fire, but allowed a larger gun to be fitted relative to the chassis, more armour to be fitted for the same weight, and provided a cheaper construction. In most cases, these turretless vehicles also presented a lower profile as a target for the enemy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASSAULT_GUN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASSAULT_GUN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASSAULT_GUN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ASSAULT_GUN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_GUN_CHAPTER_HISTORY_PARA_1">
+			<Text>Self-propelled guns are mounted on a motorised wheeled or tracked chassis. As such the gun can be maneuvered under its own power as opposed to a towed gun that relies upon a vehicle or other means to be moved on the battlefield. Self-propelled guns are combat support weapons; they are employed by combat support units fighting in support of, or attached to, the main combat units: infantry and armour. Self-propelled guns are best at providing indirect fire but can give direct fire when needed. It may be armoured, in which case it is considered an armoured fighting vehicle (AFV). Typically, self-propelled guns are more lightly armoured and may not have turrets and their purpose is distinct from that of tanks.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_GUN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_GUN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_GUN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_GUN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HEAVY_INFANTRY_CHAPTER_HISTORY_PARA_1">
+			<Text>Heavy infantry refers to heavily armed and armoured infantrymen trained to mount frontal assaults and/or anchor the defensive center of a battle line. This differentiates them from medium or light infantry which are relatively mobile and lightly armoured skirmisher troops intended for screening, scouting, and other roles unsuited to the heavier soldiers. The concept of heavy infantry has been made largely obsolete by 20th century advances in battlefield tactics, small arms and body armor technology which have produced a more consolidated role for the infantryman. As such, the term "heavy infantry" almost always refers to pre-Gunpowder Age troops. In ancient Greece the Hoplite was a common form of heavy infantry. Herodotus has described an elite infantry unit of 10,000 soldiers, which he called the Immortals, in the army of the Achaemenid Empire. Alexander's army employed infantry known as the phalangite - soldiers equipped with a small shield and long pike, and employed in a formation known as the sarissa phalanx. The heavy infantry of the pre-Marian Roman republic included the Hastati, Principes, and Triarii.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HEAVY_INFANTRY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HEAVY_INFANTRY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HEAVY_INFANTRY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HEAVY_INFANTRY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TANK_DESTROYER_CHAPTER_HISTORY_PARA_1">
+			<Text>A tank destroyer or tank hunter is a type of armoured fighting vehicle, armed with a direct-fire artillery gun or missile launcher, with limited operational capacities and designed specifically to engage enemy armoured vehicles. Tanks are generally armoured fighting vehicles designed for front-line combat which combine operational mobility and tactical offensive and defensive capabilities and perform all primary tasks of the armoured troops on the battlefield; the tank destroyer on the other hand is specifically designed mainly for taking on enemy armour. Many have been based on a tracked tank chassis, while others are wheeled.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TANK_DESTROYER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TANK_DESTROYER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TANK_DESTROYER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TANK_DESTROYER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANCER_CHAPTER_HISTORY_PARA_1">
+			<Text>Lancers were the cavalrymen of the Renaissance and Industrial era. In an era of the increasing use of cannon and other gunpowder-based weaponry speed and maneuverability trumped armor, which was increasingly useless against the modern projectile weapons. Because of this, Lancers abandoned much of the heavy plate mail of their knightly predecessors, retaining only the metal breastplate, if that. Even as weaponry improved, the lance remained a terrifyingly effective weapon in the hands of trained horsemen. As late as the Napoleonic Wars, the French believed that the lance was a superior cavalry weapon to the sword. In the 19th century both would be supplanted by the rifle, of course.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANCER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANCER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANCER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANCER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GUNSHIP_CHAPTER_HISTORY_PARA_1">
+			<Text>The Helicopter Gunship is an air unit that behaves a little differently from airplanes. Its flying system allows it to stay in the open field (something airplanes can't do), which also means that it's vulnerable to enemy attacks, especially if they're dedicated anti-air (such as the Mobile SAM). At the same time, helicopters aren't restricted to bases as airplanes are and can be moved freely to any point on the map. They also don't suffer from Interception. The Helicopter Gunship is armed with machine guns and air-to-ground missiles. In most respects it acts just like other land units. While the Helicopter Gunship is used primarily to take down enemy armored units, it also makes a great first-response defender, being able to reach an invading enemy regardless of difficult terrain. An armored horde can be stopped cold by a small number of Helicopter Gunships, buying time for the rest of one's army to react. It also excels in its own assaults, its speed meaning it can take down key targets such as artillery and armor so your own army can storm in relatively unhindered. It's never a bad idea to keep a few of these around, but be wary of Mobile SAMs and aircraft, as they can deal massive damage if you let them close in on your gunships.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAR_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAR_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAR_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAR_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAVALRY_CHAPTER_HISTORY_PARA_1">
+			<Text>Armoured cavalry (or U.S. armored) began to replace horse cavalry as the reconnaissance arm in most armies after the First World War, although many armies continued to maintain horse cavalry through the end of the Second World War. It differed from regular armour units in that the main AFVs were armoured cars or scout cars, with some light or medium tanks; motorcycle troops or infantry in trucks or half-tracks rounded out the unit. Armoured cavalry units can use hunter-killer teams. Scout vehicles and tanks can operate in concert, suited respectively as "hunters" and "killers". For instance, in U.S. land forces, the cavalry scouts of a team (often mounted in M3 Bradley Cavalry Fighting Vehicles) go in search of enemy positions, and flush the enemy into a designated kill zone where the armored units can inflict more damage on the enemy than the "hunters" alone could hope to.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAVALRY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAVALRY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAVALRY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CAVALRY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_HORSEMAN_CHAPTER_HISTORY_PARA_1">
+			<Text>A cataphract was a form of armored heavy cavalry used in ancient warfare by a number of peoples in Western Eurasia and the Eurasian Steppe. The English word is derived from the Greek Kataphraktos (plural: Kataphraktoi), literally meaning "armored" or "completely enclosed". Historically, the cataphract was a very heavily armored horseman, with both the rider and steed draped from head to toe in scale armor, while typically wielding a kontos or lance as their weapon. Cataphracts served as either the elite cavalry or assault force for most empires and nations that fielded them, primarily used for impetuous charges to break through infantry formations. Chronicled by many historians from the earliest days of Antiquity up until the High Middle Ages, they are believed to have influenced the later European knights, via contact with the Byzantine Empire.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_HORSEMAN_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_HORSEMAN_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_HORSEMAN_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_HORSEMAN_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REITER_CHAPTER_HISTORY_PARA_1">
+			<Text>Reiters (German: Reiter, or horserider, shortened from the original “Schwarze Reiter”—literally, "black riders" for the colour of their armour) were a type of cavalry, which appeared in the armies of Western Europe in the 16th century in place of the outmoded lance-armed knights, at the same time that cuirassiers and dragoons began to attain typological distinction from other kinds of cavalry. The Reiters raised firearms to the status of primary weapons, as opposed to earlier Western European heavy cavalry which primarily relied upon mêlée weapons. The Reiters' main weapons were two or more pistols and a sword; most wore helmets and cuirasses and often additional armor for the arms and legs; sometimes they also carried a long cavalry firearm known as an arquebus or a carbine (although this type of horsemen soon became regarded as a separate class of cavalry—the arquebusier or in Britain harquebusier).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REITER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REITER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REITER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REITER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSHIP_CHAPTER_HISTORY_PARA_1">
+			<Text>The development of tanks in World War I was a response to the stalemate that had developed on the Western Front. Although vehicles that incorporated the basic principles of the tank (armour, firepower, and all-terrain mobility) had been projected in the decade or so before the War, it was the alarmingly heavy casualties of the start of its trench warfare that stimulated development. Research took place in both Great Britain and France, with Germany only belatedly following the Allies' lead. The first tanks were mechanically unreliable. There were problems that caused considerable attrition rates during combat deployment and transit. The heavily shelled terrain was impassable to conventional vehicles, and only highly mobile tanks such as the Mark and FTs performed reasonably well. The Mark I's rhomboid shape, caterpillar tracks, and 26-foot (8 m) length meant that it could navigate obstacles, especially wide trenches, that wheeled vehicles could not.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSHIP_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSHIP_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSHIP_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSHIP_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_BOMBER_CHAPTER_HISTORY_PARA_1">
+			<Text>By the outbreak of World War I, several nations, including Great Britain, France, and Germany, all had experimented with the concept of explosive bombardment via plane. In the earliest days of the war, bombs were dropped from all types of aircraft, including reconnaissance and fighter planes. One of the first genuine bombers introduced during the war, the Voisin III, was designed by the French aircraft manufacturer Gabriel Voisin. Featuring a standard biplane design reinforced with a steel frame, the Voisin III was capable of carrying payloads of over 300 lbs.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_BOMBER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_BOMBER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_BOMBER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_BOMBER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_BOMBER_CHAPTER_HISTORY_PARA_1">
+			<Text>The Northrop (later Northrop Grumman) B-2 Spirit, also known as the Stealth Bomber, is an American heavy penetration strategic bomber, featuring low observable stealth technology designed for penetrating dense anti-aircraft defenses; it is a flying wing design with a crew of two. The bomber can deploy both conventional and thermonuclear weapons, such as eighty 500 lb (230 kg)-class (Mk 82) JDAM Global Positioning System-guided bombs, or sixteen 2,400 lb (1,100 kg) B83 nuclear bombs. The B-2 is the only acknowledged aircraft that can carry large air-to-surface standoff weapons in a stealth configuration.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_BOMBER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_BOMBER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_BOMBER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_BOMBER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_1">
+			<Text>The Lockheed Martin F-35 Lightning II is a family of single-seat, single-engine, all-weather stealth multirole fighters. The fifth-generation combat aircraft is designed to perform ground attack and air superiority missions. It has three main models: the F-35A conventional takeoff and landing (CTOL) variant, the F-35B short take-off and vertical-landing (STOVL) variant, and the F-35C carrier-based Catapult Assisted Take-Off But Arrested Recovery (CATOBAR) variant. On 31 July 2015, the United States Marines declared ready for deployment the first squadron of F-35B fighters after intensive testing. On 2 August 2016, the U.S. Air Force declared its first squadron of F-35A fighters combat-ready.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_FIGHTER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_GROUND_ATTACK_CHAPTER_HISTORY_PARA_1">
+			<Text>The attack aircraft as a role was defined by its use during World War I, in support of ground forces on battlefields. Battlefield support is generally divided into close air support and battlefield air interdiction, the first requiring strict and the latter only general cooperation with friendly surface forces. though such aircraft also attacked targets in rear areas. Such missions required flying where light anti-aircraft fire was expected and operating at low altitudes to precisely identify targets. Other roles, including those of light bombers, medium bombers, dive bombers, reconnaissance, fighters, fighter-bombers, could and did perform air strikes on battlefields. All these types could significantly damage ground targets from a low level flight, either by bombing, machine guns, or both.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_GROUND_ATTACK_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_GROUND_ATTACK_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_GROUND_ATTACK_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW1_GROUND_ATTACK_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GROUND_ATTACK_CHAPTER_HISTORY_PARA_1">
+			<Text>The Junkers Ju 87s of the German Luftwaffe became virtually synonymous with close air support during the early months of World War II. The British Commonwealth's Desert Air Force, led by Arthur Tedder, became the first Allied tactical formation to emphasise the attack role, usually in the form of single-engine Hawker Hurricane and Curtiss P-40 fighter-bombers or specialized "tank-busters", such as the Hurricane Mk IID, armed with two 40 mm Vickers S guns (notably No. 6 Squadron RAF). At around the same time, a massive invasion by Axis forces had forced the Soviet air forces to quickly expand their army support capacity, such as the Ilyushin Il-2 Sturmovik. The women pilots known as the "Night Witches" utilised an obsolescent, wooden light trainer biplane type, the Polikarpov Po-2 and small anti-personnel bombs in "harassment bombing" attacks that proved difficult to counter.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GROUND_ATTACK_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GROUND_ATTACK_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GROUND_ATTACK_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GROUND_ATTACK_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_1">
+			<Text>Post-World War II era air forces were initially reluctant to develop fixed-wing jet aircraft specifically for ground-attack. Although close air support and interdiction remain crucial to the modern battlefield, attack aircraft are less glamorous than fighters, and both pilots and military planners have a certain well-cultivated contempt for "mud-movers". The Douglas A-3 Skywarrior and North American A-5 Vigilante were designed for aircraft carrier-based nuclear strike roles, while the Grumman A-6 Intruder, Vought A-7 Corsair II, Sukhoi Su-25, A-10 Thunderbolt, Panavia Tornado, AMX, Dassault Etendard and Super Etendard and numerous other less-well-known aircraft have been designed specifically for ground-attack, strike, close-support and anti-armor work, with little or no air-to-air capability integrated into the design.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_JET_GROUND_ATTACK_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_1">
+			<Text>The Lockheed F-117 Nighthawk is a single-seat, twin-engine stealth attack aircraft that was developed by Lockheed's secretive Skunk Works division and operated by the United States Air Force (USAF). The F-117 was based on the Have Blue technology demonstrator. The Nighthawk was the first operational aircraft to be designed around stealth technology. Its maiden flight took place in 1981, and the aircraft achieved initial operating capability status in 1983. The Nighthawk was shrouded in secrecy until it was revealed to the public in 1988. Sixty-four F-117s were built, 59 of which were production versions, with the other five being demonstrators/prototypes.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STEALTH_ATTACK_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_1">
+			<Text>Wild Weasel is a code name given by the United States Armed Forces, specifically the US Air Force, to an aircraft, of any type, equipped with radar-seeking missiles and tasked with destroying the radars and SAM installations of enemy air defense systems. "The first Wild Weasel success came soon after the first Wild Weasel mission 20 December 1965 when Captains Al Lamb and Jack Donovan took out a site during a Rolling Thunder strike on the railyard at Yen Bai, some 75 miles northwest of Hanoi." The Wild Weasel concept was developed by the United States Air Force in 1965, after the introduction of Soviet SAM missiles and their downing of U.S. strike aircraft over the skies of North Vietnam. The program was headed by General Kenneth Dempster.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_WILD_WEASEL_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_COUNTERMEASURES_CHAPTER_HISTORY_PARA_1">
+			<Text>A flare or decoy flare is an aerial infrared countermeasure used by a plane or helicopter to counter an infrared homing ("heat-seeking") surface-to-air missile or air-to-air missile. Flares are commonly composed of a pyrotechnic composition based on magnesium or another hot-burning metal, with burning temperature equal to or hotter than engine exhaust. The aim is to make the infrared-guided missile seek out the heat signature from the flare rather than the aircraft's engines. Chaff, originally called Window by the British and Düppel by the Second World War era German Luftwaffe (from the Berlin suburb where it was first developed), is a radar countermeasure in which aircraft or other targets spread a cloud of small, thin pieces of aluminium, metallized glass fibre or plastic, which either appears as a cluster of primary targets on radar screens or swamps the screen with multiple returns.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_COUNTERMEASURES_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_COUNTERMEASURES_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_COUNTERMEASURES_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_COUNTERMEASURES_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SORTIES_CHAPTER_HISTORY_PARA_1">
+			<Text>A sortie (from the French word meaning exit) is a deployment or dispatch of one military unit, be it an aircraft, ship, or troops, from a strongpoint. The sortie, whether by one or more aircraft or vessels, usually has a specific mission. The sortie rate is the number of sorties that a given unit can support in a given time.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SORTIES_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SORTIES_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SORTIES_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SORTIES_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GUIDED_BOMBS_CHAPTER_HISTORY_PARA_1">
+			<Text>Soon after machine guns were fitted to biplane fighters, pilots with unused ammunition returning from a mission amused themselves diving and firing upon ground targets … usually the poor infantry and supply convoys stuck below in the mud of the Western Front. In short order, generals saw the value in doing so, and so strafing became a part of aerial tactics (it was less dangerous than dogfights). Aviation designers even began building planes dedicated to ground attack, such as the Junkers J.1 with two downwards facing machine guns. Come World War II most of the combatants had warplanes devoted to strafing, most mounting multiple machine guns and some small rockets.A guided bomb (also known as a smart bomb, guided bomb unit, or GBU) is a precision-guided munition designed to achieve a smaller Circular error probable (CEP). Because the damage effects of explosive weapons fall off with distance according to a power law, even modest improvements in accuracy (and hence reduction in miss distance) enable a target to be effectively attacked with fewer or smaller bombs. Therefore, with guided weapons, fewer air crews are put at risk, less ordnance spent, and collateral damage reduced.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GUIDED_BOMBS_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GUIDED_BOMBS_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GUIDED_BOMBS_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_GUIDED_BOMBS_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CARPET_BOMBING_CHAPTER_HISTORY_PARA_1">
+			<Text>Carpet bombing, also known as saturation bombing, is a large aerial bombing done in a progressive manner to inflict damage in every part of a selected area of land. The phrase evokes the image of explosions completely covering an area, in the same way that a carpet covers a floor. Carpet bombing is usually achieved by dropping many unguided bombs.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CARPET_BOMBING_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CARPET_BOMBING_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CARPET_BOMBING_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_CARPET_BOMBING_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_STRATEGIC_BOMBING_CHAPTER_HISTORY_PARA_1">
+			<Text>Strategic bombing is a military strategy used in a total war with the goal of defeating the enemy by destroying its morale or its economic ability to produce and transport materiel to the theatres of military operations, or both. It is a systematically organized and executed attack from the air which can utilize strategic bombers, long- or medium-range missiles, or nuclear-armed fighter-bomber aircraft to attack targets deemed vital to the enemy's war-making capability.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_STRATEGIC_BOMBING_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_STRATEGIC_BOMBING_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_STRATEGIC_BOMBING_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_STRATEGIC_BOMBING_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SUPERIORITY_FIGHTER_CHAPTER_HISTORY_PARA_1">
+			<Text>An air superiority fighter, also spelled air-superiority fighter, is a type of fighter aircraft designed for entering and seizing control of enemy airspace as a means of establishing complete dominance over the enemy's air force (air supremacy). Air superiority fighters are designed primarily to effectively engage enemy fighters, more than other types of aircraft, although some may have a secondary role for air-to-ground strikes.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SUPERIORITY_FIGHTER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SUPERIORITY_FIGHTER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SUPERIORITY_FIGHTER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AIR_SUPERIORITY_FIGHTER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CORVETTE_CHAPTER_HISTORY_PARA_1">
+			<Text>A corvette is a small warship. It is traditionally the smallest class of vessel considered to be a proper (or "rated") warship. The warship class above the corvette is that of the frigate, while the class below was historically that of the sloop-of-war. The word "corvette" is first found in Middle French, a diminutive of the Dutch word corf, meaning a small ship, from the Latin corbis, meaning "basket". During the Age of Sail, corvettes were one of many types of warships smaller than a frigate and with a single deck of guns. They were very closely related to sloops-of-war. The role of the corvette consisted mostly of coastal patrol, fighting minor wars, supporting large fleets, or participating in show-the-flag missions.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CORVETTE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CORVETTE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CORVETTE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CORVETTE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_DESTROYER_CHAPTER_HISTORY_PARA_1">
+			<Text>A guided-missile destroyer is a destroyer designed to launch guided missiles. Many are also equipped to carry out anti-submarine, anti-air, and anti-surface operations. The NATO standard designation for these vessels is DDG. Nations vary in their use of destroyer D designation in their hull pennant numbering, either prefixing, or dropping it altogether. The U.S. Navy has adopted the classification DDG in the American hull classification system. In addition to the guns, a guided-missile destroyer is usually equipped with two large missile magazines, usually in vertical-launch cells. Some guided-missile destroyers contain powerful radar systems, such as the United States’ Aegis Combat System, and may be adopted for use in an anti-missile or ballistic-missile defense role. This is especially true of navies that no longer operate cruisers, as other vessels must be adopted to fill in the gap.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_DESTROYER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_DESTROYER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_DESTROYER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MISSILE_DESTROYER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPERCARRIER_CHAPTER_HISTORY_PARA_1">
+			<Text>Supercarrier is an unofficial descriptive term for the largest type of aircraft carrier, typically those displacing over 70,000 short tons (64,000 metric tons). Supercarriers are the largest warships ever built, larger than the largest battleship class laid down by any country. The United States Navy has ten active supercarriers as of 2015, while the United Kingdom will have two—the Queen Elizabeth-class aircraft carriers Queen Elizabeth and the second Prince of Wales which are currently being built, and are expected to enter service in 2018. The Russians have the Kuznetsov, which is an aircraft cruiser (heavy aircraft-carrying missile cruiser (TAVKR) in Russian classification) serving as the flagship of the Russian Navy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPERCARRIER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPERCARRIER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPERCARRIER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUPERCARRIER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEASS_CHAPTER_HISTORY_PARA_1">
+			<Text>The Galleass was a class of naval warship that grew in popularity during the 16th century, when designs based on the traditional galley were modified to include heavier armaments. A typical galleass began life as a merchant ship powered by oars, which was then upgraded to include masts for sails. With two forms of propulsion available, the galleass design allowed the ship to maintain much of the traditional galley's renowned speed, while also carrying heavy guns to fend off would-be attackers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEASS_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEASS_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEASS_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEASS_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_1">
+			<Text>The armored cruiser was a type of warship of the late 19th and early 20th centuries. It was designed like other types of cruisers to operate as a long-range, independent warship, capable of defeating any ship apart from a battleship and fast enough to outrun any battleship it encountered. Varying in size, it was distinguished from other types of cruiser by its belt armor—thick iron (or later steel) plating on much of the hull to protect the ship from shellfire much like that on battleships. By the 1890s cruisers had abandoned sail and took on a modern appearance. For many decades naval technology had not advanced far enough for designers to produce a cruiser which combined an armored belt with the long range and high speed required to fulfill its mission. It was often possible to build cruisers which were faster and better all-round using this type of ship, which relied on a lighter armored deck to protect the vital parts of the ship; however, by the late 1880s the development of rapid-fire cannon and high-explosive shells made the reintroduction of side armor a necessity. The invention of face-hardened armor in the mid-1890s offered effective protection with less weight than previously.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BATTLECRUISER_CHAPTER_HISTORY_PARA_1">
+			<Text>A battlecruiser, or battle cruiser, was a capital ship built in the first half of the 20th century. They were similar in size, cost, and armament to battleships, but they generally carried less armour in order to obtain faster speeds. The first battlecruisers were designed in the United Kingdom in the first decade of the century, as a development of the armoured cruiser, at the same time as the dreadnought succeeded the pre-dreadnought battleship. The goal of the design was to outrun any ship with similar armament, and chase down any ship with lesser armament; they were intended to hunt down slower, older armoured cruisers and destroy them with heavy gunfire while avoiding combat with the more powerful but slower battleships. However, as more and more battlecruisers were built, they were increasingly used alongside the better-protected battleships.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BATTLECRUISER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BATTLECRUISER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BATTLECRUISER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BATTLECRUISER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEON_CHAPTER_HISTORY_PARA_1">
+			<Text>A galleon was a large, multi-decked sailing ship used as a armed cargo carrier primarily by European states during the age of sail from the 16th to 18th centuries and were the principle fleet units drafted for use as warships until the Anglo-Dutch wars of the mid-1600s. Galleons generally carried three or more masts with a lateen fore-and-aft rig on the rear masts, were carvel built with a prominent squared off raised stern, and used square-rigged sail plans on their fore-mast and main-masts. Such ships were the mainstay of maritime commerce into the early 19th century, and were often drafted into use as auxiliary naval war vessels—indeed, were the mainstay of contending fleets through most of the 150 years of the Age of Exploration — before the Anglo-Dutch wars begat purpose-built ship-rigged warships that thereafter dominated war at sea during the remainder of the Age of Sail.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEON_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEON_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEON_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GALLEON_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIP_OF_THE_LINE_CHAPTER_HISTORY_PARA_1">
+			<Text>A ship of the line was a type of naval warship constructed from the 17th through to the mid-19th century to take part in the naval tactic known as the line of battle, in which two columns of opposing warships would manoeuvre to bring the greatest weight of broadside firepower to bear. Since these engagements were almost invariably won by the heaviest ships carrying the most powerful guns, the natural progression was to build sailing vessels that were the largest and most powerful of their time. From the end of the 1840s, the introduction of steam power brought less dependence on the wind in battle and led to the construction of screw-driven, wooden-hulled, ships of the line; a number of pure sail-driven ships were converted to this propulsion mechanism. However, the introduction of the ironclad frigate in about 1859 led swiftly to the decline of the steam-assisted ships of the line.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIP_OF_THE_LINE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIP_OF_THE_LINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIP_OF_THE_LINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SHIP_OF_THE_LINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PRE_DREADNOUGHT_CHAPTER_HISTORY_PARA_1">
+			<Text>Pre-dreadnought battleships were sea-going battleships built between the mid- to late 1880s and 1905, before the launch of HMS Dreadnought. Pre-dreadnoughts replaced the ironclad battleships of the 1870s and 1880s. Built from steel, and protected by hardened steel armour, pre-dreadnought battleships carried a main battery of very heavy guns in barbettes (open or with armored gunhouses) supported by one or more secondary batteries of lighter weapons. They were powered by coal-fuelled triple-expansion steam engines. In contrast to the chaotic development of ironclad warships in preceding decades, the 1890s saw navies worldwide start to build battleships to a common design as dozens of ships essentially followed the design of the British Majestic class. The similarity in appearance of battleships in the 1890s was underlined by the increasing number of ships being built.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PRE_DREADNOUGHT_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PRE_DREADNOUGHT_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PRE_DREADNOUGHT_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_PRE_DREADNOUGHT_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ATTACK_SUBMARINE_CHAPTER_HISTORY_PARA_1">
+			<Text>An attack submarine or hunter-killer submarine is a submarine specifically designed for the purpose of attacking and sinking other submarines, surface combatants and merchant vessels. In the Soviet and Russian navies they were and are called "multi-purpose submarines". They are also used to protect friendly surface combatants and missile submarines. Some attack subs are also armed with cruise missiles mounted in vertical launch tubes, increasing the scope of their potential missions to include land targets. Attack submarines may be either nuclear-powered or diesel-electric ("conventionally") powered. In the United States Navy naming system, and in the equivalent NATO system (STANAG 1166), nuclear-powered attack submarines are known as SSNs and their diesel-electric predecessors were SSKs.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ATTACK_SUBMARINE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ATTACK_SUBMARINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ATTACK_SUBMARINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ATTACK_SUBMARINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_INDUSTRIAL_MARINE_CHAPTER_HISTORY_PARA_1">
+			<Text>Marines, also known as a marine corps or naval infantry, are typically an infantry force that specializes in the support of naval and army operations at sea and on land, as well as the execution of their own operations. In the majority of countries, the marine force is an integral part of the navy, but it can also be under the army like the Troupes de marine (French Marines) and Givati Brigade (Israeli Marines), or form an independent service branch like the United States Marine Corps and the Royal Marines (although the United States Marine Corps is under the United States Department of the Navy, and the Royal Marines come under Her Majesty's Naval Service). Historically, tasks undertaken by marines have included: helping maintain discipline and order aboard the ship (reflecting the pressed nature of the ships' company and the risk of mutiny), the boarding of vessels during combat or capture of prize ships, and providing manpower for raiding ashore in support of the naval objectives. Marine forces evolved to specialize in the skills and capabilities required for amphibious warfare.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_INDUSTRIAL_MARINE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_INDUSTRIAL_MARINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_INDUSTRIAL_MARINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_INDUSTRIAL_MARINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW2_MARINE_CHAPTER_HISTORY_PARA_1">
+			<Text>Marines, also known as a marine corps or naval infantry, are typically an infantry force that specializes in the support of naval and army operations at sea and on land, as well as the execution of their own operations. In the majority of countries, the marine force is an integral part of the navy, but it can also be under the army like the Troupes de marine (French Marines) and Givati Brigade (Israeli Marines), or form an independent service branch like the United States Marine Corps and the Royal Marines (although the United States Marine Corps is under the United States Department of the Navy, and the Royal Marines come under Her Majesty's Naval Service). Historically, tasks undertaken by marines have included: helping maintain discipline and order aboard the ship (reflecting the pressed nature of the ships' company and the risk of mutiny), the boarding of vessels during combat or capture of prize ships, and providing manpower for raiding ashore in support of the naval objectives. Marine forces evolved to specialize in the skills and capabilities required for amphibious warfare.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW2_MARINE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW2_MARINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW2_MARINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WW2_MARINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_MARINE_CHAPTER_HISTORY_PARA_1">
+			<Text>Marines, also known as a marine corps or naval infantry, are typically an infantry force that specializes in the support of naval and army operations at sea and on land, as well as the execution of their own operations. In the majority of countries, the marine force is an integral part of the navy, but it can also be under the army like the Troupes de marine (French Marines) and Givati Brigade (Israeli Marines), or form an independent service branch like the United States Marine Corps and the Royal Marines (although the United States Marine Corps is under the United States Department of the Navy, and the Royal Marines come under Her Majesty's Naval Service). Historically, tasks undertaken by marines have included: helping maintain discipline and order aboard the ship (reflecting the pressed nature of the ships' company and the risk of mutiny), the boarding of vessels during combat or capture of prize ships, and providing manpower for raiding ashore in support of the naval objectives. Marine forces evolved to specialize in the skills and capabilities required for amphibious warfare.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_MARINE_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_MARINE_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_MARINE_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MODERN_MARINE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_HOWITZER_CHAPTER_HISTORY_PARA_1">
+			<Text>A howitzer is a type of artillery piece characterized by a relatively short barrel and the use of comparatively small propellant charges to propel projectiles over relatively high trajectories, with a steep angle of descent. In the middle of the 18th century, a number of European armies began to introduce howitzers that were mobile enough to accompany armies in the field. Though usually fired at the relatively high angles of fire used by contemporary siege howitzers, these field howitzers were rarely defined by this capability. Rather, as the field guns of the day were usually restricted to inert projectiles (which relied entirely on momentum for their destructive effects), the field howitzers of the 18th century were chiefly valued for their ability to fire explosive shells. Many, for the sake of simplicity and rapidity of fire, dispensed with adjustable propellant charges.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_HOWITZER_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_HOWITZER_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_HOWITZER_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIELD_HOWITZER_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_HVY_ATILLERY_CHAPTER_HISTORY_PARA_1">
+			<Text>Self-propelled heavy artillery is heavy howitzer equipped with its own propulsion system to move towards its target. They are high mobility vehicles, usually based on continuous tracks, either inclosed or covered and carrying a large calibre howitzer. They are usually used for long-range indirect bombardment support on the battlefield. Modern SP heavy artillery is highly computerized with the ability to self survey firing positions using systems such as GPS and inertial navigation systems. This, in conjunction with digital fire control/ballistic computers and digital communications, allows individual guns to disperse over a wide area and still deliver rounds on target simultaneously with the other guns in their battery.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_HVY_ATILLERY_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_HVY_ATILLERY_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_HVY_ATILLERY_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SP_HVY_ATILLERY_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+	</BaseGameText>
+</GameData>

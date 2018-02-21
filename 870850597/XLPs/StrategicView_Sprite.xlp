@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="StrategicView_Sprite"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Amatongo"/>
+			<m_ObjectName text="ReligionPressureIcon_Amatongo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Midewiwin"/>
+			<m_ObjectName text="ReligionPressureIcon_Midewiwin"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Chaldaenism"/>
+			<m_ObjectName text="ReligionPressureIcon_Chaldaenism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_E0_Pesedjet"/>
+			<m_ObjectName text="ReligionPressureIcon_E0_Pesedjet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Hellenism"/>
+			<m_ObjectName text="ReligionPressureIcon_Hellenism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Pesedjet"/>
+			<m_ObjectName text="ReligionPressureIcon_Pesedjet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Sairimaism"/>
+			<m_ObjectName text="ReligionPressureIcon_Sairimaism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Tengriism"/>
+			<m_ObjectName text="ReligionPressureIcon_Tengriism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Tlateomatiliztli"/>
+			<m_ObjectName text="ReligionPressureIcon_Tlateomatiliztli"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Wakan_Tanka"/>
+			<m_ObjectName text="ReligionPressureIcon_Wakan_Tanka"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_Witran_Mapu"/>
+			<m_ObjectName text="ReligionPressureIcon_Witran_Mapu"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

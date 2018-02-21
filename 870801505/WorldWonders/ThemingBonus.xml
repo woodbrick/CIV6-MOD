@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+<!--This file contains most of the theming bonuses added by this mod. It can be removed for compatibility purposes.-->
+	<GreatWork_ValidSubTypes>
+		<Row GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" GreatWorkObjectType="GREATWORKOBJECT_SCULPTURE"/>
+	</GreatWork_ValidSubTypes>
+	
+	<Building_GreatWorks>
+		<Delete BuildingType="BUILDING_BROADWAY" />
+		<Update>
+			<Where BuildingType="BUILDING_AMPHITHEATER"/>
+			<Set ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIBRARY"/>
+			<Set NumSlots="3" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_OXFORD_UNIVERSITY"/>
+			<Set NumSlots="3" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HERMITAGE"/>
+			<Set ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="200" ThemingTourismMultiplier="200" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE"/>
+			<Set ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_MUSIC"/>
+		</Update>
+		<Row BuildingType="BUILDING_BROADWAY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_MUSIC"/>
+	</Building_GreatWorks>
+
+</GameInfo>

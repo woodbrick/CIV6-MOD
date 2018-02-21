@@ -1,0 +1,7 @@
+<GameInfo>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_TUNDRA_HILLS" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+	</Improvement_ValidTerrains>
+
+<GameInfo>

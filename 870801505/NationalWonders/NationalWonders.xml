@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameInfo>
+<!--This file contains all data relating to National Wonders.-->
+	<Types>
+		<Row Type="BUILDING_MZ_NATIONAL_LIBRARY" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_COLLEGE" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_SHRINE" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_TEMPLE" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_HEROIC_EPIC" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_ACADEMY" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_EPIC" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_ARMORY" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_APOSTOLIC_PALACE" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_MARKET" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_BANK" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_WRITERS_GUILD" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_ARTISTS_GUILD" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_MUSICIANS_GUILD" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_MUSEUM" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_LAB" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_AIRPORT" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_ARENA" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_ZOO" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_WORKSHOP" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_MZ_NATIONAL_FACTORY" Kind="KIND_BUILDING" />
+		
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Kind="KIND_ABILITY"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Kind="KIND_ABILITY"/>	
+		
+		<Row Type="MAGIL_MODIFIER_PLAYER_CITY_ADJUST_MILITARY_UNITS_PRODUCTION" Kind="KIND_MODIFIER" />
+		<Row Type="MAGIL_MODIFIER_SINGLE_CITY_ADJUST_DISTRICT_TOURISM" Kind="KIND_MODIFIER" />
+	</Types>
+	
+	<TypeTags>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_RECON"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_MELEE"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_RANGED"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_SIEGE"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Tag="CLASS_LIGHT_CHARIOT"/>
+		
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_RECON"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_MELEE"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_RANGED"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_SIEGE"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Tag="CLASS_LIGHT_CHARIOT"/>
+	</TypeTags>
+	
+	<Buildings>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LIBRARY" Name="LOC_MAGIL_NATIONAL_LIBRARY_NAME" Description="LOC_MAGIL_NATIONAL_LIBRARY_DESCRIPTION" PrereqCivic="CIVIC_RECORDED_HISTORY" PrereqDistrict="DISTRICT_CAMPUS" Cost="200" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_COLLEGE" Name="LOC_MAGIL_NATIONAL_COLLEGE_NAME" Description="LOC_MAGIL_NATIONAL_COLLEGE_DESCRIPTION" PrereqCivic="CIVIC_THE_ENLIGHTENMENT" PrereqDistrict="DISTRICT_CAMPUS" Cost="530" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_SHRINE" Name="LOC_MAGIL_NATIONAL_SHRINE_NAME" Description="LOC_MAGIL_NATIONAL_SHRINE_DESCRIPTION" PrereqCivic="CIVIC_MYSTICISM" PrereqDistrict="DISTRICT_HOLY_SITE" Cost="145" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_TEMPLE" Name="LOC_MAGIL_NATIONAL_TEMPLE_NAME" Description="LOC_MAGIL_NATIONAL_TEMPLE_DESCRIPTION" PrereqCivic="CIVIC_DIVINE_RIGHT" PrereqDistrict="DISTRICT_HOLY_SITE" Cost="355" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_HEROIC_EPIC" Name="LOC_MAGIL_HEROIC_EPIC_NAME" Description="LOC_MAGIL_HEROIC_EPIC_DESCRIPTION" PrereqCivic="CIVIC_MILITARY_TRADITION" PrereqDistrict="DISTRICT_ENCAMPMENT" Cost="145" AdvisorType="ADVISOR_CONQUEST" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ACADEMY" Name="LOC_MAGIL_NATIONAL_ACADEMY_NAME" Description="LOC_MAGIL_NATIONAL_ACADEMY_DESCRIPTION" PrereqCivic="CIVIC_MOBILIZATION" PrereqDistrict="DISTRICT_ENCAMPMENT" Cost="810" AdvisorType="ADVISOR_CONQUEST" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_EPIC" Name="LOC_MAGIL_NATIONAL_EPIC_NAME" Description="LOC_MAGIL_NATIONAL_EPIC_DESCRIPTION" PrereqCivic="CIVIC_CRAFTSMANSHIP" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="90" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="0" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ARMORY" Name="LOC_MAGIL_NATIONAL_ARMORY_NAME" Description="LOC_MAGIL_NATIONAL_ARMORY_DESCRIPTION" PrereqCivic="CIVIC_MERCENARIES" PrereqDistrict="DISTRICT_ENCAMPMENT" Cost="355" AdvisorType="ADVISOR_CONQUEST" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_APOSTOLIC_PALACE" Name="LOC_MAGIL_APOSTOLIC_PALACE_NAME" Description="LOC_MAGIL_APOSTOLIC_PALACE_DESCRIPTION" PrereqCivic="CIVIC_REFORMED_CHURCH" PrereqDistrict="DISTRICT_HOLY_SITE" RequiresReligion="true" Cost="460" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MARKET" Name="LOC_MAGIL_NATIONAL_MARKET_NAME" Description="LOC_MAGIL_NATIONAL_MARKET_DESCRIPTION" PrereqCivic="CIVIC_MERCANTILISM" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" Cost="530" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_BANK" Name="LOC_MAGIL_NATIONAL_BANK_NAME" Description="LOC_MAGIL_NATIONAL_BANK_DESCRIPTION" PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" Cost="915" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_WRITERS_GUILD" Name="LOC_MAGIL_WRITERS_GUILD_NAME" Description="LOC_MAGIL_WRITERS_GUILD_DESCRIPTION" PrereqCivic="CIVIC_GUILDS" PrereqDistrict="DISTRICT_THEATER" Cost="355" AdvisorType="ADVISOR_CULTURE" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_ARTISTS_GUILD" Name="LOC_MAGIL_ARTISTS_GUILD_NAME" Description="LOC_MAGIL_ARTISTS_GUILD_DESCRIPTION" PrereqCivic="CIVIC_GUILDS" PrereqDistrict="DISTRICT_THEATER" Cost="355" AdvisorType="ADVISOR_CULTURE" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_MUSICIANS_GUILD" Name="LOC_MAGIL_MUSICIANS_GUILD_NAME" Description="LOC_MAGIL_MUSICIANS_GUILD_DESCRIPTION" PrereqCivic="CIVIC_GUILDS" PrereqDistrict="DISTRICT_THEATER" Cost="355" AdvisorType="ADVISOR_CULTURE" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" Name="LOC_MAGIL_NATIONAL_MUSEUM_NAME" Description="LOC_MAGIL_NATIONAL_MUSEUM_DESCRIPTION" PrereqCivic="CIVIC_CULTURAL_HERITAGE" PrereqDistrict="DISTRICT_THEATER" Cost="925" AdvisorType="ADVISOR_CULTURE" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LAB" Name="LOC_MAGIL_NATIONAL_LAB_NAME" Description="LOC_MAGIL_NATIONAL_LAB_DESCRIPTION" PrereqCivic="CIVIC_SPACE_RACE" PrereqDistrict="DISTRICT_CAMPUS" Cost="1350" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_AIRPORT" Name="LOC_MAGIL_NATIONAL_AIRPORT_NAME" Description="LOC_MAGIL_NATIONAL_AIRPORT_DESCRIPTION" PrereqCivic="CIVIC_RAPID_DEPLOYMENT" PrereqDistrict="DISTRICT_AERODROME" Cost="1350" AdvisorType="ADVISOR_CULTURE" RegionalRange="6" Maintenance="4" CitizenSlots="0" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ARENA" Name="LOC_MAGIL_NATIONAL_ARENA_NAME" Description="LOC_MAGIL_NATIONAL_ARENA_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" Cost="355" AdvisorType="ADVISOR_CULTURE" Entertainment="2" RegionalRange="6" Maintenance="4" CitizenSlots="0" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ZOO" Name="LOC_MAGIL_NATIONAL_ZOO_NAME" Description="LOC_MAGIL_NATIONAL_ZOO_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" Cost="810" AdvisorType="ADVISOR_CULTURE" Entertainment="1" RegionalRange="100000" Maintenance="4" CitizenSlots="0" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_WORKSHOP" Name="LOC_MAGIL_NATIONAL_WORKSHOP_NAME" Description="LOC_MAGIL_NATIONAL_WORKSHOP_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_SERVICE" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" Cost="355" AdvisorType="ADVISOR_GENERIC" RegionalRange="6" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_FACTORY" Name="LOC_MAGIL_NATIONAL_FACTORY_NAME" Description="LOC_MAGIL_NATIONAL_FACTORY_DESCRIPTION" PrereqCivic="CIVIC_URBANIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" Cost="725" AdvisorType="ADVISOR_GENERIC" Maintenance="4" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10" />
+	</Buildings>
+	
+	<BuildingPrereqs>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" PrereqBuilding="BUILDING_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" PrereqBuilding="BUILDING_BARRACKS"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" PrereqBuilding="BUILDING_STABLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" PrereqBuilding="BUILDING_MILITARY_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_EPIC" PrereqBuilding="BUILDING_MONUMENT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" PrereqBuilding="BUILDING_ARMORY"/>
+		<!--<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_CATHEDRAL"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_GURDWARA"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_MEETING_HOUSE"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_MOSQUE"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_PAGODA"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_SYNAGOGUE"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_WAT"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_STUPA"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" PrereqBuilding="BUILDING_DAR_E_MEHR"/>-->
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" PrereqBuilding="BUILDING_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" PrereqBuilding="BUILDING_BANK"/>
+		<Row Building="BUILDING_MZ_WRITERS_GUILD" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_MZ_ARTISTS_GUILD" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_MZ_MUSICIANS_GUILD" PrereqBuilding="BUILDING_AMPHITHEATER"/> 
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" PrereqBuilding="BUILDING_RESEARCH_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" PrereqBuilding="BUILDING_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" PrereqBuilding="BUILDING_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" PrereqBuilding="BUILDING_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" PrereqBuilding="BUILDING_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" PrereqBuilding="BUILDING_FACTORY"/>
+	</BuildingPrereqs>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_COLLEGE" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MZ_HEROIC_EPIC" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ACADEMY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ACADEMY" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_EPIC" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MZ_WRITERS_GUILD" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MZ_ARTISTS_GUILD" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MZ_MUSICIANS_GUILD" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_AIRPORT" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_AIRPORT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_COLLEGE" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_SHRINE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_MZ_HEROIC_EPIC" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ACADEMY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_EPIC" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ARMORY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ARMORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MARKET" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_BANK" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LAB" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LAB" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ARENA" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ARENA" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ZOO" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ZOO" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ZOO" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ZOO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ZOO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_AIRPORT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="3"/>
+	</Building_GreatPersonPoints>
+	
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_COLLEGE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_SHRINE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="2" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="3" ThemingUniquePerson="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" ThemingBonusDescription="LOC_MAGIL_NATIONAL_TEMPLE_THEMINGBONUS"/>
+		<Row BuildingType="BUILDING_MZ_HEROIC_EPIC" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_ACADEMY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_EPIC" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="1" />
+		<Row BuildingType="BUILDING_MZ_APOSTOLIC_PALACE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="2" />
+		<Row BuildingType="BUILDING_MZ_APOSTOLIC_PALACE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="2" />
+		<Row BuildingType="BUILDING_MZ_WRITERS_GUILD" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" />
+		<Row BuildingType="BUILDING_MZ_ARTISTS_GUILD" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3" />
+		<Row BuildingType="BUILDING_MZ_MUSICIANS_GUILD" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2" />
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+	</Building_GreatWorks>
+	
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_LIBRARY" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_SHRINE" OldYieldType="YIELD_FAITH" NewYieldType="YIELD_FAITH"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_BANK" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_GOLD"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_MUSEUM" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE"/>
+		<Row BuildingType="BUILDING_MZ_NATIONAL_FACTORY" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_PRODUCTION"/>
+	</Building_YieldDistrictCopies>
+	
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LIBRARY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_COLLEGE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_LAB" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_SHRINE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_TEMPLE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_APOSTOLIC_PALACE" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_HEROIC_EPIC" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARMORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ACADEMY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MARKET" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_BANK" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_WRITERS_GUILD" MutuallyExclusiveBuilding="BUILDING_MZ_ARTISTS_GUILD"/>
+		<Row Building="BUILDING_MZ_WRITERS_GUILD" MutuallyExclusiveBuilding="BUILDING_MZ_MUSICIANS_GUILD"/>
+		<Row Building="BUILDING_MZ_ARTISTS_GUILD" MutuallyExclusiveBuilding="BUILDING_MZ_WRITERS_GUILD"/>
+		<Row Building="BUILDING_MZ_ARTISTS_GUILD" MutuallyExclusiveBuilding="BUILDING_MZ_MUSICIANS_GUILD"/>
+		<Row Building="BUILDING_MZ_MUSICIANS_GUILD" MutuallyExclusiveBuilding="BUILDING_MZ_WRITERS_GUILD"/>
+		<Row Building="BUILDING_MZ_MUSICIANS_GUILD" MutuallyExclusiveBuilding="BUILDING_MZ_ARTISTS_GUILD"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_MUSEUM" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_AIRPORT" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>		
+		
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ARENA" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_WORKSHOP"/>
+		<Row Building="BUILDING_MZ_NATIONAL_ZOO" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_FACTORY"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_WORKSHOP" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+		
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LIBRARY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_COLLEGE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_SHRINE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_TEMPLE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_APOSTOLIC_PALACE"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_HEROIC_EPIC"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARMORY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ACADEMY"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MARKET"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_BANK"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_LAB"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_MUSEUM"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_AIRPORT"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ARENA"/>
+		<Row Building="BUILDING_MZ_NATIONAL_FACTORY" MutuallyExclusiveBuilding="BUILDING_MZ_NATIONAL_ZOO"/>
+	</MutuallyExclusiveBuildings>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LIBRARY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_SHRINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>MAGIL_CITY_HAS_SHRINE_REQUIREMENTSET2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_SHRINE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>MAGIL_CITY_HAS_TEMPLE_REQUIREMENTSET2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_RELIGIOUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_SCULPTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_PORTRAIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_LANDSCAPE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_FREE_PROMOTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>ARMORY_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_FREE_PROMOTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+		</Row>	
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_CULTURE_FROM_UNITS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_UNIT_COST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>ARMORY_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_UNIT_XP</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>ARMORY_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>MAGIL_GREATGENERALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATADMIRALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATENGINEERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATMERCHANTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATPROPHETPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATSCIENTISTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATWRITERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATARTISTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATMUSICIANPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_EPIC_EXTRA_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_EXTRA_DISTRICT</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ARMORY_PRODUCTION</ModifierId>
+			<ModifierType>MAGIL_MODIFIER_PLAYER_CITY_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ARMORY3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_APOSTOLIC_PALACE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_TO_INCOMING_TRADE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_FROM_INCOMING_TRADE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_FREE_TRADER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MAKRET_ADD_TRADEROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_BONUS_YIELD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MAGIL_REQUIRES_BONUS_RESOURCE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_LUXURY_YIELD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MAGIL_REQUIRES_LUXURY_RESOURCE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_WORKSHOP_STRATEGIC_YIELD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MAGIL_REQUIRES_STRATEGIC_RESOURCE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_THEATER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HOLYSITE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_INDUSTRIALZONE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_COMMERCIALHUB</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_ENCAMPMENT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_THEATER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HOLYSITE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_INDUSTRIALZONE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_COMMERCIALHUB</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_ENCAMPMENT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_THEATER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HOLYSITE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_INDUSTRIALZONE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_COMMERCIALHUB</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_ENCAMPMENT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM_AUTO_THEME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEMED_BUILDING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LAB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LAB_BOOST1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LAB_BOOST2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TOURISM_LATE_ERAS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT_AERODROME_TOURISM</ModifierId>
+			<ModifierType>MAGIL_MODIFIER_SINGLE_CITY_ADJUST_DISTRICT_TOURISM</ModifierType>
+			<SubjectRequirementSetId>MAGIL_DISTRICT_IS_AERODROME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_FACTORY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!--Test-->
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_SHRINE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_SHRINE2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_TEMPLE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_TEMPLE2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_WORSHIP_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_WORSHIP2</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LIBRARY</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LIBRARY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE2</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE2</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE2</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MAGIL_NATIONAL_TEMPLE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_SHRINE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MAGIL_NATIONAL_TEMPLE_GA_SHRINE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_SHRINE_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_SHRINE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_RELIGIOUS</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_RELIGIOUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_RELIGIOUS</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_SCULPTURE</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_SCULPTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_SCULPTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_SCULPTURE</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_PORTRAIT</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_PORTRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_PORTRAIT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_PORTRAIT</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+				<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_LANDSCAPE</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_LANDSCAPE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_LANDSCAPE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_LANDSCAPE</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_FREE_PROMOTION</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>MAGIL_HEROIC_EPIC_FREE_XP_ABILITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_FREE_PROMOTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_CULTURE_FROM_UNITS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_HEROIC_EPIC_CULTURE_FROM_UNITS</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>25</Value>
+		</Row>		
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_UNIT_XP</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATGENERALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATGENERALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATADMIRALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATADMIRALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATENGINEERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATENGINEERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATMERCHANTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATMERCHANTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATPROPHETPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATPROPHETPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATSCIENTISTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATSCIENTISTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATWRITERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATWRITERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATARTISTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATARTISTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATMUSICIANPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_GREATMUSICIANPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_EPIC_EXTRA_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ARMORY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ARMORY_PRODUCTION</ModifierId>
+			<Name>StartEra</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ARMORY_PRODUCTION</ModifierId>
+			<Name>EndEra</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_ARMORY3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_APOSTOLIC_PALACE</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_APOSTOLIC_PALACE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_TO_INCOMING_TRADE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_TO_INCOMING_TRADE</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_FROM_INCOMING_TRADE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_FROM_INCOMING_TRADE</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_FREE_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_FREE_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MAKRET_ADD_TRADEROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_BONUS_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_BONUS_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_LUXURY_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MARKET_LUXURY_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_WORKSHOP_STRATEGIC_YIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_WORKSHOP_STRATEGIC_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK2</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_BANK2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_THEATER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_THEATER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_CAMPUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_ENCAMPMENT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_ENCAMPMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HOLYSITE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HOLYSITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_INDUSTRIALZONE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_INDUSTRIALZONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_COMMERCIALHUB</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_COMMERCIALHUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HARBOR</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HARBOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_THEATER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_THEATER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_CAMPUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_ENCAMPMENT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_ENCAMPMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HOLYSITE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HOLYSITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_INDUSTRIALZONE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_INDUSTRIALZONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_COMMERCIALHUB</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_COMMERCIALHUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HARBOR</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HARBOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_THEATER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_THEATER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_CAMPUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_ENCAMPMENT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_ENCAMPMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HOLYSITE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HOLYSITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_INDUSTRIALZONE</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_INDUSTRIALZONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_COMMERCIALHUB</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_COMMERCIALHUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HARBOR</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HARBOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM_AUTO_THEME</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MZ_NATIONAL_MUSEUM</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LAB</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LAB_BOOST1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SATELLITES</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_LAB_BOOST2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_NUCLEAR_FUSION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT</ModifierId>
+			<Name>Modifier</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT</ModifierId>
+			<Name>MinimumEra</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT_AERODROME_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_FACTORY</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_FACTORY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!--Test-->
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_SHRINE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_SHRINE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_TEMPLE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_TEMPLE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+				<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_WORSHIP_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_WORSHIP_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_LIBRARY</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_LIBRARY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_COLLEGE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_COLLEGE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_COLLEGE2</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_SHRINE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_SHRINE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_SHRINE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_TEMPLE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_SHRINE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_SHRINE_HOLYSITE_WITH_WORSHIP_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_SHRINE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_GA_TEMPLE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_RELIGIOUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_SCULPTURE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_PORTRAIT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_TEMPLE</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_TEMPLE_LANDSCAPE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_HEROIC_EPIC</BuildingType>
+			<ModifierId>MAGIL_HEROIC_EPIC_FREE_PROMOTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_HEROIC_EPIC</BuildingType>
+			<ModifierId>MAGIL_HEROIC_EPIC_CULTURE_FROM_UNITS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_ACADEMY</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_ACADEMY</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_UNIT_XP</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_EPIC_EXTRA_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATGENERALPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATADMIRALPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATENGINEERPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATMERCHANTPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATPROPHETPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATSCIENTISTPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATARTISTPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_EPIC</BuildingType>
+			<ModifierId>MAGIL_GREATMUSICIANPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_ARMORY</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_ARMORY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_ARMORY</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_ARMORY3</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_APOSTOLIC_PALACE</BuildingType>
+			<ModifierId>MAGIL_APOSTOLIC_PALACE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_APOSTOLIC_PALACE</BuildingType>
+			<ModifierId>CRISTOREDENTOR_FULLRELIGIOUSTOURISM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_APOSTOLIC_PALACE</BuildingType>
+			<ModifierId>MINOR_CIV_YEREVAN_APOSTLE_PROMOTION_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MARKET</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_TO_INCOMING_TRADE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MARKET</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MARKET_YIELD_FROM_INCOMING_TRADE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MARKET</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MAKRET_ADD_TRADEROUTE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MARKET</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MARKET_FREE_TRADER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MARKET</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MARKET_BONUS_YIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MARKET</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MARKET_LUXURY_YIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_BANK</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_BANK</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_BANK</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_BANK2</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_THEATER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_CAMPUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HARBOR</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_ENCAMPMENT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_COMMERCIALHUB</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_INDUSTRIALZONE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_WRITERS_GUILD</BuildingType>
+			<ModifierId>MAGIL_WRITERS_GUILD_GW_HOLYSITE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_THEATER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_CAMPUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HARBOR</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_ENCAMPMENT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_COMMERCIALHUB</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_INDUSTRIALZONE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_ARTISTS_GUILD</BuildingType>
+			<ModifierId>MAGIL_ARTISTS_GUILD_GA_HOLYSITE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_THEATER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_CAMPUS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HARBOR</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_ENCAMPMENT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_COMMERCIALHUB</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_INDUSTRIALZONE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_MUSICIANS_GUILD</BuildingType>
+			<ModifierId>MAGIL_MUSICIANS_GUILD_GM_HOLYSITE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MUSEUM</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM_AUTO_THEME</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_MUSEUM</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_MUSEUM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_LAB</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_LAB</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_LAB</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_LAB_BOOST1</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_LAB</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_LAB_BOOST2</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_AIRPORT</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_AIRPORT</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_AIRPORT_AERODROME_TOURISM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_FACTORY</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_FACTORY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MZ_NATIONAL_WORKSHOP</BuildingType>
+			<ModifierId>MAGIL_NATIONAL_WORKSHOP_STRATEGIC_YIELD</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	
+	<Requirements>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_NATIONAL_MARKET</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_NATIONAL_MUSEUM</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_AERODROME</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!--Test-->
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_TEMPLE2</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>		
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_WORSHIP2</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>	
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_CATHEDRAL2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_GURDWARA2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_MEETINGHOUSE2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_MOSQUE2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_PAGODA2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_SYNAGOGUE2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_WAT2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_STUPA2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_DAREMEHR2</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>	
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_NATIONAL_MARKET</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MZ_NATIONAL_MARKET</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_NATIONAL_MUSEUM</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MZ_NATIONAL_MUSEUM</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_AERODROME</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<!--Test-->
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_TEMPLE2</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>MAGIL_CITY_HAS_TEMPLE_REQUIREMENTSET2</Value>
+		</Row>		
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_WORSHIP2</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</Value>
+		</Row>		
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_CATHEDRAL2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CATHEDRAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_GURDWARA2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GURDWARA</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_MEETINGHOUSE2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MEETING_HOUSE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_MOSQUE2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MOSQUE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_PAGODA2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PAGODA</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_SYNAGOGUE2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SYNAGOGUE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_WAT2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WAT</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_STUPA2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STUPA</Value>
+		</Row>
+		<Row>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_DAREMEHR2</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_DAR_E_MEHR</Value>
+		</Row>		
+	</RequirementArguments>
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_BONUS_RESOURCE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_LUXURY_RESOURCE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_NATIONAL_MARKET_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_STRATEGIC_RESOURCE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_NATIONAL_MUSEUM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_AERODROME</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--Test-->
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_SHRINE2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_TEMPLE2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>		
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_TEMPLE_REQUIREMENTSET2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>		
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_WORSHIP2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>		
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>	
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_SHRINE_REQUIREMENTSET2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>	
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_BONUS_RESOURCE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_BONUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_LUXURY_RESOURCE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_LUXURY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_STRATEGIC_RESOURCE</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_STRATEGIC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_NATIONAL_MARKET_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_NATIONAL_MARKET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_REQUIRES_NATIONAL_MUSEUM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_NATIONAL_MUSEUM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_AERODROME</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_AERODROME</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_SHRINE_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SHRINE</RequirementId>
+		</Row>	
+		<!--Test-->
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_SHRINE2</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_SHRINE2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SHRINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_TEMPLE2</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_HOLY_SITE</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_TEMPLE2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_TEMPLE2</RequirementId>
+		</Row>			
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_TEMPLE_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_TEMPLE</RequirementId>
+		</Row>			
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_TEMPLE_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_STAVE</RequirementId>
+		</Row>			
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_WORSHIP2</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_DISTRICT_IS_HOLY_SITE_WITH_WORSHIP2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_WORSHIP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_CATHEDRAL2</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_GURDWARA2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_MEETINGHOUSE2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_MOSQUE2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_PAGODA2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_SYNAGOGUE2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_WAT2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_DAREMEHR2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAGIL_CITY_HAS_WORSHIP_REQUIREMENTSET2</RequirementSetId>
+			<RequirementId>MAGIL_REQUIRES_CITY_HAS_STUPA2</RequirementId>
+		</Row>	
+	</RequirementSetRequirements>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY" Name="LOC_MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY_NAME" Description="LOC_MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="MAGIL_HEROIC_EPIC_FREE_XP_ABILITY" Name="LOC_MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY_NAME" Description="LOC_MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY_DESCRIPTION" Inactive="true"/>	
+	</UnitAbilities>
+	
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>MAGIL_HEROIC_EPIC_FREE_XP_ABILITY</UnitAbilityType>
+			<ModifierId>MAGIL_HEROIC_EPIC_FREE_PROMOTION_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY</UnitAbilityType>
+			<ModifierId>MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH_MODIFIER</ModifierId>
+		</Row>		
+	</UnitAbilityModifiers>
+	
+	<ModifierStrings>
+		<Row ModifierId="MAGIL_NATIONAL_ACADEMY_ADJUST_COMBAT_STRENGTH_MODIFIER" Context="Preview" Text="LOC_MAGIL_NATIONAL_ACADEMY_COMBAT_BONUS_ABILITY_PREVIEWTEXT"/>
+		<Row ModifierId="MAGIL_HEROIC_EPIC_FREE_PROMOTION_MODIFIER" Context="Preview" Text="Placeholder"/>
+	</ModifierStrings>
+	
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MAGIL_MODIFIER_PLAYER_CITY_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_ALL_MILITARY_UNITS_PRODUCTION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MAGIL_MODIFIER_SINGLE_CITY_ADJUST_DISTRICT_TOURISM</ModifierType>
+			<CollectionType>COLLECTION_CITY_DISTRICTS</CollectionType>
+			<EffectType>EFFECT_ADJUST_DISTRICT_TOURISM_CHANGE</EffectType>
+		</Row>
+	</DynamicModifiers>
+	
+</GameInfo>

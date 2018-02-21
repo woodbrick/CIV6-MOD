@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="HRIconAtlas"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Icon_HR_Base_100"/>
+			<m_ObjectName text="Icon_HR_Base_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Base_16"/>
+			<m_ObjectName text="Icon_HR_Base_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Base_22"/>
+			<m_ObjectName text="Icon_HR_Base_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Base_270"/>
+			<m_ObjectName text="Icon_HR_Base_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Base_32"/>
+			<m_ObjectName text="Icon_HR_Base_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Base_50"/>
+			<m_ObjectName text="Icon_HR_Base_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_100"/>
+			<m_ObjectName text="Icon_HR_Denominations_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_16"/>
+			<m_ObjectName text="Icon_HR_Denominations_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_2_100"/>
+			<m_ObjectName text="Icon_HR_Denominations_2_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_2_16"/>
+			<m_ObjectName text="Icon_HR_Denominations_2_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_2_22"/>
+			<m_ObjectName text="Icon_HR_Denominations_2_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_2_270"/>
+			<m_ObjectName text="Icon_HR_Denominations_2_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_2_32"/>
+			<m_ObjectName text="Icon_HR_Denominations_2_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_2_50"/>
+			<m_ObjectName text="Icon_HR_Denominations_2_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_22"/>
+			<m_ObjectName text="Icon_HR_Denominations_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_270"/>
+			<m_ObjectName text="Icon_HR_Denominations_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_32"/>
+			<m_ObjectName text="Icon_HR_Denominations_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Denominations_50"/>
+			<m_ObjectName text="Icon_HR_Denominations_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_100"/>
+			<m_ObjectName text="Icon_HR_Edit_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_16"/>
+			<m_ObjectName text="Icon_HR_Edit_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_2_100"/>
+			<m_ObjectName text="Icon_HR_Edit_2_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_2_16"/>
+			<m_ObjectName text="Icon_HR_Edit_2_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_2_22"/>
+			<m_ObjectName text="Icon_HR_Edit_2_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_2_270"/>
+			<m_ObjectName text="Icon_HR_Edit_2_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_2_32"/>
+			<m_ObjectName text="Icon_HR_Edit_2_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_2_50"/>
+			<m_ObjectName text="Icon_HR_Edit_2_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_22"/>
+			<m_ObjectName text="Icon_HR_Edit_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_270"/>
+			<m_ObjectName text="Icon_HR_Edit_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_32"/>
+			<m_ObjectName text="Icon_HR_Edit_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Edit_50"/>
+			<m_ObjectName text="Icon_HR_Edit_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_100"/>
+			<m_ObjectName text="Icon_HR_Extended_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_16"/>
+			<m_ObjectName text="Icon_HR_Extended_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_2_100"/>
+			<m_ObjectName text="Icon_HR_Extended_2_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_2_16"/>
+			<m_ObjectName text="Icon_HR_Extended_2_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_2_22"/>
+			<m_ObjectName text="Icon_HR_Extended_2_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_2_270"/>
+			<m_ObjectName text="Icon_HR_Extended_2_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_2_32"/>
+			<m_ObjectName text="Icon_HR_Extended_2_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_2_50"/>
+			<m_ObjectName text="Icon_HR_Extended_2_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_22"/>
+			<m_ObjectName text="Icon_HR_Extended_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_270"/>
+			<m_ObjectName text="Icon_HR_Extended_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_32"/>
+			<m_ObjectName text="Icon_HR_Extended_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Extended_50"/>
+			<m_ObjectName text="Icon_HR_Extended_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Backup_100"/>
+			<m_ObjectName text="Icon_HR_Backup_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Backup_16"/>
+			<m_ObjectName text="Icon_HR_Backup_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Backup_22"/>
+			<m_ObjectName text="Icon_HR_Backup_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Backup_270"/>
+			<m_ObjectName text="Icon_HR_Backup_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Backup_32"/>
+			<m_ObjectName text="Icon_HR_Backup_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Icon_HR_Backup_50"/>
+			<m_ObjectName text="Icon_HR_Backup_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Amatongo"/>
+			<m_ObjectName text="HM_Religion_Amatongo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Chaldaeanism"/>
+			<m_ObjectName text="HM_Religion_Chaldaeanism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_E0_Pesedjet"/>
+			<m_ObjectName text="HM_Religion_E0_Pesedjet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Hellenism"/>
+			<m_ObjectName text="HM_Religion_Hellenism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Midewiwin"/>
+			<m_ObjectName text="HM_Religion_Midewiwin"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Pesedjet"/>
+			<m_ObjectName text="HM_Religion_Pesedjet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Sairimaism"/>
+			<m_ObjectName text="HM_Religion_Sairimaism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Tengriism"/>
+			<m_ObjectName text="HM_Religion_Tengriism"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Tlateomatiliztli"/>
+			<m_ObjectName text="HM_Religion_Tlateomatiliztli"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Wakan_Tanka"/>
+			<m_ObjectName text="HM_Religion_Wakan_Tanka"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Religion_Witran_Mapu"/>
+			<m_ObjectName text="HM_Religion_Witran_Mapu"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

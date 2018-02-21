@@ -1,0 +1,69 @@
+<GameData>
+	<LocalizedText>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_ALCAZAR_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct an AlcÃ¡zar.[NEWLINE][NEWLINE]+3 [ICON_Culture] Culture and +0.5 ]ICON_Housing] Housing. Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification. Additional [ICON_Tourism] Tourism as you advance through the Technology Tree. Cannot be built next to another AlcÃ¡zar."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Colossal Head.[NEWLINE][NEWLINE]+3 [ICON_Faith] Faith. +1 [ICON_Faith] Faith for every 2 adjacent Rainforest. +1 [ICON_Faith] Faith for every 2 adjacent Woods. Cannot be built next to another Colossal Head or on Snow or Snow Hills."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture and +0.5 [ICON_Housing] Housing. +1 Appeal. +2 [ICON_Culture] Culture if next to a wonder. +2 [ICON_Gold] Gold if next to a Luxury resource. Provides +2 [ICON_Food] Food with Scientific Theory."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides an increase to [ICON_Strength] Defense. +0.25 [ICON_Housing] Housing. Bonus to [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology Tree for adjacent segments. Must be built in a line."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_KURGAN_NAME" Language="en_US"/>
+			<Set Text="Tumulus"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KURGAN_NAME" Language="en_US"/>
+			<Set Text="Tumulus"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Tumulus, unique to Scythia.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith. +2 [ICON_Gold] Gold. +1 [ICON_Faith] Faith for each adjacent Pasture. +1 [ICON_Culture] Culture with Natural History and additional [ICON_Tourism] Tourism as you advance through the Technology Tree. Cannot be built next to another Tumulus."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_MISSION_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+ 0.5 [ICON_Housing] Housing and +2 [ICON_Faith] Faith. +2 [ICON_Faith] Faith if on a different continent than your [ICON_Capital] Capital. +1 [ICON_Science] Science if built next to a Campus district. +1 [ICON_Gold] Gold and + 1 [ICON_Production] Production with Colonialism. Cannot be built next to another Mission."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_MONASTERY_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Monastery.[NEWLINE][NEWLINE]+3 [ICON_Faith] Faith and +0.5 [ICON_Housing] Housing. +15 HP healing for friendly religious unit on this tile that has not attacked this turn. Cannot be built next to another Monastery."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_SPHINX_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture. +1 Appeal. +2 [ICON_Faith] Faith if next to a wonder. +1 [ICON_Production] Production if built on flat desert. +1 [ICON_Gold] Gold to all adjacent tiles. Cannot be built next to another Sphinx. Can be built on Floodplains."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_STEPWELL_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Stepwell, unique to India.[NEWLINE][NEWLINE]1 [ICON_Food] Food, +1 [ICON_Faith] Faith, and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith if adjacent to a Holy Site district. +1 [ICON_Food] Food if adjacent to a Farm. Cannot be built on Hills or adjacent to another Stepwell."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.[NEWLINE][NEWLINE]+2 [ICON_Science] Science, +1 [ICON_Culture] Culture, +1 [ICON_Gold] Gold, and +0.5 [ICON_Housing] Housing. +1 [ICON_Faith] Faith if on desert. Cannot be built on Hills or next to another Ziggurat."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Pairidaeza, unique to Persia.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold. +1 [ICON_Faith] Faith after researching Theology. +2 Appeal. +1 [ICON_CULTURE] Culture for each adjacent Holy Site and Theater Square. +1 [ICON_GOLD] Gold for each adjacent World Wonder, Commercial Hub, and City Center. +1 [ICON_Faith] Faith from adjacent natural wonders and +1 [ICON_Gold] Gold from each adjacent world wonders after researching Theology. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology and Civics Tree. Cannot be built on Snow, Tundra, Snow Hills, or Tundra Hills or adjacent to another Pairidaeza."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct an Outback Station, unique to Australia.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_Gold] Gold. +1 [ICON_Food] Food for each adjacent Pasture. +1 [ICON_Gold] Gold for each adjacent Plantation. Additional [ICON_FOOD] Food and [ICON_PRODUCTION] Production as you advance through the Technology and Civic Tree for adjacent Outback Stations and Pastures. Can only be built in Desert, Desert Hills, Grassland, and Plains tiles."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Language="en_US"/>
+			<Set Text="Improvement that unlocks with Masonry. +2 [ICON_Faith] Faith. Receives additional yields from adjacent districts. +1 [ICON_Food] Food if adjacent to a city center. For all other districts that award adjacency bonuses: +1 of the appropriate yield if that district is adjacent."/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Language="en_US"/>
+			<Set Text="Unlocks the Builder ability to construct a Kampung, unique to Indonesia.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_Housing] Housing. +1 [ICON_FOOD] Food and +1 [ICON_Gold] Gold for each adjacent Fishing Boat. Additional [ICON_PRODUCTION] Production, [ICON_Housing] Housing, and  [ICON_TOURISM] Tourism as you advance through the Technology and Civics Tree. Must be placed on a Coast or Lake tile adjacent to a sea resource."/>
+		</Update>
+	</LocalizedText>
+</GameData>
+

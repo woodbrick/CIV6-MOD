@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<LocalizedText>
+		<!--World Wonder Descriptions-->
+		<Replace Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 军事政策槽位。[NEWLINE][NEWLINE]提供相当于堡垒改良设施的防御加成。陆地单位的每个击杀产出 +5 [ICON_GreatGeneral] 大将军点数。必须建造在与军营相邻的丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOLSHOI_THEATRE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成时随机奖励 2 个免费市政。为6个单元格以内的市中心提供 +3 [ICON_Amenities] 宜居度。必须建造在与剧院广场相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得 +30% [ICON_GreatMerchant] 大商人点数， [ICON_GreatWriter] 大作家点数， [ICON_GreatArtist] 大艺术家点数和 [ICON_GreatMusician] 大音乐家点数。必须建造在与剧院广场相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市的每个雨林单元格 +2 [ICON_Culture] 文化， +1 [ICON_Production] 产能。完成时，一次性获得相当于十倍当前每回合增长的 [ICON_Culture] 文化的 [ICON_Faith] 信仰。必须建造在雨林上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> +1 [ICON_TradeRoute] 贸易路线容量。该城市获得一个商人单位。 [NEWLINE][NEWLINE]你的 [ICON_TradeRoute] 国内商业路线获得 +2 [ICON_Gold] 财富， [ICON_TradeRoute] 国际商业路线获得 +4 [ICON_Gold] 财富。必须建造在与陆地和一个港口区域相邻的海岸上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣地区域中的所有建筑产出 +10 [ICON_Tourism] 旅游业绩。海滨度假区产出双倍的 [ICON_Tourism] 旅游业绩。必须建造在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你文明的所有单元格获得 +2 魅力。为所有现有的和未来的 [ICON_GreatPerson] 伟人提供 50 伟人点数。必须建造在与市中心相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为你的所有城市提供 +6 [ICON_Culture] 文化和 +3 [ICON_Amenities] 宜居度。如果你的文明处于高宜居度状态，所有城市在建造项目时获得 +50% [ICON_Production] 产能。必须建造在与拥有体育场的娱乐中心相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 通配政策槽位。[NEWLINE][NEWLINE]6个单元格以内的市中心获得紫禁城的 [ICON_Culture] 文化加成。必须建造在与市中心相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得一个免费的 [ICON_GreatWriter] 大作家。从 [ICON_GreatWork_Writing] 文学著作获得 +2 [ICON_Science] 科技。图书馆提供 +1 [ICON_GreatWriter] 大作家点数。必须建造在与拥有图书馆的学院区域相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有海军单位获得 +1 [ICON_Movement] 移动力和 +1 视野。[NEWLINE][NEWLINE]单位获得进入海洋单元格的能力。城市在建造港口区域和港口区域建筑时 +30% [ICON_Production] 产能。必须建造在与陆地和一个拥有灯塔的港口区域相邻的海岸上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]经过拥有贸易站的本国城市或外国城市的你的 [ICON_TradeRoute] 贸易线路获得 +1 [ICON_Gold] 财富。必须建造在与拥有市场的商业中心相邻的单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>传教士和使徒可以额外传播一次宗教。你的所有城市产出 +10% [ICON_Faith] 信仰。圣地区域内的每个建筑为圣地区域提供 +2 [ICON_Science] 科技。必须建造在与圣地区域相邻的平坦地块上，并且需要你已经创立了一个宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你的城市如果建造在邻近新鲜水源（河流、湖泊、绿洲）的单元格，则获得最高 [ICON_Housing] 住房加成。所有城市发展加速15%。必须建造在临近河流的单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市 +10% [ICON_Culture] 文化。从 [ICON_GreatWork_Landscape] 艺术巨作获得 +3 [ICON_Culture] 文化。必须建造在与河流相邻的单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得两个使徒。该城市范围内的森林单元格产出  +2 [ICON_Faith] 信仰和 +1 [ICON_Food] 食物。圣地区域内的每个建筑为圣地区域提供 +2 [ICON_Production] 产能。必须建造在与拥有寺庙的圣地区域相邻的森林上，并且需要你已经创立了一个宗教。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你创建的所有使徒除了拥有第二个你通常选择的能力之外，还获得了殉教能力。你的宗教单位在宗教战斗中获得 +5 [ICON_Religion] 宗教战斗力。 [ICON_GreatWork_Relic] 遗物产出 +1 [ICON_Culture] 文化。圣地区域内的每个建筑为圣地区域提供 +1 [ICON_Culture] 文化。必须建造在泛滥平原或沼泽上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>资助伟人所需的 [ICON_Faith] 信仰减少50%。该城市中的区域提供与自身类型相同的 +2 [ICON_GreatPerson] 伟人点数（例如，剧院广场区域提供  [ICON_GreatWriter] 大作家点数）。必须建造在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成时随机奖励 2 个免费科技。你城市的每个特殊区域产出 +1 [ICON_Science] 科技。必须建造在与拥有大学的学院区域相邻的草原或平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_POTALA_PALACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 外交政策槽位。[NEWLINE][NEWLINE]神社产出 +1 [ICON_Faith] 信仰，拥有圣贤神龛的圣地区域产出 +1 [ICON_Faith] 信仰，拥有寺庙的圣地区域产出 +3 [ICON_Faith] 信仰，拥有礼拜堂建筑的圣地区域产出 +6 [ICON_Faith] 信仰。必须建造在与山脉相邻的丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为该城市的所有沙漠单元格（非泛滥平原）提供 +2 [ICON_Food] 食物， +2 [ICON_Gold] 财富和 +1 [ICON_Production] 产能。你的考古学家可以在不开放边境的情况下进入他国领土。必须建造在没有丘陵的沙漠或泛滥平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得两个免费建造者。所有建造者可额外建造 1 个改良设施。必须建造在没有丘陵的沙漠（包括泛滥平原）上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为你领土内所有邻近河流的矿井、采石场和伐木场 +1 [ICON_Production] 产能。为邻近河流的工业区 +3 [ICON_Production] 产能。必须建造在与拥有工厂的工业区和河流相邻的单元格上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为你的每个城市提供一个免费纪念碑。城市中拥有纪念碑的市中心区域产出  +1 [ICON_Faith] 信仰。 [NEWLINE][NEWLINE]获得一个免费 [ICON_GreatProphet] 大预言家。[ICON_GreatProphet] 大预言家可以用巨石阵代替圣地区域创立一个宗教，可以在巨石阵上用 [ICON_Faith] 信仰购买传教士。必须建造在与 [ICON_RESOURCE_STONE] 石头资源相邻的平坦地块上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_GreatWork_Music] 音乐巨作产出 +8 [ICON_Gold] 财富。你的所有城市 +50% [ICON_Tourism] 旅游业绩。必须建造在与陆地和一个港口区域相邻的海岸上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>现有的所有军事单位获得一次晋升。该城市每生产一个陆军单位就可以获得一个相同的陆军单位。必须建造在与拥有兵营或马厩的军营区域相邻的草原或平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市每生产一个海军单位就可以获得一个相同的海军单位。海岸城市 +20% [ICON_Production] 产能。[NEWLINE][NEWLINE]海岸单元格 +1 [ICON_PRODUCTION] 产能。必须建造在与工业区相邻的海岸上。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市从每个在休伊神庙 1 单元格范围内的湖泊单元格获得 +1 [ICON_Amenities] 宜居度。帝国内的每个湖泊单元格产出 +3 [ICON_Food] 食物和 +2 [ICON_Culture] 文化。 [NEWLINE][NEWLINE]你的学院区域、商业中心、剧院广场、工业区和圣地区域如果与湖泊相邻，则获得额外产出（商业中心 +4 [ICON_Gold] 财富，其他区域获得 +2 原有产出）。必须建造在与陆地相邻的湖泊上。</Text>
+		</Replace>
+		<!--New Theming Bonuses-->
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING" Language="zh_Hans_CN">
+			<Text>来自展示不同大作家的 [ICON_GreatWork_Writing] 文学著作的 50% 主题加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_MUSIC" Language="zh_Hans_CN">
+			<Text>来自展示不同大音乐家的 [ICON_GreatWork_Music] 音乐巨作的 50% 主题加成。</Text>
+		</Replace>
+		<!--Ability Text (Not sure where this comes up, other than the combat preview text?) -->
+		<Row Tag="LOC_MAGIL_ABILITY_GGPOINTSONKILL_NAME" Language="zh_Hans_CN">
+			<Text>击杀获得大将军点数</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GGPOINTSONKILL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战斗击杀获得 3 [ICON_GreatGeneral] 大将军点数。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GAPOINTSONKILL_NAME" Language="zh_Hans_CN">
+			<Text>击杀获得海军统帅点数</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GAPOINTSONKILL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战斗击杀获得 3 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_PREVIEWTEXT" Language="zh_Hans_CN">
+			<Text>来自圣米歇尔山的 +5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>圣米歇尔山宗教战斗加成</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_NAME" Language="zh_Hans_CN">
+			<Text>大灯塔的额外视野</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 视野范围</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

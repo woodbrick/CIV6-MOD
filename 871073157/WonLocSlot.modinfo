@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--##### Created by Chris 'ADLER' Fulford.  Please do not replicate graphics or art work without express permission.  I may be contacted via Steam http://steamcommunity.com/profiles/76561197970522546  or  https://forums.civfanatics.com/members/reichadler.295994/  Please feel free to utilise any aspect of the code contained herein for your own mod.  28 March 2017 #####-->
+<Mod id="a3c54512-2c5e-4e8a-bd5e-5914f7861fd5" version="107">
+	<Properties>
+		<Name>[COLOR_GREEN]Wonder Tweaks[ENDCOLOR]</Name>
+		<Description>This mod adds more acceptable terrain for wonders to be built on, plus adds slots to many wonders for relics, art, statues etc.[NEWLINE]It simply allows you to put wonders where you want them, plus have space for all those great works.[NEWLINE]It should be compatible with most other mods.[NEWLINE][NEWLINE]It does not change yields, features or anything else.[NEWLINE][NEWLINE][NEWLINE][NEWLINE]---------------------------------------------------------------------------------------------[NEWLINE][COLOR_GREEN]If you would like your own custom Civ created, $30-$50, contact me via STEAM.[ENDCOLOR][NEWLINE]-------------------------------------------------------------------------------------------</Description>
+		<Teaser>Tweaks wonders build locations, giving more, plus increases slots for most wonders, relics, art etc.</Teaser>
+	<Authors>Chris 'ADLER' Fulford</Authors>
+    <SpecialThanks>Jael 'White Rabbit'</SpecialThanks>
+    <Homepage>http://steamcommunity.com/profiles/76561197970522546/myworkshopfiles/?appid=289070</Homepage>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+	</Properties>
+	<InGameActions>
+		<UpdateDatabase id="WonLocSlot">
+			<Items>
+				<File>WonLocSlot.xml</File>
+			</Items>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>WonLocSlot.xml</File>
+	</Files>
+</Mod>

@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<!--This file gives leaders more unique individual behaviors in terms of building preferences etc.
+		Makes the game more fun and actually improves the winning chances of some leaders too because they play more in line with their appropriate strategies.
+	-->
+<Types>
+		<Row Type="MILITARISTIC_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="SEMI_MILITARISTIC_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="EXTREME_MILITARISTIC_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="EARLY_MIL_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="LATE_MIL_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="DEFENSIVE_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="SCIENTIFIC_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="WONDER_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="SEMI_CULTURAL_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="INDUSTRIAL_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="ECON_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="GROWTH_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="NAVAL_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="DIPLOMAT_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="HORSEMAN_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="NON_HORSEMAN_CIV" Kind="KIND_TRAIT"/>
+
+		<Row Type="RELIGIOUS_CIV" Kind="KIND_TRAIT"/>
+		<Row Type="SEMI_RELIGIOUS_CIV" Kind="KIND_TRAIT"/>
+		
+		<Row Type="SPY_CIV" Kind="KIND_TRAIT"/>
+		
+		
+		<Row Type="CULTURE_AND_FAITH" Kind="KIND_TRAIT"/>
+		<Row Type="MILITARY_AND_FAITH" Kind="KIND_TRAIT"/>
+
+		
+		
+		
+	</Types>
+	<Traits>
+		<Row TraitType="MILITARISTIC_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="SEMI_MILITARISTIC_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="EXTREME_MILITARISTIC_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		
+		<Row TraitType="EARLY_MIL_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="LATE_MIL_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="SCIENTIFIC_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="DEFENSIVE_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="WONDER_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="SEMI_CULTURAL_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/> <!--Civs that are kind of cool with getting some culture, but don't go all out-->
+		<Row TraitType="INDUSTRIAL_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/> <!--Right now, due to game balance, basically every civ is 'industrial', but just gave a further small boost to some-->
+		<Row TraitType="ECON_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="GROWTH_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="NAVAL_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="DIPLOMAT_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="HORSEMAN_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="NON_HORSEMAN_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="SPY_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+
+		<Row TraitType="RELIGIOUS_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="SEMI_RELIGIOUS_CIV" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		
+		<Row TraitType="CULTURE_AND_FAITH" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+		<Row TraitType="MILITARY_AND_FAITH" Name="LOC_PLACEHOLDER" InternalOnly="true"/>
+	</Traits>
+	<LeaderTraits>
+	
+		<!--DLC leaders are created in addleaders.sql to prevent crashes.-->
+	
+		
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_HARDRADA" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_TRAJAN" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_CYRUS" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_AMANITORE" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_BARBAROSSA" TraitType="MILITARISTIC_CIV"/>
+
+		<Row LeaderType="LEADER_GORGO" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_GORGO" TraitType="EXTREME_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="EXTREME_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="EXTREME_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="EXTREME_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="EXTREME_MILITARISTIC_CIV"/>
+		
+		
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_SALADIN" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="SEMI_MILITARISTIC_CIV"/>
+		<Row LeaderType="LEADER_T_ROOSEVELT" TraitType="SEMI_MILITARISTIC_CIV"/>
+		
+		
+		
+			
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_AMANITORE" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_CYRUS" TraitType="EARLY_MIL_CIV"/>
+		
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_GORGO" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_HARDRADA" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_TRAJAN" TraitType="EARLY_MIL_CIV"/>
+		<Row LeaderType="LEADER_BARBAROSSA" TraitType="LATE_MIL_CIV"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="LATE_MIL_CIV"/>
+		<Row LeaderType="LEADER_T_ROOSEVELT" TraitType="LATE_MIL_CIV"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="LATE_MIL_CIV"/>
+
+		
+		<Row LeaderType="LEADER_BARBAROSSA" TraitType="SCIENTIFIC_CIV"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="SCIENTIFIC_CIV"/>
+		<Row LeaderType="LEADER_SALADIN" TraitType="SCIENTIFIC_CIV"/>
+		<Row LeaderType="LEADER_T_ROOSEVELT" TraitType="SCIENTIFIC_CIV"/>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="SCIENTIFIC_CIV"/>
+		
+		<Row LeaderType="LEADER_SEONDEOK" TraitType="SCIENTIFIC_CIV"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="SCIENTIFIC_CIV"/>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="SCIENTIFIC_CIV"/>
+		
+		
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="GROWTH_CIV"/>
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="GROWTH_CIV"/>
+		<Row LeaderType="LEADER_AMANITORE" TraitType="GROWTH_CIV"/>
+		<Row LeaderType="LEADER_GANDHI" TraitType="GROWTH_CIV"/>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="GROWTH_CIV"/>
+		<Row LeaderType="LEADER_MVEMBA" TraitType="GROWTH_CIV"/>
+		<Row LeaderType="LEADER_GITARJA" TraitType="GROWTH_CIV"/>
+		
+
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_HARDRADA" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_PEDRO" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_GITARJA" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="NAVAL_CIV"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="NAVAL_CIV"/>
+
+		
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_TRAJAN" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_CYRUS" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="ECON_CIV"/>
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="ECON_CIV"/>
+
+
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="DEFENSIVE_CIV"/>
+		<Row LeaderType="LEADER_GANDHI" TraitType="DEFENSIVE_CIV"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="DEFENSIVE_CIV"/>
+		<Row LeaderType="LEADER_QIN" TraitType="DEFENSIVE_CIV"/>
+		<Row LeaderType="LEADER_TAMAR" TraitType="DEFENSIVE_CIV"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="DEFENSIVE_CIV"/>
+		<Row LeaderType="LEADER_SEONDEOK" TraitType="DEFENSIVE_CIV"/>
+		
+		<!--Trajan already set to expansionist in base-->
+		<Row LeaderType="LEADER_VICTORIA" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_PEDRO" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		<Row LeaderType="LEADER_CYRUS" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		<Row LeaderType="LEADER_MVEMBA" TraitType="TRAIT_LEADER_EXPANSIONIST"/>	
+		
+		<Row LeaderType="LEADER_QIN" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_T_ROOSEVELT" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_BARBAROSSA" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_TRAJAN" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_AMANITORE" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="INDUSTRIAL_CIV"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="INDUSTRIAL_CIV"/>
+		
+		
+		<!--Pericles, Catherine, Gorgo, Mvemba, Roosevelt have this in the default game-->
+		<Row LeaderType="LEADER_PEDRO" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	
+		<Row LeaderType="LEADER_GANDHI" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_QIN" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_TAMAR" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_VICTORIA" TraitType="SEMI_CULTURAL_CIV"/>
+		<Row LeaderType="LEADER_CYRUS" TraitType="SEMI_CULTURAL_CIV"/>
+
+		
+		<Row LeaderType="LEADER_GANDHI" TraitType="CULTURE_AND_FAITH"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="CULTURE_AND_FAITH"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="CULTURE_AND_FAITH"/>
+		<Row LeaderType="LEADER_TAMAR" TraitType="CULTURE_AND_FAITH"/>
+		<Row LeaderType="LEADER_PEDRO" TraitType="CULTURE_AND_FAITH"/>
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="CULTURE_AND_FAITH"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="CULTURE_AND_FAITH"/>
+		
+		
+		<Row LeaderType="LEADER_HARDRADA" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="MILITARY_AND_FAITH"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="MILITARY_AND_FAITH"/>
+
+		
+		<Row LeaderType="LEADER_GANDHI" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_HARDRADA" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_TAMAR" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_GITARJA" TraitType="RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_HOJO" TraitType="RELIGIOUS_CIV"/>
+
+		<Row LeaderType="LEADER_PEDRO" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_PERICLES" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_TRAJAN" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_SALADIN" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_AMANITORE" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_SEONDEOK" TraitType="SEMI_RELIGIOUS_CIV"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="SEMI_RELIGIOUS_CIV"/>
+
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_SALADIN" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_T_ROOSEVELT" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_GANDHI" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_JADWIGA" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="HORSEMAN_CIV"/>	
+		
+		
+		<!--These just won't build stables because barracks are superior overall if you build all kinds of units, they might still build cavalry-->
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_CYRUS" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_HOJO" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_GITARJA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_TAMAR" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_PHILIP_II" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_HARDRADA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_PEDRO" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_LAUTARO" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_QIN" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_VICTORIA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_AMANITORE" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_CLEOPATRA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_BARBAROSSA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_GORGO" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_MVEMBA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_SEONDEOK" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_SHAKA" TraitType="NON_HORSEMAN_CIV"/>	
+		<Row LeaderType="LEADER_TRAJAN" TraitType="NON_HORSEMAN_CIV"/>	
+		
+		
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="SPY_CIV"/>	
+		<Row LeaderType="LEADER_VICTORIA" TraitType="SPY_CIV"/>	
+		<Row LeaderType="LEADER_T_ROOSEVELT" TraitType="SPY_CIV"/>	
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="SPY_CIV"/>	
+		<Row LeaderType="LEADER_HOJO" TraitType="SPY_CIV"/>	
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="SPY_CIV"/>	
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="SPY_CIV"/>	
+		
+		
+		
+
+
+		<!--Qin already has a vanilla wonder-boost-->
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="WONDER_CIV"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="WONDER_CIV"/>
+		
+		
+		<Row LeaderType="LEADER_CYRUS" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_GANDHI" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_PETER_GREAT" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="DIPLOMAT_CIV"/>
+		<Row LeaderType="LEADER_TOMYRIS" TraitType="DIPLOMAT_CIV"/>
+
+
+
+	</LeaderTraits>
+	
+	
+	<AiListTypes>
+		<Row ListType="MIL_WEIGHTS"/>
+		<Row ListType="MIL_DISTRICTS"/>
+		<Row ListType="MIL_FLAVORS"/>
+		<Row ListType="MIL_STRATS"/>
+		<Row ListType="MIL_DIPLOS"/>
+		<Row ListType="MIL_BUILDINGS"/>
+		<Row ListType="MIL_CIVICS"/>
+		<Row ListType="MIL_PSEUDOS"/>
+		<Row ListType="MIL_COMMEM"/>
+		<Row ListType="SEMI_MIL_PSEUDOS"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS"/>
+		<Row ListType="EXTREME_MIL_DIPLOS"/>
+		
+		<Row ListType="LATE_MIL_TECHS"/>
+		<Row ListType="LATE_MIL_SETTLE"/>
+		<Row ListType="EARLY_MIL_TECHS"/>
+		<Row ListType="EARLY_MIL_UNITS"/>
+		<Row ListType="EARLY_MIL_SETTLE"/>
+		<Row ListType="EARLY_MIL_CIVICS"/>
+
+		<Row ListType="SCI_YIELDS"/>
+		<Row ListType="SCI_DISTRICTS"/>
+		<Row ListType="SCI_FLAVORS"/>
+		<Row ListType="SCI_STRATS"/>
+		<Row ListType="SCI_DIPLOS"/>
+		<Row ListType="SCI_TECHS"/>
+		<Row ListType="SCI_CIVICS"/>
+		<Row ListType="SCI_PSEUDOS"/>
+		<Row ListType="SCI_SETTLE"/>
+		<Row ListType="SCI_BUILDINGS"/>
+		<Row ListType="SCI_COMMEM"/>
+		
+		<Row ListType="EXP_PSEUDOS"/>
+		<Row ListType="EXP_BUILDINGS"/>
+		
+		
+		<Row ListType="DEF_FLAVORS"/>
+		<Row ListType="DEF_TECHS"/>
+		<Row ListType="DEF_SPECIA"/>
+		<Row ListType="DEF_PSEUDOS"/>
+		<Row ListType="DEF_UNITCLASSES"/>
+		
+		<Row ListType="IND_YIELDS"/>
+		<Row ListType="IND_PSEUDOS"/>
+		<Row ListType="IND_TECHS"/>
+		<Row ListType="IND_BUILDINGS"/>
+		<Row ListType="IND_COMMEM"/>
+
+		<Row ListType="WONDER_PSEUDOS"/>
+		
+		<Row ListType="NAVAL_PSEUDOS"/>
+		<Row ListType="NAVAL_TECHS"/>
+		<Row ListType="NAVAL_DISTRICTS"/>
+		<Row ListType="NAVAL_SETTLE"/>
+		<Row ListType="NAVAL_BUILDINGS"/>
+		
+		<Row ListType="SPY_BUILDINGS"/>
+		<Row ListType="SPY_TECHS"/>
+		<Row ListType="SPY_CIVICS"/>
+		<Row ListType="SPY_PSEUDOS"/>
+		<Row ListType="SPY_COMMEM"/>
+		
+		<Row ListType="HORSEMAN_SETTLE"/>
+		<Row ListType="HORSEMAN_UNITCLASSES"/>
+		<Row ListType="HORSEMAN_BUILDINGS"/>
+		<Row ListType="HORSEMAN_TECHS"/>
+		<Row ListType="HORSEMAN_CIVICS"/>
+		
+		<Row ListType="NON_HORSEMAN_BUILDINGS"/>
+
+		
+		<Row ListType="GROWTH_YIELDS"/>
+		<Row ListType="GROWTH_PSEUDOS"/>
+		<Row ListType="GROWTH_TECHS"/>
+		<Row ListType="GROWTH_CIVICS"/>
+		<Row ListType="GROWTH_BUILDINGS"/>
+		<Row ListType="GROWTH_DISTRICTS"/>
+		
+		<Row ListType="CUL_YIELDS"/>
+		<Row ListType="CUL_PSEUDOS"/>
+		<Row ListType="CUL_TECHS"/>
+		<Row ListType="CUL_CIVICS"/>
+		<Row ListType="CUL_BUILDINGS"/>
+		<Row ListType="CUL_COMMEM"/>
+		
+		
+		<Row ListType="CULTURE_AND_FAITH_BUILDINGS"/>
+		<Row ListType="MILITARY_AND_FAITH_BUILDINGS"/>
+		
+		<Row ListType="ECON_YIELDS"/>
+		<Row ListType="ECON_PSEUDOS"/>
+		<Row ListType="ECON_SETTLE"/>
+		<Row ListType="ECON_TECHS"/>
+		<Row ListType="ECON_CIVICS"/>
+		<Row ListType="ECON_DISTRICTS"/>
+		<Row ListType="ECON_BUILDINGS"/>
+		<Row ListType="ECON_COMMEM"/>
+
+		<Row ListType="SEMI_CUL_YIELDS"/>
+		<Row ListType="SEMI_CUL_PSEUDOS"/>
+		
+		<Row ListType="DIPLO_PSEUDOS"/>
+		<Row ListType="DIPLO_TECHS"/>
+		<Row ListType="DIPLO_CIVICS"/>
+		<Row ListType="DIPLO_DIPLO"/>
+		<Row ListType="DIPLO_BUILDINGS"/>
+		
+		<Row ListType="REL_YIELDS"/>
+		<Row ListType="REL_PSEUDOS"/>
+		<Row ListType="REL_DISTRICTS"/>
+		<Row ListType="REL_TECHS"/>
+		<Row ListType="REL_CIVICS"/>
+		<Row ListType="REL_BUILDINGS"/>
+		<Row ListType="REL_COMMEM"/>
+
+		<Row ListType="SEMI_REL_YIELDS"/>
+		<Row ListType="SEMI_REL_PSEUDOS"/>
+		<Row ListType="SEMI_REL_TECHS"/>
+
+		<Row ListType="Trajan_PSEUDOS"/>
+		<Row ListType="Philip_PSEUDOS"/>
+		<Row ListType="Tomirys_YIELDS"/>
+		<Row ListType="Tomirys_PSEUDOS"/>
+		<Row ListType="Tomirys_OPERATIONS"/>
+
+		<Row ListType="Cleopatra_PSEUDOS"/>
+		<Row ListType="Cleopatra_YIELDS"/>
+		<Row ListType="Gilgamesh_PSEUDOS"/>
+
+		<Row ListType="Catherine_PSEUDOS"/>
+		
+		<Row ListType="Barbarossa_DIPLOS"/>
+		
+		<Row ListType="Genghis_BUILDINGS"/>
+		
+		<Row ListType="Hojo_DIPLOS"/>
+
+
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="MIL_WEIGHTS" LeaderType="MILITARISTIC_CIV" System="Yields"/>
+		<Row ListType="MIL_DISTRICTS" LeaderType="MILITARISTIC_CIV" System="Districts"/>
+		<Row ListType="MIL_FLAVORS" LeaderType="MILITARISTIC_CIV" System="Flavors"/>
+		<Row ListType="MIL_STRATS" LeaderType="MILITARISTIC_CIV" System="Strategies"/>
+		<Row ListType="MIL_DIPLOS"  LeaderType="MILITARISTIC_CIV"  System="DiplomaticActions"/>
+		<Row ListType="LATE_MIL_TECHS"  LeaderType="LATE_MIL_CIV"  System="Technologies"/>
+		<Row ListType="LATE_MIL_SETTLE"  LeaderType="LATE_MIL_CIV"  System="PlotEvaluations"/>
+
+		<Row ListType="MIL_BUILDINGS"  LeaderType="MILITARISTIC_CIV"  System="Buildings"/>
+		<Row ListType="MIL_CIVICS"  LeaderType="MILITARISTIC_CIV"  System="Civics"/>
+		<Row ListType="MIL_PSEUDOS" LeaderType="MILITARISTIC_CIV"  System="PseudoYields"/>
+		<Row ListType="MIL_COMMEM" LeaderType="MILITARISTIC_CIV"  System="Commemorations"/>
+		
+		<Row ListType="SEMI_MIL_PSEUDOS" LeaderType="SEMI_MILITARISTIC_CIV"  System="PseudoYields"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" LeaderType="EXTREME_MILITARISTIC_CIV"  System="PseudoYields"/>
+		<Row ListType="EXTREME_MIL_DIPLOS" LeaderType="EXTREME_MILITARISTIC_CIV"  System="DiplomaticActions"/>
+		
+		<Row ListType="EARLY_MIL_TECHS"  LeaderType="EARLY_MIL_CIV"  System="Technologies"/>
+		<Row ListType="EARLY_MIL_CIVICS"  LeaderType="EARLY_MIL_CIV"  System="Civics"/>
+		<Row ListType="EARLY_MIL_UNITS" LeaderType="EARLY_MIL_CIV" System="Units"/>
+		<Row ListType="EARLY_MIL_SETTLE" LeaderType="EARLY_MIL_CIV" System="PlotEvaluations"/>
+
+		<Row ListType="SCI_YIELDS" LeaderType="SCIENTIFIC_CIV" System="Yields"/>
+		<Row ListType="SCI_DISTRICTS" LeaderType="SCIENTIFIC_CIV" System="Districts"/>
+		<Row ListType="SCI_FLAVORS" LeaderType="SCIENTIFIC_CIV" System="Flavors"/>
+		<Row ListType="SCI_STRATS" LeaderType="SCIENTIFIC_CIV" System="Strategies"/>
+		<Row ListType="SCI_DIPLOS"  LeaderType="SCIENTIFIC_CIV"  System="DiplomaticActions"/>
+		<Row ListType="SCI_TECHS"  LeaderType="SCIENTIFIC_CIV"  System="Technologies"/>
+		<Row ListType="SCI_CIVICS"  LeaderType="SCIENTIFIC_CIV"  System="Civics"/>
+		<Row ListType="SCI_PSEUDOS" LeaderType="SCIENTIFIC_CIV"  System="PseudoYields"/>
+		<Row ListType="SCI_SETTLE" LeaderType="SCIENTIFIC_CIV"  System="PlotEvaluations"/>
+		<Row ListType="SCI_BUILDINGS" LeaderType="SCIENTIFIC_CIV"  System="Buildings"/>
+		<Row ListType="SCI_COMMEM" LeaderType="SCIENTIFIC_CIV"  System="Commemorations"/>
+
+		<Row ListType="IND_YIELDS" LeaderType="INDUSTRIAL_CIV"  System="Yields"/>
+		<Row ListType="IND_PSEUDOS" LeaderType="INDUSTRIAL_CIV"  System="PseudoYields"/>
+		<Row ListType="IND_TECHS" LeaderType="INDUSTRIAL_CIV"  System="Technologies"/>
+		<Row ListType="IND_BUILDINGS" LeaderType="INDUSTRIAL_CIV"  System="Buildings"/>
+		<Row ListType="IND_COMMEM" LeaderType="INDUSTRIAL_CIV"  System="Commemorations"/>
+		
+		<Row ListType="DIPLO_PSEUDOS" LeaderType="DIPLOMAT_CIV"  System="PseudoYields"/>
+		<Row ListType="DIPLO_TECHS" LeaderType="DIPLOMAT_CIV"  System="Technologies"/>
+		<Row ListType="DIPLO_CIVICS" LeaderType="DIPLOMAT_CIV"  System="Civics"/>
+		<Row ListType="DIPLO_DIPLO" LeaderType="DIPLOMAT_CIV"  System="DiplomaticActions"/>
+		<Row ListType="DIPLO_BUILDINGS" LeaderType="DIPLOMAT_CIV"  System="Buildings"/>
+		
+		
+		<Row ListType="CULTURE_AND_FAITH_BUILDINGS" LeaderType="CULTURE_AND_FAITH"  System="Buildings"/>
+		<Row ListType="MILITARY_AND_FAITH_BUILDINGS" LeaderType="MILITARY_AND_FAITH"  System="Buildings"/>
+		
+		
+		<Row ListType="NAVAL_PSEUDOS" LeaderType="NAVAL_CIV"  System="PseudoYields"/>
+		<Row ListType="NAVAL_TECHS" LeaderType="NAVAL_CIV"  System="Technologies"/>
+		<Row ListType="NAVAL_DISTRICTS" LeaderType="NAVAL_CIV"  System="Districts"/>
+		<Row ListType="NAVAL_SETTLE" LeaderType="NAVAL_CIV"  System="PlotEvaluations"/>
+		<Row ListType="NAVAL_BUILDINGS" LeaderType="NAVAL_CIV"  System="Buildings"/>
+		
+		<Row ListType="GROWTH_YIELDS" LeaderType="GROWTH_CIV"  System="Yields"/>
+		<Row ListType="GROWTH_PSEUDOS" LeaderType="GROWTH_CIV"  System="PseudoYields"/>
+		<Row ListType="GROWTH_TECHS" LeaderType="GROWTH_CIV"  System="Technologies"/>
+		<Row ListType="GROWTH_CIVICS" LeaderType="GROWTH_CIV"  System="Civics"/>
+		<Row ListType="GROWTH_BUILDINGS" LeaderType="GROWTH_CIV"  System="Buildings"/>
+		<Row ListType="GROWTH_DISTRICTS" LeaderType="GROWTH_CIV"  System="Districts"/>
+
+		<Row ListType="EXP_PSEUDOS" LeaderType="TRAIT_LEADER_EXPANSIONIST"  System="PseudoYields"/>
+		<Row ListType="EXP_BUILDINGS" LeaderType="TRAIT_LEADER_EXPANSIONIST"  System="Buildings"/>
+
+		<Row ListType="DEF_FLAVORS" LeaderType="DEFENSIVE_CIV" System="Flavors"/>
+		<Row ListType="DEF_TECHS"  LeaderType="DEFENSIVE_CIV"  System="Technologies"/>
+		<Row ListType="DEF_SPECIA"  LeaderType="DEFENSIVE_CIV"  System="AiBuildSpecializations"/>
+		<Row ListType="DEF_PSEUDOS"  LeaderType="DEFENSIVE_CIV"  System="PseudoYields"/>
+		<Row ListType="DEF_UNITCLASSES"  LeaderType="DEFENSIVE_CIV"  System="UnitPromotionClasses"/>
+
+		<Row ListType="WONDER_PSEUDOS" LeaderType="WONDER_CIV"  System="PseudoYields"/>
+
+		<Row ListType="ECON_PSEUDOS" LeaderType="ECON_CIV"  System="PseudoYields"/>
+		<Row ListType="ECON_YIELDS" LeaderType="ECON_CIV"  System="Yields"/>
+		<Row ListType="ECON_SETTLE" LeaderType="ECON_CIV"  System="PlotEvaluations"/>
+		<Row ListType="ECON_DISTRICTS" LeaderType="ECON_CIV"  System="Districts"/>
+		<Row ListType="ECON_TECHS" LeaderType="ECON_CIV"  System="Technologies"/>
+		<Row ListType="ECON_CIVICS" LeaderType="ECON_CIV"  System="Civics"/>
+		<Row ListType="ECON_BUILDINGS" LeaderType="ECON_CIV"  System="Buildings"/>
+		<Row ListType="ECON_COMMEM" LeaderType="ECON_CIV"  System="Commemorations"/>
+
+		<Row ListType="CUL_PSEUDOS" LeaderType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"  System="PseudoYields"/>
+		<Row ListType="CUL_YIELDS" LeaderType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"  System="Yields"/>
+		<Row ListType="CUL_TECHS" LeaderType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"  System="Technologies"/>
+		<Row ListType="CUL_CIVICS" LeaderType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"  System="Civics"/>
+		<Row ListType="CUL_BUILDINGS" LeaderType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"  System="Buildings"/>
+		<Row ListType="CUL_COMMEM" LeaderType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"  System="Commemorations"/>
+		
+		<Row ListType="SEMI_CUL_PSEUDOS" LeaderType="SEMI_CULTURAL_CIV"  System="PseudoYields"/>
+		<Row ListType="SEMI_CUL_YIELDS" LeaderType="SEMI_CULTURAL_CIV"  System="Yields"/>
+		
+		<Row ListType="REL_PSEUDOS" LeaderType="RELIGIOUS_CIV"  System="PseudoYields"/>
+		<Row ListType="REL_YIELDS" LeaderType="RELIGIOUS_CIV"  System="Yields"/>
+		<Row ListType="REL_DISTRICTS" LeaderType="RELIGIOUS_CIV"  System="Districts"/>
+		<Row ListType="REL_TECHS" LeaderType="RELIGIOUS_CIV"  System="Technologies"/>
+		<Row ListType="REL_CIVICS" LeaderType="RELIGIOUS_CIV"  System="Civics"/>
+		<Row ListType="REL_BUILDINGS" LeaderType="RELIGIOUS_CIV"  System="Buildings"/>
+		<Row ListType="REL_COMMEM" LeaderType="RELIGIOUS_CIV"  System="Commemorations"/>
+
+		<Row ListType="SEMI_REL_PSEUDOS" LeaderType="SEMI_RELIGIOUS_CIV"  System="PseudoYields"/>
+		<Row ListType="SEMI_REL_YIELDS" LeaderType="SEMI_RELIGIOUS_CIV"  System="Yields"/>
+		<Row ListType="SEMI_REL_TECHS" LeaderType="SEMI_RELIGIOUS_CIV"  System="Technologies"/>
+		
+		
+		<Row ListType="HORSEMAN_CIVICS" LeaderType="HORSEMAN_CIV"  System="Civics"/>
+		<Row ListType="HORSEMAN_SETTLE" LeaderType="HORSEMAN_CIV"  System="PlotEvaluations"/>
+		<Row ListType="HORSEMAN_UNITCLASSES" LeaderType="HORSEMAN_CIV"  System="UnitPromotionClasses"/>
+		<Row ListType="HORSEMAN_BUILDINGS" LeaderType="HORSEMAN_CIV"  System="Buildings"/>
+		<Row ListType="HORSEMAN_TECHS" LeaderType="HORSEMAN_CIV"  System="Technologies"/>
+		
+		<Row ListType="SPY_TECHS" LeaderType="SPY_CIV"  System="Technologies"/>
+		<Row ListType="SPY_CIVICS" LeaderType="SPY_CIV"  System="Civics"/>
+		<Row ListType="SPY_BUILDINGS" LeaderType="SPY_CIV"  System="Buildings"/>
+		<Row ListType="SPY_PSEUDOS" LeaderType="SPY_CIV"  System="PseudoYields"/>
+		<Row ListType="SPY_COMMEM" LeaderType="SPY_CIV"  System="Commemorations"/>
+		
+		<Row ListType="NON_HORSEMAN_BUILDINGS" LeaderType="NON_HORSEMAN_CIV"  System="Buildings"/>
+
+		
+		<Row ListType="Trajan_PSEUDOS" LeaderType="TRAJANS_COLUMN_TRAIT" System="PseudoYields"/>
+		<Row ListType="Philip_PSEUDOS" LeaderType="TRAIT_LEADER_EL_ESCORIAL" System="PseudoYields"/>
+		<Row ListType="Tomirys_YIELDS" LeaderType="TRAIT_LEADER_KILLER_OF_CYRUS" System="Yields"/>
+		<Row ListType="Tomirys_PSEUDOS" LeaderType="TRAIT_LEADER_KILLER_OF_CYRUS" System="PseudoYields"/>
+		<Row ListType="Tomirys_OPERATIONS" LeaderType="TRAIT_LEADER_KILLER_OF_CYRUS" System="AiOperationTypes"/>
+		
+		<Row ListType="Catherine_PSEUDOS" LeaderType="FLYING_SQUADRON_TRAIT" System="PseudoYields"/>
+		
+		<Row ListType="Barbarossa_DIPLOS" LeaderType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR" System="DiplomaticActions"/>
+		
+		<Row ListType="Hojo_DIPLOS" LeaderType="TRAIT_LEADER_DIVINE_WIND" System="DiplomaticActions"/>
+
+		<Row ListType="Gilgamesh_PSEUDOS" LeaderType="TRAIT_LEADER_ADVENTURES_ENKIDU" System="PseudoYields"/>
+		
+		<Row ListType="Genghis_BUILDINGS" LeaderType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" System="Buildings"/>
+
+		<Row ListType="Cleopatra_YIELDS" LeaderType="TRAIT_LEADER_MEDITERRANEAN" System="Yields"/>
+		<Row ListType="Cleopatra_PSEUDOS" LeaderType="TRAIT_LEADER_MEDITERRANEAN" System="PseudoYields"/>
+
+
+	</AiLists>
+	
+	<!--Some weights applied to civs to give them more unique behaviours, which are in tune with their abilities-->
+	<!--Will be expanded on in future versions-->
+	<AiFavoredItems>
+		
+		
+		<Row ListType="ECON_YIELDS" Item="YIELD_GOLD" Value="6"/>
+		<Row ListType="ECON_PSEUDOS" Item="PSEUDOYIELD_GPP_MERCHANT" Value="50"/>
+		<Row ListType="ECON_PSEUDOS" Item="PSEUDOYIELD_UNIT_TRADE" Value="200"/>
+		<Row ListType="ECON_PSEUDOS" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="50"/>
+		<Row ListType="ECON_DISTRICTS" Item="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ListType="ECON_BUILDINGS" Item="BUILDING_GREAT_ZIMBABWE"/>
+		<Row ListType="ECON_BUILDINGS" Item="BUILDING_BIG_BEN"/>
+		<Row ListType="ECON_BUILDINGS" Item="BUILDING_COLOSSUS"/>
+		
+		<Row ListType="ECON_TECHS" Item="TECH_CURRENCY"/>
+		<Row ListType="ECON_TECHS" Item="TECH_BANKING"/>
+		<Row ListType="ECON_CIVICS" Item="CIVIC_EXPLORATION"/>
+		<Row ListType="ECON_CIVICS" Item="CIVIC_MERCANTILISM"/>
+		<Row ListType="ECON_CIVICS" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="ECON_CIVICS" Item="CIVIC_CAPITALISM"/>
+		<Row ListType="ECON_CIVICS" Item="CIVIC_FOREIGN_TRADE"/>
+		<Row ListType="ECON_COMMEM" Item="COMMEMORATION_ECONOMIC"/>
+		
+		
+		<Row ListType="GROWTH_YIELDS" Item="YIELD_FOOD" Value="8"/>
+		<Row ListType="GROWTH_PSEUDOS" Item="PSEUDOYIELD_HAPPINESS" Value="250"/>
+		<Row ListType="GROWTH_PSEUDOS" Item="PSEUDOYIELD_DISTRICT" Value="40"/>
+		<Row ListType="GROWTH_PSEUDOS" Item="PSEUDOYIELD_IMPROVEMENT" Value="200"/>
+		<Row ListType="GROWTH_PSEUDOS" Item="PSEUDOYIELD_UNIT_TRADE" Value="200"/>
+		<Row ListType="GROWTH_PSEUDOS" Item="PSEUDOYIELD_ENVIRONMENT" Value="100"/>
+		<Row ListType="GROWTH_TECHS" Item="TECH_IRRIGATION"/>
+		<Row ListType="GROWTH_TECHS" Item="TECH_CURRENCY"/>
+		<Row ListType="GROWTH_TECHS" Item="TECH_CELESTIAL_NAVIGATION"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_TEMPLE_ARTEMIS"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_HANGING_GARDENS"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_EIFFEL_TOWER"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_COLOSSEUM"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_LIGHTHOUSE"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_WATER_MILL"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_GRANARY"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_FOOD_MARKET"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_ESTADIO_DO_MARACANA"/>
+		<Row ListType="GROWTH_BUILDINGS" Item="BUILDING_GOV_TALL"/>
+		<Row ListType="GROWTH_DISTRICTS" Item="DISTRICT_HARBOR"/>
+		<Row ListType="GROWTH_CIVICS" Item="CIVIC_GAMES_RECREATION"/>
+		<Row ListType="GROWTH_CIVICS" Item="CIVIC_FOREIGN_TRADE"/>
+		<Row ListType="GROWTH_CIVICS" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="GROWTH_CIVICS" Item="CIVIC_CIVIL_ENGINEERING"/>
+
+		
+		<Row ListType="SCI_TECHS" Item="TECH_WRITING"/>
+		<Row ListType="SCI_TECHS" Item="TECH_EDUCATION"/>
+		<Row ListType="SCI_TECHS" Item="TECH_ROCKETRY"/>
+		<Row ListType="SCI_CIVICS" Item="CIVIC_RECORDED_HISTORY"/>
+		<Row ListType="SCI_CIVICS" Item="CIVIC_THE_ENLIGHTENMENT"/>
+
+		<Row ListType="SCI_YIELDS" Item="YIELD_FOOD" Value="4"/>
+		<Row ListType="SCI_YIELDS" Item="YIELD_PRODUCTION" Value="0"/>
+		<Row ListType="SCI_YIELDS" Item="YIELD_SCIENCE" Value="8"/>
+		<Row ListType="SCI_YIELDS" Item="YIELD_FAITH" Value="-2"/>
+		<Row ListType="SCI_YIELDS" Item="YIELD_CULTURE" Value="-2"/>
+		<Row ListType="SCI_YIELDS" Item="YIELD_GOLD" Value="0"/>
+		<!--<Row ListType="SCI_DISTRICTS" Item="DISTRICT_CAMPUS"/>-->
+		<Row ListType="SCI_STRATS" Item="VICTORY_STRATEGY_SCIENCE_VICTORY" Value="-1"/>
+		<Row ListType="SCI_DIPLOS" Item="DIPLOACTION_RESEARCH_AGREEMENT" />
+		<Row ListType="SCI_PSEUDOS" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="SCI_BUILDINGS" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<Row ListType="SCI_BUILDINGS" Item="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION"/>
+		<Row ListType="SCI_COMMEM" Item="COMMEMORATION_SCIENTIFIC"/>
+		
+		
+		<Row ListType="CULTURE_AND_FAITH_BUILDINGS" Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="CULTURE_AND_FAITH_BUILDINGS" Item="BUILDING_ST_BASILS_CATHEDRAL"/>
+		<Row ListType="MILITARY_AND_FAITH_BUILDINGS" Item="BUILDING_KOTOKU_IN"/>
+		<Row ListType="MILITARY_AND_FAITH_BUILDINGS" Item="BUILDING_GOV_FAITH"/>
+
+		
+		<Row ListType="IND_YIELDS" Item="YIELD_PRODUCTION" Value="10"/>
+		<Row ListType="IND_PSEUDOS" Item="PSEUDOYIELD_GPP_ENGINEER" Value="60"/>
+		<Row ListType="IND_TECHS" Item="TECH_MINING"/>
+		<Row ListType="IND_TECHS" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="IND_TECHS" Item="TECH_INDUSTRIALIZATION"/>
+		<Row ListType="IND_TECHS" Item="TECH_ELECTRICITY"/>
+		<Row ListType="IND_BUILDINGS" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="IND_BUILDINGS" Item="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION"/>
+		<Row ListType="IND_COMMEM" Item="COMMEMORATION_INDUSTRIAL"/>
+		
+		<Row ListType="NAVAL_PSEUDOS" Item="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Value="300"/>
+		<Row ListType="NAVAL_PSEUDOS" Item="PSEUDOYIELD_UNIT_COMBAT" Value="-100"/>
+		<Row ListType="NAVAL_PSEUDOS" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="70"/>
+		<Row ListType="NAVAL_TECHS" Item="TECH_SAILING"/>
+		<Row ListType="NAVAL_TECHS" Item="TECH_SHIPBUILDING"/>
+		<Row ListType="NAVAL_TECHS" Item="TECH_SQUARE_RIGGING"/>
+		<Row ListType="NAVAL_TECHS" Item="TECH_STEEL"/>
+		<Row ListType="NAVAL_TECHS" Item="TECH_COMBINED_ARMS"/>
+		<Row ListType="NAVAL_SETTLE" Item="Coastal" favored="false" Value="12"/>
+		<Row ListType="NAVAL_BUILDINGS" Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="NAVAL_BUILDINGS" Item="BUILDING_LIGHTHOUSE"/>
+		<Row ListType="NAVAL_BUILDINGS" Item="BUILDING_VENETIAN_ARSENAL"/>
+		
+		
+
+		
+		<Row ListType="LATE_MIL_TECHS" Item="TECH_GUNPOWDER"/>
+		<Row ListType="LATE_MIL_TECHS" Item="TECH_METAL_CASTING"/>
+		<Row ListType="LATE_MIL_TECHS" Item="TECH_BALLISTICS"/>
+		<Row ListType="LATE_MIL_TECHS" Item="TECH_STEEL"/>
+		<Row ListType="LATE_MIL_TECHS" Item="TECH_WRITING"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_SAILING" Favored="false"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_SHIPBUILDING" Favored="false"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_ASTROLOGY" Favored="false"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_POTTERY" Favored="false"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_WRITING" Favored="false"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_CELESTIAL_NAVIGATION" Favored="false"/>
+		<Row ListType="EARLY_MIL_CIVICS" Item="CIVIC_MILITARY_TRADITION"/>
+		
+		<!--<Row ListType="EARLY_MIL_TECHS" Item="TECH_STIRRUPS"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_ENGINEERING"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_ARCHERY"/>
+		<Row ListType="EARLY_MIL_TECHS" Item="TECH_THE_WHEEL"/>-->
+		<Row ListType="EARLY_MIL_UNITS" Item="UNIT_KNIGHT" Value="1"/>
+
+		
+		<Row ListType="CUL_TECHS" Item="TECH_RADIO"/>
+		<Row ListType="CUL_TECHS" Item="TECH_COMPUTERS"/>
+		<Row ListType="CUL_TECHS" Item="TECH_PRINTING"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_SOCIAL_MEDIA"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_CULTURAL_HERITAGE"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_NATURAL_HISTORY"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_CONSERVATION"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_COLONIALISM"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_HUMANISM"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="CUL_CIVICS" Item="CIVIC_MASS_MEDIA"/>
+		<Row ListType="CUL_BUILDINGS" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="CUL_BUILDINGS" Item="BUILDING_BROADWAY"/>
+		<Row ListType="CUL_BUILDINGS" Item="BUILDING_CRISTO_REDENTOR"/>
+		<Row ListType="CUL_BUILDINGS" Item="BUILDING_SYDNEY_OPERA_HOUSE"/>
+		<Row ListType="CUL_BUILDINGS" Item="BUILDING_GOV_CULTURE"/>
+		<Row ListType="CUL_COMMEM" Item="COMMEMORATION_CULTURAL"/>
+		<Row ListType="CUL_COMMEM" Item="COMMEMORATION_TOURISM"/>
+		
+		
+		<Row ListType="CUL_YIELDS" Item="YIELD_CULTURE" Value="10"/>
+		<Row ListType="CUL_YIELDS" Item="YIELD_FOOD" Value="2"/>
+		<Row ListType="CUL_YIELDS" Item="YIELD_PRODUCTION" Value="-1"/>
+		<Row ListType="CUL_YIELDS" Item="YIELD_SCIENCE" Value="-2"/>
+		<Row ListType="CUL_YIELDS" Item="YIELD_FAITH" Value="1"/>
+
+		<Row ListType="CUL_PSEUDOS" Item="PSEUDOYIELD_TOURISM" Value="80"/>
+		<Row ListType="CUL_PSEUDOS" Item="PSEUDOYIELD_GPP_WRITER" Value="50"/>
+		<Row ListType="CUL_PSEUDOS" Item="PSEUDOYIELD_GPP_ARTIST" Value="50"/>
+		<Row ListType="CUL_PSEUDOS" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="50"/>
+		<Row ListType="CUL_PSEUDOS" Item="PSEUDOYIELD_DIPLOMATIC_BONUS" Value="20"/> 
+
+	
+		<Row ListType="SEMI_CUL_YIELDS" Item="YIELD_CULTURE" Value="1.5"/>
+		<Row ListType="SEMI_CUL_PSEUDOS" Item="PSEUDOYIELD_TOURISM" Value="30"/>
+		<Row ListType="SEMI_CUL_PSEUDOS" Item="PSEUDOYIELD_GPP_WRITER" Value="20"/>
+		<Row ListType="SEMI_CUL_PSEUDOS" Item="PSEUDOYIELD_GPP_ARTIST" Value="20"/>
+		<Row ListType="SEMI_CUL_PSEUDOS" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="20"/>
+	
+	
+		<Row ListType="REL_BUILDINGS" Item="BUILDING_STONEHENGE"/>
+		<Row ListType="REL_BUILDINGS" Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="REL_BUILDINGS" Item="BUILDING_MAHABODHI_TEMPLE"/>
+		
+		<Row ListType="REL_YIELDS" Item="YIELD_FAITH" Value="10"/>
+		<Row ListType="REL_PSEUDOS" Item="PSEUDOYIELD_GPP_PROPHET" Value="80"/>
+		<!--<Row ListType="REL_DISTRICTS" Item="DISTRICT_HOLY_SITE"/>-->
+		<Row ListType="REL_TECHS" Item="TECH_ASTROLOGY"/>
+		<Row ListType="REL_CIVICS" Item="CIVIC_MYSTICISM"/>
+		<Row ListType="REL_CIVICS" Item="CIVIC_THEOLOGY"/>
+		<Row ListType="REL_CIVICS" Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="REL_CIVICS" Item="CIVIC_REFORMED_CHURCH"/>
+		<Row ListType="REL_COMMEM" Item="COMMEMORATION_RELIGIOUS"/>
+
+		<Row ListType="SEMI_REL_YIELDS" Item="YIELD_FAITH" Value="5"/>
+		<Row ListType="SEMI_REL_PSEUDOS" Item="PSEUDOYIELD_GPP_PROPHET" Value="30"/>
+		<Row ListType="SEMI_REL_TECHS" Item="TECH_ASTROLOGY"/>
+
+		<Row ListType="MIL_FLAVORS" Item="Offense" Value="-1"/>
+		<Row ListType="MIL_DISTRICTS" Item="DISTRICT_AERODROME"/>
+		<Row ListType="MIL_COMMEM" Item="COMMEMORATION_MILITARY"/>
+		<!--<Row ListType="MIL_DISTRICTS" Item="DISTRICT_COMMERCIAL_HUB"/>-->
+		<!--<Row ListType="MIL_DISTRICTS" Item="DISTRICT_ENCAMPMENT"/>-->
+
+		
+		
+
+		<Row ListType="SEMI_MIL_PSEUDOS" Item="PSEUDOYIELD_UNIT_COMBAT" Value="100"/>
+		<Row ListType="SEMI_MIL_PSEUDOS" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="60"/>
+		<Row ListType="SEMI_MIL_PSEUDOS" Item="PSEUDOYIELD_GPP_GENERAL" Value="20"/>
+		<!--City attack agression-->
+		<Row ListType="SEMI_MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_BASE" Value="45"/>
+		<Row ListType="SEMI_MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" Value="20"/>
+		
+		
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_TAJ_MAHAL"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_STATUE_LIBERTY"/>
+		<!--Boosting these because they affect all cities, much better if you're wide-->
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_ESTADIO_DO_MARACANA"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_EIFFEL_TOWER"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_HANGING_GARDENS"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_GOV_WIDE"/>
+		<Row ListType="EXP_BUILDINGS" Item="BUILDING_GOV_TALL" Favored="false"/>
+		
+		
+		<Row ListType="MIL_BUILDINGS" Item="BUILDING_GOV_CONQUEST"/>
+		<Row ListType="MIL_BUILDINGS" Item="BUILDING_GOV_MILITARY"/>
+
+		<Row ListType="MIL_WEIGHTS" Item="YIELD_FOOD" Value="-2"/>
+		<Row ListType="MIL_WEIGHTS" Item="YIELD_PRODUCTION" Value="2"/>
+		<Row ListType="MIL_WEIGHTS" Item="YIELD_SCIENCE" Value="-1"/>
+		<Row ListType="MIL_WEIGHTS" Item="YIELD_FAITH" Value="-1"/>
+		<Row ListType="MIL_WEIGHTS" Item="YIELD_CULTURE" Value="-1"/>
+		<Row ListType="MIL_WEIGHTS" Item="YIELD_GOLD" Value="3"/>
+		
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_UNIT_COMBAT" Value="200"/>
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="100"/>
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_DIPLOMATIC_BONUS" Value="-5"/>
+		
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_GPP_MERCHANT" Value="35"/>
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_GPP_GENERAL" Value="35"/>
+		<!--City attack agression-->
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_BASE" Value="110"/>
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_DEFENDING_UNITS" Value="-5"/>
+		<Row ListType="MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" Value="50"/>
+
+		
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_UNIT_COMBAT" Value="500"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_UNIT_AIR_COMBAT" Value="100"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_GPP_ENGINEER" Value="20"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_GPP_GENERAL" Value="30"/>
+		<!--City attack agression-->
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_BASE" Value="300"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_DEFENDING_UNITS" Value="-5"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_DEFENSES" Value="-50"/>
+		<Row ListType="EXTREME_MIL_PSEUDOS" Item="PSEUDOYIELD_CITY_ORIGINAL_CAPITAL" Value="50"/>
+		
+		
+		
+		<Row ListType="MIL_STRATS" Item="VICTORY_STRATEGY_MILITARY_VICTORY" Value="1"/>
+		
+		<Row ListType="MIL_CIVICS" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="MIL_CIVICS" Item="CIVIC_STATE_WORKFORCE"/>
+		<Row ListType="MIL_CIVICS" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="MIL_CIVICS" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="MIL_CIVICS" Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="MIL_CIVICS" Item="CIVIC_TOTALITARIANISM"/>
+		<Row ListType="MIL_CIVICS" Item="CIVIC_RAPID_DEPLOYMENT"/>
+
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_HOLY_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_JOINT_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_RECONQUEST_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_PROTECTORATE_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_COLONIAL_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_LIBERATION_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR" Favored="true" value="0.3"/>
+		<Row ListType="MIL_DIPLOS" Item="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION" Favored="true" value="0.3"/>
+
+			
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="true"/>
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="true"/>
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="true"/>
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_DECLARE_TERRITORIAL_WAR" Favored="true" />
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true" />
+		
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_PROPOSE_PEACE_DEAL" Favored="false" />	
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_MAKE_PEACE" Favored="false" />	
+		<Row ListType="EXTREME_MIL_DIPLOS" Item="DIPLOACTION_LIBERATE_CITY" Favored="false" />	
+			
+			
+		<Row ListType="WONDER_PSEUDOS" Item="PSEUDOYIELD_WONDER" Value="250"/>
+
+			
+			
+		<Row ListType="DIPLO_CIVICS" Item="CIVIC_CIVIL_SERVICE"/>
+		<Row ListType="DIPLO_CIVICS" Item="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row ListType="DIPLO_CIVICS" Item="CIVIC_COLONIALISM"/>
+		<Row ListType="DIPLO_CIVICS" Item="CIVIC_NATURAL_HISTORY"/>
+		<Row ListType="DIPLO_CIVICS" Item="CIVIC_CONSERVATION"/>
+		<Row ListType="DIPLO_CIVICS" Item="CIVIC_CULTURAL_HERITAGE"/>
+		
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_RESIDENT_EMBASSY"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_DEFENSIVE_PACT"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_RESEARCH_AGREEMENT"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_ALLIANCE"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_PROPOSE_TRADE"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_LIBERATE_CITY"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_DIPLOMATIC_DELEGATION"/>
+		<Row ListType="DIPLO_DIPLO" Item="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+	
+		<Row ListType="DIPLO_BUILDINGS" Item="BUILDING_KILWA_KISIWANI"/>
+		<Row ListType="DIPLO_BUILDINGS" Item="BUILDING_POTALA_PALACE"/>
+		<Row ListType="DIPLO_BUILDINGS" Item="BUILDING_FORBIDDEN_CITY"/>
+		
+		
+		
+		<Row ListType="HORSEMAN_SETTLE" Item="Specific Resource" Value="20" StringVal="RESOURCE_HORSES"/>
+		<Row ListType="HORSEMAN_UNITCLASSES" Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="1"/>
+		<Row ListType="HORSEMAN_UNITCLASSES" Item="PROMOTION_CLASS_HEAVY_CAVALRY" Value="1"/>
+		<Row ListType="HORSEMAN_UNITCLASSES" Item="PROMOTION_CLASS_SIEGE" Value="1"/>
+		<Row ListType="HORSEMAN_UNITCLASSES" Item="PROMOTION_CLASS_MELEE" Value="-1"/>
+		<Row ListType="HORSEMAN_UNITCLASSES" Item="PROMOTION_CLASS_ANTI_CAVALRY" Value="-1"/>
+		<Row ListType="HORSEMAN_BUILDINGS" Item="BUILDING_STABLE"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_THE_WHEEL"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_STIRRUPS"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_ANIMAL_HUSBANDRY"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_MILITARY_SCIENCE"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_COMBUSTION"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_COMPOSITES"/>
+		<Row ListType="HORSEMAN_TECHS" Item="TECH_SYNTHETIC_MATERIALS"/>
+		<Row ListType="HORSEMAN_CIVICS" Item="CIVIC_MILITARY_TRADITION"/>
+		<Row ListType="HORSEMAN_CIVICS" Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="HORSEMAN_CIVICS" Item="CIVIC_TOTALITARIANISM"/>
+
+		<!--Only reason this class exists, stop building stables dudes-->
+		<Row ListType="NON_HORSEMAN_BUILDINGS" Item="BUILDING_STABLE" Favored="false"/>
+
+
+		<Row ListType="SPY_COMMEM" Item="COMMEMORATION_ESPIONAGE"/>
+		<Row ListType="SPY_CIVICS" Item="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row ListType="SPY_CIVICS" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="SPY_CIVICS" Item="CIVIC_IDEOLOGY"/>
+		<Row ListType="SPY_CIVICS" Item="CIVIC_COLD_WAR"/>
+		<Row ListType="SPY_TECHS" Item="TECH_COMPUTERS"/>
+		<Row ListType="SPY_BUILDINGS" Item="BUILDING_GOV_SPIES"/>
+		<Row ListType="SPY_BUILDINGS" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="SPY_BUILDINGS" Item="BUILDING_POTALA_PALACE"/>
+		<Row ListType="SPY_PSEUDOS" Item="PSEUDOYIELD_UNIT_SPY" Value="400"/>
+
+		
+		<!--These are to prevent these civs from spamming their unique improvements on every single tile-->
+		<!--Kind of feels like these changes don't work though, not sure why-->
+		<!--<Delete ListType="GilgameshSciencePreference"/> 
+		
+		<Row ListType="GilgameshSciencePreference" Item="YIELD_SCIENCE" Value="-60"/>-->
+		<Row ListType="GilgameshSciencePreference" Item="YIELD_FOOD" Value="120"/>
+		
+		
+		<Row ListType="Tomirys_YIELDS" Item="YIELD_FOOD" Value="30"/> 
+		<Row ListType="Cleopatra_YIELDS" Item="YIELD_FOOD" Value="15"/> 
+
+		<Row ListType="Gilgamesh_PSEUDOS" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
+		<Row ListType="Tomirys_PSEUDOS" Item="PSEUDOYIELD_DISTRICT" Value="50"/>
+		<Row ListType="Cleopatra_PSEUDOS" Item="PSEUDOYIELD_DISTRICT" Value="30"/>
+
+		<Row ListType="Tomirys_OPERATIONS" Item="CITY_ASSAULT" Value="2"/><!--Seems like a fun thing to do. considering her ability to spam out hundreds of horses-->
+
+		<!--To leverage their abilities-->
+		<Row ListType="Trajan_PSEUDOS" Item="PSEUDOYIELD_UNIT_TRADE" Value="300"/>
+		<Row ListType="Philip_PSEUDOS" Item="PSEUDOYIELD_UNIT_TRADE" Value="300"/>
+		<Row ListType="Trajan_PSEUDOS" Item="PSEUDOYIELD_GPP_MERCHANT" Value="100"/>
+		<Row ListType="Philip_PSEUDOS" Item="PSEUDOYIELD_GPP_MERCHANT" Value="100"/>
+		
+		
+		
+		<Row ListType="Catherine_PSEUDOS" Item="PSEUDOYIELD_UNIT_SPY" Value="100"/>
+		<Row ListType="Barbarossa_DIPLOS" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV"/> <!--Gotta leverage that ability-->
+		
+		
+		<!--Make him more isolationist-->
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_RESIDENT_EMBASSY" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_OPEN_BORDERS" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_DEFENSIVE_PACT" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_JOINT_WAR" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_RESEARCH_AGREEMENT" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_REQUEST_ASSISTANCE" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_DIPLOMATIC_DELEGATION" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_ALLIANCE" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_DECLARE_FRIENDSHIP" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_MILITARY_REQUEST" Favored="false"/> 
+		<Row ListType="Hojo_DIPLOS" Item="DIPLOACTION_PROPOSE_TRADE" Favored="false"/> 
+
+		
+	
+				
+		<Row ListType="DEF_FLAVORS" Item="City Defense" Value="2"/>  
+		<Row ListType="DEF_FLAVORS" Item="Defense" Value="1"/>  
+		<Row ListType="DEF_FLAVORS" Item="Offense" Value="-1"/> 
+		<Row ListType="DEF_TECHS" Item="TECH_ARCHERY"/>
+		<Row ListType="DEF_TECHS" Item="TECH_MASONRY"/>
+		<Row ListType="DEF_TECHS" Item="TECH_CASTLES"/>
+		<Row ListType="DEF_TECHS" Item="TECH_SIEGE_TACTICS"/>
+		<Row ListType="DEF_TECHS" Item="TECH_STEEL"/>
+		<Row ListType="DEF_SPECIA" Item="BUILD_CITY_DEFENSES" Value="2"/>
+		<Row ListType="DEF_PSEUDOS" Item="PSEUDOYIELD_CITY_BASE" Value="-80"/> <!--Reduces desire to attack cities-->
+		<Row ListType="DEF_PSEUDOS" Item="PSEUDOYIELD_UNIT_COMBAT" Value="100"/> <!--Can't defend without some units-->
+
+		<Row ListType="DEF_UNITCLASSES" Item="PROMOTION_CLASS_RANGED" Value="1"/>
+		<Row ListType="DEF_UNITCLASSES" Item="PROMOTION_CLASS_SIEGE" Value="-1"/>
+
+		
+
+
+		<Row ListType="LATE_MIL_SETTLE" Item="Specific Resource" Value="6" StringVal="RESOURCE_NITER"/>
+		<Row ListType="LATE_MIL_SETTLE" Item="Specific Resource" Value="2" StringVal="RESOURCE_OIL"/>
+		<Row ListType="LATE_MIL_SETTLE" Item="Specific Resource" Value="1" StringVal="RESOURCE_URANIUM"/>
+
+		<Row ListType="EARLY_MIL_SETTLE" Item="Specific Resource" Value="4" StringVal="RESOURCE_IRON"/>
+		<Row ListType="EARLY_MIL_SETTLE" Item="Specific Resource" Value="4" StringVal="RESOURCE_HORSES"/>
+
+		<Row ListType="SCI_SETTLE" Item="Specific Resource" Value="2" StringVal="RESOURCE_ALUMINUM"/>
+
+		
+		<Delete ListType="SettleAllContinents"/>
+		<Row ListType="SettleAllContinents" Item="Foreign Continent" Favored="true" Value="8"/>
+		
+		<Delete ListType="LastVikingKingCoastSettlement"/>
+		<Row ListType="LastVikingKingCoastSettlement" Item="Coastal" Favored="false" Value="10"/>
+		
+		<Row ListType="ECON_SETTLE" Item="Coastal" Favored="false" Value="3"/>
+		
+		
+		<!--Force the ordu so he doesn't build barracks-->
+		<Row ListType="Genghis_BUILDINGS" Item="BUILDING_ORDU" Favored="true"/>
+
+		
+		
+		<!--While it makes agenda-flavor sense for tomyris not to surprise declare war, 
+		 it basically defeats the entire purpose of the civ as an early army monster.
+		 Since it can't declare wars other ways in early-->
+		<Delete ListType="TomyrisDiplomacy"/>
+
+	</AiFavoredItems>
+	
+	
+	<!--<Units>
+		<Update>
+			<Set Name="INDIV END 3"></Set>
+			<Where UnitType="UNIT_TRADER"></Where>
+		</Update>
+	</Units>-->
+
+</GameInfo>

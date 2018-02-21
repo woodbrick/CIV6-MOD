@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fbfdb99d-05cd-41a3-b99a-0edb69decb6c" version="1">
+  <Properties>
+    <Name>Easier Polders</Name>
+    <Description>This mod loosens the restrictions for tiles to qualify for the Polder improvement by also allowing plain hills and grasland hills among the adjacent three tiles.</Description>
+    <Teaser>This mod loosens the restrictions for tiles to qualify for the Polder improvement</Teaser>
+    <Authors>Kasper Michelsen</Authors>
+    <SpecialThanks>Thanx to durfal off civfanatics</SpecialThanks>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Data">
+      <File>Data.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Data.xml</File>
+    <File>Text.xml</File>
+  </Files>
+</Mod>

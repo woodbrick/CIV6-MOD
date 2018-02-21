@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="99E5DBDB-70AF-0X92-8998-73C052D0365B" version="1.3">
+    <Properties>
+        <Name>Right Click Close Leader</Name>
+        <Teaser>Allows to close leader screens with Right-Click (works same as ESC).</Teaser>
+        <Description>Allows to close leader screens with Right-Click (works same as ESC).</Description>
+        <Authors>PoundedChicken</Authors>
+        <ShowInBrowser>Show</ShowInBrowser>
+        <EnabledByDefault>0</EnabledByDefault>
+        <EnabledAtStartup>0</EnabledAtStartup>
+		<AffectsSavedGames>0</AffectsSavedGames>
+    </Properties>
+
+	<Blocks>
+		<Mod id="54d473dc-7810-4576-a4ce-cb5eda23a5f4" title="Show Diplomatic Deals" />
+		<Mod id="03B8BDDE-DEAD-BEEF-9540-26E685E3156E" title="Chao's Quick UI" />
+		<Mod id="0a1c826c-0f43-4876-b096-23e1292eee3c" title="Map Tacks" />
+	</Blocks>
+
+	  <!--Required mods-->
+	<Dependencies>
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" />
+	</Dependencies>
+	
+	<InGameActions>
+		<ImportFiles id="UI_Lua">
+			<Items>
+				<File>LUA/DiplomacyActionView.lua</File>
+			</Items>
+		</ImportFiles>
+    </InGameActions>
+    
+	<Files>
+        <File>LUA/DiplomacyActionView.lua</File>
+    </Files>
+</Mod>

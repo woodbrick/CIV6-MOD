@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f599b734-d936-4491-bf46-12393f30ed49" version="1">
+  <Properties>
+    <Name>Incoming Trade Route Gold</Name>
+    <Description>Each incoming international trade route gives +2 gold.
+
+This is in addition to other bonuses from great merchants, being egypt, etc.</Description>
+    <Teaser>Each incoming international trade route gives +2 gold.</Teaser>
+    <Authors>fodazd</Authors>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>ITRG.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ITRG.sql</File>
+  </Files>
+</Mod>

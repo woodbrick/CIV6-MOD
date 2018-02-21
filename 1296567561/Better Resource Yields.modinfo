@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="38497264-a960-46d7-aec8-57d75c57c4d9" version="1">
+  <Properties>
+    <Name>Better Resource Yields</Name>
+    <Description>This mod buffs the yields of many luxury, bonus, and strategic resources.</Description>
+    <Teaser>This mod buffs the yields of many luxury, bonus, and strategic resources.</Teaser>
+    <Authors>p0kiehl</Authors>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <File>Yields.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Yields.sql</File>
+  </Files>
+</Mod>

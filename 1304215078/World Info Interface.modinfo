@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ff9ea14f-62d8-4d10-9a9f-3512fdb11e57" version="1">
+  <Properties>
+    <Name>HellBlazers World Info Interface</Name>
+    <Description>Improved World Info.[NEWLINE][NEWLINE]New leader banner in top right. New global diplomacy screen, new demographics screen. Improved load screen, scroll wheel to zoom minimap, new map pins.[NEWLINE][NEWLINE]Watch me play and Mod Civ VI live, https://www.twitch.tv/hellblazer_tv[NEWLINE][NEWLINE]If you feel the mods have improved your game experience and would like to support my work on these mods then donations of any size are always greatly appreciatedhttps://www.paypal.me/HellBlazerTV</Description>
+    <Teaser>HellBlazers World Info Interface</Teaser>
+    <Authors>HellBlazer</Authors>
+  </Properties>
+  <FrontEndActions>
+    <UpdateText id="HB_INFO_UI_TEXT">
+      <File>Text/HB_Info_UI_Text.sql</File>
+    </UpdateText>
+    <ImportFiles id="HB_INFO_UI_FRONTEND_IMPORT">
+      <File>UI/FrontEnd/LoadScreen.lua</File>
+      <File>UI/FrontEnd/LoadScreen.xml</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <AddUserInterfaces id="HB_INFO_UI_INTERFACE">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/Screens/GlobalDiplo.xml</File>
+      <File>UI/Screens/DemosScreen.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="HB_INFO_UI_IMPORT">
+      <File>UI/Screens/GlobalDiplo.lua</File>
+      <File>UI/Screens/GlobalDiplo.xml</File>
+      <File>UI/LaunchBar.lua</File>
+      <File>UI/LaunchBar.xml</File>
+      <File>UI/Screens/DemosScreen.lua</File>
+      <File>UI/Screens/DemosScreen.xml</File>
+      <File>UI/TopPanel.lua</File>
+      <File>UI/TopPanel.xml</File>
+      <File>UI/DiplomacyRibbon.lua</File>
+      <File>UI/DiplomacyRibbon.xml</File>
+      <File>UI/WorldInput.lua</File>
+      <File>UI/MinimapPanel.lua</File>
+      <File>UI/FrontEnd/LoadScreen.lua</File>
+      <File>UI/FrontEnd/LoadScreen.xml</File>
+      <File>UI/Popups/MapPinListPanel.lua</File>
+      <File>UI/Popups/MapPinListPanel.xml</File>
+      <File>UI/Popups/MapPinPopup.lua</File>
+      <File>UI/Popups/MapPinPopup.xml</File>
+      <File>UI/MapPinManager.lua</File>
+      <File>UI/MapPinManager.xml</File>
+      <File>UI/MapTacks.lua</File>
+    </ImportFiles>
+    <UpdateText id="HB_INFO_UI_TEXT">
+      <File>Text/HB_Info_UI_Text.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Text/HB_Info_UI_Text.sql</File>
+    <File>UI/DiplomacyRibbon.lua</File>
+    <File>UI/DiplomacyRibbon.xml</File>
+    <File>UI/FrontEnd/LoadScreen.lua</File>
+    <File>UI/FrontEnd/LoadScreen.xml</File>
+    <File>UI/LaunchBar.lua</File>
+    <File>UI/LaunchBar.xml</File>
+    <File>UI/MapPinManager.lua</File>
+    <File>UI/MapPinManager.xml</File>
+    <File>UI/MapTacks.lua</File>
+    <File>UI/MinimapPanel.lua</File>
+    <File>UI/Popups/MapPinListPanel.lua</File>
+    <File>UI/Popups/MapPinListPanel.xml</File>
+    <File>UI/Popups/MapPinPopup.lua</File>
+    <File>UI/Popups/MapPinPopup.xml</File>
+    <File>UI/Screens/DemosScreen.lua</File>
+    <File>UI/Screens/DemosScreen.xml</File>
+    <File>UI/Screens/GlobalDiplo.lua</File>
+    <File>UI/Screens/GlobalDiplo.xml</File>
+    <File>UI/TopPanel.lua</File>
+    <File>UI/TopPanel.xml</File>
+    <File>UI/WorldInput.lua</File>
+  </Files>
+</Mod>

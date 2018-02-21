@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="es_ES">
+			<Text>Guerrero jaguar</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="es_ES">
+			<Text> Unidad de combate cuerpo a cuerpo exclusiva de los Aztecas que reemplaza al guerrero con espada. Gana +7 [ICON_Strength] al atacar y -7 [ICON_Strength] al defender. Puede capturar enemigos vencidos, transformandolos en constructores. Ignora los costes de movimiento en terrenos de jungla y bosque.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="es_ES">
+			<Text>Sacerdote guerrero</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="es_ES">
+			<Text> Unidad de apoyo exclusiva de los Aztecas disponible tras el misticismo. Puede ser comprada con fe. Unidades cuerpo a cuerpo, anti caballería y a distancia adyacentes luchan con toda su fuerza de combate aun cuando estan dañadas y ganan puntos para gran general por cada baja que causen. </Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

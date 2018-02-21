@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9">
+    <Properties>
+        <Name>Even Moar Units! The Aztecs</Name>
+        <Teaser>Adds Jaguar Warrior and Warrior Priest units to the Aztecs.</Teaser>
+        <Description>Two new units for the Aztecs. Requires the Aztec DLC.
+
+Jaguar Warrior
+Unique Aztec melee unit that replaces Swordsman. +7 Combat Strength when attacking and -7 Combat Strength when defending. May capture defeated enemies, turning them into Builders. Ignores terrain movement cost in Jungle and Forest.
+
+Warrior Priest
+Aztec unique support unit available with the Mysticism Civic. Can be purchased with Faith. Adjacent Melee, Anti-Cavalry and Ranged units fight at full strength when damaged and earn Great General points from kills.
+
+Credits
+Icon Art by janboruta</Description>
+        <Authors>Deliverator</Authors>
+    </Properties>
+	<Dependencies>
+		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="AztecMontezuma" />
+        <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOARUnits" />
+	</Dependencies>
+    <FrontEndActions>
+        <UpdateIcons id="MOAR_Aztec_ICON_SETTING">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateDatabase id="MOAR_Aztec_SETTING">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Config/MOAR_Units_Aztec_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_Aztec_SETTING_TEXT">
+            <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/es_ES/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+        </UpdateText>
+    </FrontEndActions>
+    <InGameActions>
+        <UpdateDatabase id="MOAR_Aztec_UpdateDatabase">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="MOAR_Aztec_LocalizedText">
+            <Properties>
+                <LoadOrder>10</LoadOrder>
+            </Properties>
+            <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/es_ES/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/de_DE/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
+            <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+            <File>Text/it_IT/MOAR_Units_Aztec_Text.xml</File>
+        </UpdateText>
+        <UpdateIcons id="MOAR_Aztec_Icons">
+            <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="MOAR_Aztec_ModArt">
+            <File>Even_MOAR_Units_Aztec.dep</File>
+        </UpdateArt>
+    </InGameActions>
+    <Files>
+        <File>ArtDefs/Units.artdef</File>
+        <File>Even_MOAR_Units_Aztec.dep</File>
+        <File>Config/MOAR_Units_Aztec_Config.xml</File>
+        <File>Config/MOAR_Units_Aztec_Icons_Config.xml</File>
+        <File>Data/Even_MOAR_Units_Aztec_Data.xml</File>
+        <File>Data/Even_MOAR_Units_Aztec_Icons.xml</File>
+
+        <!-- Files -->
+        <File>Text/en_US/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/en_US/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/es_ES/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/ru_RU/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/de_DE/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/de_DE/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Pedia_Text.xml</File>
+        <File>Text/zh_Hans_CN/MOAR_Units_Aztec_Text.xml</File>
+        <File>Text/it_IT/MOAR_Units_Aztec_Text.xml</File>
+    </Files>
+</Mod>

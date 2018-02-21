@@ -1,0 +1,149 @@
+<GameData>
+	<LocalizedText>
+		<!--National Wonder Names-->
+		<Row Tag="LOC_MAGIL_NATIONAL_LIBRARY_NAME" Language="zh_Hans_CN">
+			<Text>国史馆</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_COLLEGE_NAME" Language="zh_Hans_CN">
+			<Text>国立大学</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_LAB_NAME" Language="zh_Hans_CN">
+			<Text>国家研究院</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_SHRINE_NAME" Language="zh_Hans_CN">
+			<Text>圣贤神龛</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_TEMPLE_NAME" Language="zh_Hans_CN">
+			<Text>大神殿</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_APOSTOLIC_PALACE_NAME" Language="zh_Hans_CN">
+			<Text>教宗圣殿</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_HEROIC_EPIC_NAME" Language="zh_Hans_CN">
+			<Text>英雄史诗</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARMORY_NAME" Language="zh_Hans_CN">
+			<Text>国家军械库</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ACADEMY_NAME" Language="zh_Hans_CN">
+			<Text>国立军事学院</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MARKET_NAME" Language="zh_Hans_CN">
+			<Text>国营市场</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_BANK_NAME" Language="zh_Hans_CN">
+			<Text>中央银行</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_EPIC_NAME" Language="zh_Hans_CN">
+			<Text>民族史诗</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_WRITERS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>作家协会</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ARTISTS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>艺术家协会</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_MUSICIANS_GUILD_NAME" Language="zh_Hans_CN">
+			<Text>音乐家协会</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MUSEUM_NAME" Language="zh_Hans_CN">
+			<Text>国家遗产博物馆</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_AIRPORT_NAME" Language="zh_Hans_CN">
+			<Text>国际机场</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_WORKSHOP_NAME" Language="zh_Hans_CN">
+			<Text>铁器作坊</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_FACTORY_NAME" Language="zh_Hans_CN">
+			<Text>国家工业产业园</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARENA_NAME" Language="zh_Hans_CN">
+			<Text>国家竞技场</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ZOO_NAME" Language="zh_Hans_CN">
+			<Text>国家动物园</Text>
+		</Row>
+		<!--National Wonder Descriptions-->
+		<Row Tag="LOC_MAGIL_NATIONAL_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市产出 +15% [ICON_Science] 科技。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_COLLEGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市产出 +15% [ICON_Science] 科技。完成时，一次性获得相当于五倍当前每回合增长的 [ICON_Culture] 文化的 [ICON_Science] 科技。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为你城市中的太空竞赛项目 +50% [ICON_Production] 产能。完成时触发卫星科技和核聚变科技的 [ICON_TechBoosted] 提升。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_HEROIC_EPIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市训练的陆地单位获得一次初始晋升。在该城市完成一个非平民单位时获得与单位生产花费25%等值的 [ICON_Culture] 文化。[NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARMORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市训练军事单位时 +50% [ICON_Production] 产能。所有单位维护费减少 1 [ICON_Gold] 财富。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ACADEMY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市生产的单位获得 +100% 经验值 和 +4 [ICON_Strength] 战斗力。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_SHRINE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神社、寺庙和礼拜堂建筑产出 +2 [ICON_Gold] 财富。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>圣地区域产出 +1 [ICON_GreatWriter] 大作家点数，神社产出 +1 [ICON_GreatArtist] 大艺术家点数，寺庙产出 +1 [ICON_GreatMusician] 大音乐家点数。 [ICON_GreatWork_Religious] 宗教艺术巨作产出 +4 [ICON_Faith] 信仰，其他 [ICON_GreatArtist] 大艺术家的巨作产出 +2 [ICON_Faith] 信仰。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_APOSTOLIC_PALACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[ICON_GreatWork_Relic] 遗物和圣地区域的 [ICON_Tourism] 旅游业绩不会被其他已研究启蒙运动的文明削弱。你的使徒单位可以选择任意可用的升级，而不是随机升级。该城市产出 +30% [ICON_Faith] 信仰。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在该城市获得一个免费的商人单位，增加一条 [ICON_TradeRoute] 贸易路线容量。通向该城市的国际 [ICON_TradeRoute] 贸易路线给始末城市 +6 [ICON_Gold] 财富。每个该城市开发的加成资源和奢侈资源 +2 [ICON_Gold] 财富。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_BANK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市产出 +30% [ICON_Gold] 财富。完成时，一次性获得相当于五倍当前每回合增长的 [ICON_Gold] 财富（增长前的数额）的财富。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_EPIC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市的特殊区域产出 +1 [ICON_GreatPerson] 对应的伟人点数（剧院广场产出 +1 [ICON_GreatArtist] 大艺术家点数和 +1 [ICON_GreatMusician] 大音乐家点数）。该城市无视人口限制可以多建造一个特殊区域。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ARENA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>6个单元格内的市中心受到国家竞技场的 [ICON_Amenities] 宜居度加成。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_ZOO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>你文明的每个城市 +1 [ICON_Amenities] 宜居度。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_WORKSHOP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>6个单元格内的市中心受到铁器作坊的 [ICON_Production] 产能加成。每个该城市开发的战略资源产出 +1 [ICON_Production] 产能。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市产出 +30% [ICON_Production] 产能。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_MUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市产出 +30% [ICON_Culture] 文化。当巨作槽位被填满时将自动主题化。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_NATIONAL_AIRPORT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>6个单元格内的市中心受到国际机场的 [ICON_Culture] 文化和 [ICON_Production] 产能加成。现代或之后的时代该城市对其他文明产出 +100% [ICON_Tourism] 旅游业绩。该航空港区域产出 +25 [ICON_Tourism] 旅游业绩。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_WRITERS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市中每个产出 [ICON_GreatPerson] 伟人点数的区域额外产出 1 点 [ICON_GreatWriter] 大作家点数。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ARTISTS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市中每个产出 [ICON_GreatPerson] 伟人点数的区域额外产出 1 点 [ICON_GreatArtist] 大艺术家点数。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_MUSICIANS_GUILD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城市中每个产出 [ICON_GreatPerson] 伟人点数的区域额外产出 1 点 [ICON_GreatMusician] 大音乐家点数。 [NEWLINE][NEWLINE]国家奇观。你的文明中只能建造一个此建筑。</Text>
+		</Row>
+		<!--New Theming Bonuses-->
+		<Replace Tag="LOC_MAGIL_BUILDING_THEMINGBONUS_WRITING" Language="zh_Hans_CN">
+			<Text>来自展示不同大作家的 [ICON_GreatWork_Writing] 文学著作的 50% 主题加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_MAGIL_NATIONAL_TEMPLE_THEMINGBONUS" Language="zh_Hans_CN">
+			<Text>来自展示不同艺术家的巨作的双倍主题加成。</Text>
+		</Replace>
+		<!--Ability Localization Text-->
+		<Row Tag="LOC_MAGIL_ABILITY_HEROIC_EPIC_COMBAT_BONUS_NAME" Language="zh_Hans_CN">
+			<Text>来自国立军事学院的战斗力加成</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_HEROIC_EPIC_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+4 [ICON_Strength] 战斗力，来自国立军事学院。</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_HEROIC_EPIC_COMBAT_BONUS_PREVIEWTEXT" Language="zh_Hans_CN">
+			<Text>+4 [ICON_Strength] 战斗力，来自国立军事学院。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

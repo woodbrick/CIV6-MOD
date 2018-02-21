@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="RES_p0k_Penguins_Bld_A"/>
+			<m_ObjectName text="RES_p0k_Penguins_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Electrum_Mine_AN_01"/>
+			<m_ObjectName text="IMP_CVS_Electrum_Mine_AN_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Electrum_Mine_AN_02"/>
+			<m_ObjectName text="IMP_CVS_Electrum_Mine_AN_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Electrum_Mine_AN_03"/>
+			<m_ObjectName text="IMP_CVS_Electrum_Mine_AN_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Electrum_Mine_IND"/>
+			<m_ObjectName text="IMP_CVS_Electrum_Mine_IND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Electrum_Mine_IND_02"/>
+			<m_ObjectName text="IMP_CVS_Electrum_Mine_IND_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Electrum_Mine_IND_03"/>
+			<m_ObjectName text="IMP_CVS_Electrum_Mine_IND_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_IND_Base002"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_IND_Base002"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_IND_Base003"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_IND_Base003"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Industrial_Base"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Industrial_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Base"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Base002"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Base002"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Base003"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Base003"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Log"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Log"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Log_Cut"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Log_Cut"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Log_Cut_Stack"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Log_Cut_Stack"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Scrap"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Scrap"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Scrap_SM"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Scrap_SM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Storage"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Storage"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_Stump"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_Stump"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_StumpGroup_A"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_StumpGroup_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_Lumbermill_Medieval_StumpGroup_B"/>
+			<m_ObjectName text="IMP_CVS_Lumbermill_Medieval_StumpGroup_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_POM_PLNT_Ancient"/>
+			<m_ObjectName text="IMP_CVS_POM_PLNT_Ancient"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_CVS_POM_PLNT_Industrial"/>
+			<m_ObjectName text="IMP_CVS_POM_PLNT_Industrial"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Lumbermill_Medieval_Log_Cut_Stack"/>
+			<m_ObjectName text="IMP_Lumbermill_Medieval_Log_Cut_Stack"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_p0k_Penguin_Camp_AN_01"/>
+			<m_ObjectName text="IMP_p0k_Penguin_Camp_AN_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_p0k_Penguin_Camp_AN_02"/>
+			<m_ObjectName text="IMP_p0k_Penguin_Camp_AN_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_p0k_Penguin_Camp_AN_03"/>
+			<m_ObjectName text="IMP_p0k_Penguin_Camp_AN_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_p0k_Penguin_Camp_IND_01"/>
+			<m_ObjectName text="IMP_p0k_Penguin_Camp_IND_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_p0k_Penguin_Camp_IND_02"/>
+			<m_ObjectName text="IMP_p0k_Penguin_Camp_IND_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_p0k_Penguin_Camp_IND_03"/>
+			<m_ObjectName text="IMP_p0k_Penguin_Camp_IND_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Bld_A"/>
+			<m_ObjectName text="RES_CVS_Cedar_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Bld_B"/>
+			<m_ObjectName text="RES_CVS_Cedar_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Bld_C"/>
+			<m_ObjectName text="RES_CVS_Cedar_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Fall_Bld_A"/>
+			<m_ObjectName text="RES_CVS_Cedar_Fall_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Fall_Bld_B"/>
+			<m_ObjectName text="RES_CVS_Cedar_Fall_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Fall_Bld_C"/>
+			<m_ObjectName text="RES_CVS_Cedar_Fall_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Greener_Bld_A"/>
+			<m_ObjectName text="RES_CVS_Cedar_Greener_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Greener_Bld_B"/>
+			<m_ObjectName text="RES_CVS_Cedar_Greener_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Cedar_Greener_Bld_C"/>
+			<m_ObjectName text="RES_CVS_Cedar_Greener_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Electrum_Boulder_Clump_Bld"/>
+			<m_ObjectName text="RES_CVS_Electrum_Boulder_Clump_Bld"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Electrum_Rock_Bld_A"/>
+			<m_ObjectName text="RES_CVS_Electrum_Rock_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Electrum_Rock_Bld_B"/>
+			<m_ObjectName text="RES_CVS_Electrum_Rock_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Electrum_Rock_Bld_C"/>
+			<m_ObjectName text="RES_CVS_Electrum_Rock_Bld_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Pomegranate_Tree_Bld_A"/>
+			<m_ObjectName text="RES_CVS_Pomegranate_Tree_Bld_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Pomegranate_Tree_Bld_B"/>
+			<m_ObjectName text="RES_CVS_Pomegranate_Tree_Bld_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RES_CVS_Pomegranate_Tree_Bld_C"/>
+			<m_ObjectName text="RES_CVS_Pomegranate_Tree_Bld_C"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

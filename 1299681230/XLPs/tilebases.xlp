@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaer_A"/>
+			<m_ObjectName text="DIS_Suk_Torfbaer_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaer_B"/>
+			<m_ObjectName text="DIS_Suk_Torfbaer_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaer_C"/>
+			<m_ObjectName text="DIS_Suk_Torfbaer_C"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaer_D"/>
+			<m_ObjectName text="DIS_Suk_Torfbaer_D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaeir_CLA_Base"/>
+			<m_ObjectName text="DIS_Suk_Torfbaeir_CLA_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaer_IND_Base"/>
+			<m_ObjectName text="DIS_Suk_Torfbaer_IND_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Suk_Torfbaer_MOD_Base"/>
+			<m_ObjectName text="DIS_Suk_Torfbaer_MOD_Base"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

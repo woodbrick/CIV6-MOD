@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1965630969	Suk_Ingolfur_Attacked			\Default Work Unit\Speech\Leaders\Suk_Ingolfur\Suk_Ingolfur_Attacked	
+	2515495934	Suk_Ingolfur_First_Meet			\Default Work Unit\Speech\Leaders\Suk_Ingolfur\Suk_Ingolfur_First_Meet	
+	4059565351	Suk_Ingolfur_Declare_War			\Default Work Unit\Speech\Leaders\Suk_Ingolfur\Suk_Ingolfur_Declare_War	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3441926412	Game_Views			\Default Work Unit\Game_Views	
+
+State	ID	Name	State Group			Notes
+	138330285	Lens	Game_Views			
+	319258907	Paused	Game_Views			
+	706390200	Normal_View	Game_Views			
+	748895195	None	Game_Views			
+	2005704188	Main_Menu	Game_Views			
+	2664707777	Leader_Screen	Game_Views			
+	4264815106	Endgame	Game_Views			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	46496078	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Intro		
+	70184690	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Intro		
+	210942588	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Declare_War		
+	301048852	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Intro		
+	401579436	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Attacked		
+	401973452	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Declare_War		
+	445444962	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Declare_War		
+	539808375	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Attacked		
+	640711961	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Intro		
+	788912375	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Attacked		
+	820510724	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Declare_War		
+	825517296	Normal_View	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Declare_War		
+	842769527	Lens	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Attacked		
+	936258428	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Attacked		
+	991352344	Paused	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Intro		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52358094	Suk_Ingolfur_Intro	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\.cache\Windows\SFX\Suk_Ingolfur_Intro_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Intro		76215
+	382229694	Suk_Ingolfur_Declare_War	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\.cache\Windows\SFX\Suk_Ingolfur_Declare_War_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Declare_War		56290
+	507701054	Suk_Ingolfur_Attacked	C:\Users\Sukrit\Documents\WwiseProjects\Suk_Ingolfur_Speech\.cache\Windows\SFX\Suk_Ingolfur_Attacked_E843A46D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Suk_Ingolfur_Attacked		63707
+

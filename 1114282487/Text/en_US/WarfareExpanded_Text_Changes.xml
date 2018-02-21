@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_UNIT_AT_CREW_NAME">
+			<Text>Anti-Tank Artillery</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HELICOPTER_NAME">
+			<Text>Air Cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MACHINERY">
+			<Text>You look to construction to improve the performance of your sizable contingent of ranged troops.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION">
+			<Text>Indian unique Classical era unit that replaces the Cataphract. Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBER_DESCRIPTION">
+			<Text>Atomic era Great War Bomber upgrade.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BIPLANE_NAME">
+			<Text>Early Fighter</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIGHTER_DESCRIPTION">
+			<Text>Atomic era Great War Fighter upgrade.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION">
+			<Text>Fast Medieval era exploration melee naval unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION">
+			<Text>Modern era melee naval unit. Reveals submarines within sight range.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION">
+			<Text>Modern era heavy naval ranged unit. Provides cover from air and nuclear attacks up to 1 tile away.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NUCLEAR_SUBMARINE_NAME">
+			<Text>Ballistic Missile Submarine</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FRENCH_MARINE_NAME">
+			<Text>Troupe de marine</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GATLING_GUN_DESCRIPTION">
+			<Text>Industrial Era Ranged unit. Bonus [ICON_Strength] Combat Strength against Melee, Anti-Cavalry and Light Cavalry units. Cannot move and attack on the same turn unless the Fire and Maneuver Promotion has been earned.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION">
+			<Text>Atomic era Ranged unit. Bonus [ICON_Strength] Combat Strength against Melee, Anti-Cavalry and Light Cavalry units. Cannot move and attack on the same turn unless the Fire and Maneuver Promotion has been earned.</Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

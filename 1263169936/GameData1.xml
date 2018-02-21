@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<MajorStartingUnits>
+		<Delete AiOnly="True"/>
+	</MajorStartingUnits>
+
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_FREE_CIVIC_BOOSTS" Name="Amount"/>
+			<Set Extra="0"/>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_FREE_TECH_BOOSTS" Name="Amount"/>
+			<Set Extra="0"/>
+		</Update>
+	</ModifierArguments>
+
+</GameData>

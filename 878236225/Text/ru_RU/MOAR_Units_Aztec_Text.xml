@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_JAGUAR_NAME" Language="ru_RU">
+			<Text>Воин-ягуар</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_JAGUAR_DESCRIPTION" Language="ru_RU">
+			<Text>Ацтекский уникальный юнит ближнего боя заменяющий мечников. Получает +7 [ICON_Strength] к боевой мощи при атаке и -7 [ICON_Strength] от базовой боевой мощи при защите. Может захватывать побеждённых врагов и превращать их в строителей. Игнорирует штрафы при пересечении джунглей и лесов.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_NAME" Language="ru_RU">
+			<Text>Воин-жрец</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WARRIOR_PRIEST_DESCRIPTION" Language="ru_RU">
+			<Text>Ацтекский уникальный юнит поддержки, появляющийся после открытия "Мистицизма". Может быть куплен за очки [ICON_Faith] веры. Все юниты на соседних клетках (кроме кавалерии) сражаются в полную силу при любых ранениях, а так же получают очки великого генерала за каждое убийство врага.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
